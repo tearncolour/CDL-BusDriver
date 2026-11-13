@@ -1,0 +1,109 @@
+{
+  "model": "SWB6109EV12G",
+  "units": "metres",
+  "status": "Photo-calibrated estimates, not OEM badge dimensions",
+  "reference": "references/official-front-5585-original-3000.jpg",
+  "vector_artwork": "front-badge-paths.json",
+  "estimated_position_uncertainty_m": 0.025,
+  "estimated_size_uncertainty_m": 0.012,
+  "front_plane_basis": "Photo lower coachwork at Z=0.23 and roof centre at Z=3.16, crosschecked 2.55m body width; perspective limits remain.",
+  "badges": {
+    "elder": {
+      "centre_xz": [
+        1.11,
+        0.885
+      ],
+      "disc_diameter": 0.145,
+      "source_photo_crop_xywh": [
+        731,
+        1545,
+        90,
+        104
+      ]
+    },
+    "wheelchair": {
+      "centre_xz": [
+        0.965,
+        0.845
+      ],
+      "disc_diameter": 0.145,
+      "source_photo_crop_xywh": [
+        822,
+        1570,
+        98,
+        105
+      ]
+    },
+    "jiushi_triangle": {
+      "centre_xz": [
+        -0.16,
+        1.094
+      ],
+      "size_xz": [
+        0.07,
+        0.068
+      ]
+    },
+    "jiushi_wordmark": {
+      "centre_xz": [
+        0.039,
+        1.094
+      ],
+      "size_xz": [
+        0.32,
+        0.072
+      ]
+    },
+    "sunwin": {
+      "centre_xz": [
+        0,
+        0.75
+      ],
+      "size_xz": [
+        0.18,
+        0.176
+      ],
+      "core_trace_size_xz": [
+        0.129,
+        0.15
+      ],
+      "chrome_frame_outer_xz": [
+        0.176,
+        0.172
+      ],
+      "chrome_frame_inner_xz": [
+        0.163,
+        0.159
+      ],
+      "chrome_thickness_m": 0.0012
+    },
+    "rear_sunwin": {
+      "centre_xz": [
+        0,
+        1.79
+      ],
+      "size_xz": [
+        0.54,
+        0.055729537366548045
+      ],
+      "rear": true
+    }
+  },
+  "construction": "Closed thin vector extrusions with real holes; projection mesh edges <=18mm at curved corners and <=40mm at the shallow centre; CDLC Exterior 16; no bitmap/logo text fallback.",
+  "accessibility_adjustment": "Both circular fields raised 40–43mm after checking real lamp-frame clearance; the photograph shows the elder circle about 24–26px higher, so the 40mm relative height is preserved. Positions are perspective-limited estimates.",
+  "official_artwork_url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804131306_5585.jpg",
+  "jiushi_outline_url": "https://commons.wikimedia.org/wiki/File:久事公交集团logo.jpg",
+  "jiushi_outline_note": "Third-party host credits Jiushi; triangle and four proprietary characters are independently matched to the manufacturer vehicle photo.",
+  "coordinate_frames": {
+    "version": 1,
+    "legacy_blender_fields": "Private construction frame, retained verbatim: +X door/right in Unity, -X driver/left in Unity, -Y forward, +Z up. These are not current Blender world coordinates.",
+    "source_blender_fields": "Physical right-handed Blender world in metres: +X driver/left, -X door/right, -Y forward, +Z up.",
+    "unity_fields": "Existing left-handed game frame in metres: +X door/right, -X driver/left, +Y up, +Z forward. Retained verbatim.",
+    "construction_to_source_blender": "(-x, y, z)",
+    "unity_to_source_blender": "(-x, -z, y)",
+    "matrix_layout": "Column-major 4x4. Source-world matrix = diag(-1,1,1,1) @ construction-world matrix.",
+    "historical_coordinate_text": "Existing coordinate_system/coordinate_definition text and chosen_blender_metres name describe the legacy construction frame; use this explicit frame contract for current source world.",
+    "reflection_invariants": "Lengths, angles between vectors, curvature radii, clearance and visibility fractions do not change under the rigid reflection."
+  },
+  "design_coordinate_note": "centre_xz is a construction/design input before per-vector readability correction and final source X reflection. It is not a measured final source-world badge centre; inspect the saved object geometry for the actual placement."
+}

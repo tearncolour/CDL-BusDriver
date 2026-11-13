@@ -1,0 +1,350 @@
+{
+  "model": "申沃 SWB6109EV12G",
+  "research_date": "2026-10-15",
+  "scope": "仅研究和保存参考资料；未建模，未修改 SWB6710EV01G 文件",
+  "identity": {
+    "family": "9系 / iEV10 / 10.5米纯电动低地板城市客车",
+    "exact_suffix_warning": "官网产品321只写SWB6109EV系列。具体EV12G以公告图片及明确标注车型的上海实车照片校验；不能把EV10G/EV13G/EV17G或12米iEV12内饰当作精确EV12G证据。",
+    "visual_target": "上海松江2024款红色双线、白车身、黑窗带版本；可另选公告中的青绿色双线上海配色。未将浦东全车广告包装当成原厂标准涂装。"
+  },
+  "sources": [
+    {
+      "id": "government_recommendation",
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/ccs/202306/P020230615595350340074.pdf",
+      "file": "references/miit-recommended-2022-01-tax-copy.pdf",
+      "level": "政府域名转载工信部2022年第1批推荐目录，原始技术资料",
+      "locator": "PDF第4页（零起算3），序号15，配置ID NC012977",
+      "supports": [
+        "准确车型",
+        "10500×2550×3200mm",
+        "总质量18000kg",
+        "整备11700kg",
+        "最高69km/h",
+        "电池316.8kWh",
+        "电机峰值260kW/3000N.m"
+      ]
+    },
+    {
+      "id": "announcement_352",
+      "url": "https://zc.cn-truck.com/gonggao/288012_SWB6109EV12G",
+      "file": "references/announcement-352.html",
+      "level": "第352批公告的商业网站转载；不是工信部原站",
+      "supports": [
+        "轴距",
+        "前后悬",
+        "轮胎",
+        "轮距选装组合",
+        "载客范围",
+        "精确EV12G外观及轮椅区公告图"
+      ]
+    },
+    {
+      "id": "announcement_381_crosscheck",
+      "url": "https://zc.cn-truck.com/gonggao/519255_SWB6109EV12G",
+      "level": "第381批公告商业转载，日期2024-04-15；用于复核主要尺寸不变"
+    },
+    {
+      "id": "manufacturer_family",
+      "url": "https://www.sunwinbus.com/mobilecn/product/details/321",
+      "files": [
+        "references/official-product-321.html",
+        "references/official-product-321.json"
+      ],
+      "level": "制造商官网；系列级SWB6109EV，未注明EV12G后缀",
+      "supports": [
+        "9系10.5米家族外观",
+        "系列外形10500×2550×3200mm",
+        "所示38座样车配置"
+      ]
+    },
+    {
+      "id": "commons_exact_model",
+      "url": "https://commons.wikimedia.org/wiki/Category:Sunwin_SWB6109EV12G",
+      "level": "实车摄影，上传者说明明确写EV12G；未经铭牌再核验",
+      "supports": [
+        "上海2024款外观",
+        "松江红色双线涂装",
+        "实际镜组",
+        "实车车顶设备"
+      ]
+    }
+  ],
+  "dimensions": {
+    "verified_government": {
+      "length_mm": 10500,
+      "width_mm": 2550,
+      "height_mm": 3200,
+      "gross_mass_kg": 18000,
+      "kerb_mass_kg": 11700,
+      "maximum_speed_kmh": 69,
+      "battery_energy_kwh": 316.8,
+      "motor_peak_kw": 260
+    },
+    "announcement_republication": {
+      "wheelbase_mm": 5600,
+      "front_overhang_mm": 2400,
+      "rear_overhang_mm": 2500,
+      "axles": 2,
+      "tyre_count": 6,
+      "tyre_specification": "275/70R22.5",
+      "passengers_total_and_seated_range": "80 / 20-38",
+      "front_rear_axle_load_kg": [
+        6500,
+        11500
+      ],
+      "track_options_mm": [
+        {
+          "axle": "方盛低地板桥",
+          "wheels": "钢轮辋",
+          "front": 2102,
+          "rear": 1857
+        },
+        {
+          "axle": "方盛低地板桥",
+          "wheels": "铝合金轮辋",
+          "front": 2117,
+          "rear": 1876
+        },
+        {
+          "axle": "东风低地板桥",
+          "wheels": "钢轮辋",
+          "front": 2102,
+          "rear": 1838
+        },
+        {
+          "axle": "东风低地板桥",
+          "wheels": "铝合金轮辋",
+          "front": 2117,
+          "rear": 1857
+        }
+      ],
+      "selection_warning": "未从目标松江车铭牌识别桥型/轮辋组合，不能称某一个轮距为所有EV12G的唯一精确值。"
+    },
+    "derived_not_measured": {
+      "nominal_unloaded_tyre_diameter_mm": 956.5,
+      "nominal_unloaded_tyre_radius_m": 0.47825,
+      "formula": "22.5×25.4 + 2×275×0.70；不是实测载荷滚动半径",
+      "unity_front_axle_z_m": 2.85,
+      "unity_rear_axle_z_m": -2.75,
+      "coordinate_definition": "车中心为原点，Unity +Z车头；Blender -Y车头，+X为右侧车门",
+      "source_blender_front_axle_y_m": -2.85,
+      "source_blender_rear_axle_y_m": 2.75
+    }
+  },
+  "image_catalogue": [
+    {
+      "file": "references/official-family-20260804131306_5585.jpg",
+      "view": "正面",
+      "identity": "官网SWB6109EV同系列；白底青线样车",
+      "url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804131306_5585.jpg"
+    },
+    {
+      "file": "references/official-family-20260804131307_0245.jpg",
+      "view": "左前/司机侧斜视",
+      "identity": "官网同系列",
+      "url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804131307_0245.jpg"
+    },
+    {
+      "file": "references/official-family-20260804131307_1245.jpg",
+      "view": "司机侧近正侧",
+      "identity": "官网同系列",
+      "url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804131307_1245.jpg"
+    },
+    {
+      "file": "references/official-family-20260804162358_7426.jpg",
+      "view": "车门侧近正侧",
+      "identity": "官网同系列；前中双门均双叶",
+      "url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804162358_7426.jpg"
+    },
+    {
+      "file": "references/official-family-20260804131307_2315.jpg",
+      "view": "车尾正面",
+      "identity": "官网同系列；iEV10尾标",
+      "url": "https://www.sunwinbus.com/UploadFile/image/20260804/20260804131307_2315.jpg"
+    },
+    {
+      "file": "references/announcement-352-z21407020.jpg",
+      "view": "右前车门侧",
+      "identity": "准确EV12G公告主图，松江红双线",
+      "url": "https://source.cn-truck.com/ggimg/clcp/352/z21407020.jpg"
+    },
+    {
+      "file": "references/announcement-352-z21407021.jpg",
+      "view": "轮椅区内饰及青浦外观选装拼图",
+      "identity": "准确EV12G公告选装图；不得混用青浦传统杆镜与松江白壳镜",
+      "url": "https://source.cn-truck.com/ggimg/clcp/352/z21407021.jpg"
+    },
+    {
+      "file": "references/announcement-352-z21407022.jpg",
+      "view": "左侧、右侧、红/青双线涂装组合",
+      "identity": "准确EV12G公告选装图",
+      "url": "https://source.cn-truck.com/ggimg/clcp/352/z21407022.jpg"
+    },
+    {
+      "file": "references/announcement-352-z21407024.jpg",
+      "view": "正后方",
+      "identity": "准确EV12G公告图",
+      "url": "https://source.cn-truck.com/ggimg/clcp/352/z21407024.jpg"
+    },
+    {
+      "file": "references/commons-S0A-142-794.jpg",
+      "view": "司机侧、车头、车顶",
+      "identity": "上传说明EV12G，浦东金高S0A-142；广告包装遮蔽原涂装",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shanghai_bus_Route_794_at_Jufeng_Rd._@_Lijin_Rd._in_China_20260627.jpg",
+      "author": "4084470 0.smil",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modification": "仅等比缩小至1800像素"
+    },
+    {
+      "file": "references/commons-SWB-24D-689-songjiang7.jpg",
+      "view": "左前高视点、车顶设备、驾驶区透视",
+      "identity": "上传说明EV12G，松江SWB-24D-689，红色双线",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Songjiang_Bus_Route_7_at_Songjioang_Passenger_Center_in_Shanghai,_China_20260719.jpg",
+      "author": "4084470 0.smil",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modification": "仅等比缩小至1800像素"
+    },
+    {
+      "file": "references/commons-SWB-24D-701-songxinB.jpg",
+      "view": "左前高视点、车顶设备、驾驶区透视",
+      "identity": "上传说明EV12G，松江SWB-24D-701，红色双线",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Songxin_Bus_Line_B_at_Jiasong_Rd._(S.)_@_Meijiabang_Rd._in_Shanghai,_China_20260719.jpg",
+      "author": "4084470 0.smil",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modification": "仅等比缩小至1800像素"
+    }
+  ],
+  "observed_features": {
+    "front": [
+      "宽黑色冠顶包覆车头上方，风挡与灯牌区连续黑色视觉面",
+      "风挡下沿两端向上收，左右细长日行灯位于黑色下缘，形成折线眉带",
+      "下部左右为多腔锐角LED灯组，不是6710的大圆灯",
+      "白色下前围，中间申沃标及低位牌照；双雨刮"
+    ],
+    "rear": [
+      "大黑色后窗，顶沿贯穿红色灯条/两端斜角",
+      "窗下左右横向点阵红灯，接长竖折形红白尾灯",
+      "大型白色机舱盖、中央申沃标、iEV10和SUNWIN标识；低位牌照",
+      "没有6710三圆尾灯组"
+    ],
+    "sides_doors": [
+      "右前门位于前轴之前，中门位于两轴之间，两门均双叶",
+      "宽黑窗带，侧窗部分具有推拉上窗；后段窗数与10.5m车身对应",
+      "车门侧后悬有驱动/设备舱竖百叶及检修门",
+      "上海红或青双色细线沿窗带上下折返，白色主体；不是6710整车青绿"
+    ],
+    "mirrors": [
+      "松江/官网版本采用门侧较长黑弯臂加白色大镜壳，独立椭圆补盲镜；司机侧白色小镜壳、较短支架",
+      "青浦公告图选装传统黑杆矩形镜，属于不同镜组配置",
+      "镜尺寸和位置尚未逐视角标定，不能沿用6710镜面坐标"
+    ],
+    "roof": [
+      "实车高视点显示前中段空调/网罩设备及后段一系列低矮白色盖板，长车身屋顶布局不同于6710",
+      "需要按实际松江图细化，不可把整顶做成一个高箱"
+    ],
+    "interior": [
+      "公告图证实轮椅区及约束，侧向翻折座/隔挡、金属灰扶手、深灰地板及花纹软座",
+      "实际照片可见浅灰仪表罩、方向盘、前门口扶手与司机隔挡",
+      "完整座椅数量、逐座方向和驱动舱台阶尚未获得足够近景，不宣称精确还原"
+    ]
+  },
+  "photo_estimates_not_oem_dimensions": {
+    "profile_calibration": {
+      "reference": "official-family-20260804162358_7426.jpg, 1800×1385",
+      "front_hub_pixel": [
+        1308.22,
+        872.88
+      ],
+      "rear_hub_pixel": [
+        446.81,
+        868.36
+      ],
+      "scale_px_per_m": 153.82,
+      "warning": "近正侧仍有透视，单像素数值不等于毫米级实测。"
+    },
+    "doors": [
+      {
+        "name": "front",
+        "leaves": 2,
+        "unity_centre_z_m_range": [
+          4.25,
+          4.33
+        ],
+        "suggested_centre_z_m": 4.3,
+        "approx_clear_width_m": 1.3,
+        "outer_frame_width_m_range": [
+          1.35,
+          1.43
+        ]
+      },
+      {
+        "name": "middle",
+        "leaves": 2,
+        "unity_centre_z_m_range": [
+          -0.39,
+          -0.26
+        ],
+        "suggested_centre_z_m": -0.33,
+        "approx_clear_width_m": 1.3,
+        "outer_frame_width_m_range": [
+          1.35,
+          1.43
+        ]
+      }
+    ],
+    "signs": {
+      "front": {
+        "width_m_approx": 1.55,
+        "height_m_approx": 0.25,
+        "centre_height_m_range": [
+          2.5,
+          2.6
+        ]
+      },
+      "side": {
+        "width_m_range": [
+          1.15,
+          1.25
+        ],
+        "height_m_range": [
+          0.22,
+          0.26
+        ],
+        "centre_height_m_range": [
+          1.45,
+          1.55
+        ],
+        "unity_centre_z_m_approx": 2.65,
+        "warning": "侧牌位于前轴附近窗下黑带，明显低于6710侧牌，不得套旧坐标"
+      },
+      "rear": {
+        "width_m_approx": 1.3,
+        "height_m_approx": 0.25,
+        "centre_height_m_approx": 2.6
+      }
+    }
+  },
+  "unresolved_before_claiming_exact_reproduction": [
+    "目标松江车桥型和轮距选装组合",
+    "具体车号的座椅数量/逐排坐标；公告20-38座范围和官网38座不能代替上海实际布局",
+    "司机座椅、眼位、方向盘及踏板的实测位置",
+    "双侧镜中心、壳体大小、镜架根部和反射法线的相机标定",
+    "实车空调网罩及车顶各设备盖板的精确尺寸"
+  ],
+  "reuse_guidance": "可复用CDLC材质/动画/导出机制，几何和布局需独立创作。此前6710的前脸、圆灯、门位、镜坐标、轮胎半径、乘客布局均不可直接等比拉伸。",
+  "image_usage": "制造商及公告图片仅作建模参考，未声称取得再发布许可；Commons三图遵循CC BY 4.0并记录作者及来源。所有下载及处理记录见references/downloads.json。",
+  "coordinate_frames": {
+    "version": 1,
+    "legacy_blender_fields": "Private construction frame, retained verbatim: +X door/right in Unity, -X driver/left in Unity, -Y forward, +Z up. These are not current Blender world coordinates.",
+    "source_blender_fields": "Physical right-handed Blender world in metres: +X driver/left, -X door/right, -Y forward, +Z up.",
+    "unity_fields": "Existing left-handed game frame in metres: +X door/right, -X driver/left, +Y up, +Z forward. Retained verbatim.",
+    "construction_to_source_blender": "(-x, y, z)",
+    "unity_to_source_blender": "(-x, -z, y)",
+    "matrix_layout": "Column-major 4x4. Source-world matrix = diag(-1,1,1,1) @ construction-world matrix.",
+    "historical_coordinate_text": "Existing coordinate_system/coordinate_definition text and chosen_blender_metres name describe the legacy construction frame; use this explicit frame contract for current source world.",
+    "reflection_invariants": "Lengths, angles between vectors, curvature radii, clearance and visibility fractions do not change under the rigid reflection."
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "source": "Tools/SWB6710EV01G/door_linkage.py",
+  "coordinates": "Blender plan after taper.py; unity = (x, -y)",
+  "timing": {
+    "0": {
+      "openSeconds": 1.0,
+      "closeSeconds": 1.0,
+      "closeDelay": 1.2
+    },
+    "1": {
+      "openSeconds": 1.0,
+      "closeSeconds": 1.0,
+      "closeDelay": 0.0
+    }
+  },
+  "leaves": [
+    {
+      "name": "Door1A",
+      "part": 4,
+      "drive_part": 34,
+      "design": {
+        "jamb_end_along_m": 0.1,
+        "jamb_end_depth_m": 0.015,
+        "guide_span_m": 0.26,
+        "open_degrees": 80.0
+      },
+      "blender": {
+        "shaft": [
+          1.1130000000000002,
+          -1.7
+        ],
+        "joint": [
+          1.1130000000000002,
+          -1.57
+        ],
+        "guide": [
+          1.1130000000000002,
+          -1.44
+        ],
+        "open_joint": [
+          0.9849749921084132,
+          -1.677425736903299
+        ],
+        "open_guide": [
+          1.1130000000000002,
+          -1.6548514738065976
+        ]
+      },
+      "profile_linkage": {
+        "shaft": [
+          1.113,
+          1.7
+        ],
+        "joint": [
+          1.113,
+          1.57
+        ],
+        "guide": [
+          1.113,
+          1.44
+        ],
+        "shaftDegrees": 80.0,
+        "drivePart": 34
+      },
+      "checks": {
+        "min_slack_m": 0.022574263096701325,
+        "post_margin_m": 0.0009226512869749967,
+        "meeting_advance_m": 0.0,
+        "jamb_end_off_line_m": 8.881784197001252e-16,
+        "open_degrees": 80.0,
+        "shaft_degrees": 80.0,
+        "crank_m": 0.13,
+        "open_meeting_outside_m": 0.13579163387948667,
+        "open_jamb_inside_m": 0.39548120397540587,
+        "jamb_end_travel_m": 0.2560500157831741,
+        "rail_travel_m": 0.21485147380659764
+      }
+    },
+    {
+      "name": "Door1B",
+      "part": 5,
+      "drive_part": 35,
+      "design": {
+        "jamb_end_along_m": 0.1,
+        "jamb_end_depth_m": 0.015,
+        "guide_span_m": 0.26,
+        "open_degrees": 80.0
+      },
+      "blender": {
+        "shaft": [
+          1.1130000000000002,
+          -0.7799999999999999
+        ],
+        "joint": [
+          1.1130000000000002,
+          -0.9099999999999999
+        ],
+        "guide": [
+          1.1130000000000002,
+          -1.04
+        ],
+        "open_joint": [
+          0.9849749921084132,
+          -0.8025742630967009
+        ],
+        "open_guide": [
+          1.1130000000000002,
+          -0.8251485261934022
+        ]
+      },
+      "profile_linkage": {
+        "shaft": [
+          1.113,
+          0.78
+        ],
+        "joint": [
+          1.113,
+          0.91
+        ],
+        "guide": [
+          1.113,
+          1.04
+        ],
+        "shaftDegrees": -80.0,
+        "drivePart": 35
+      },
+      "checks": {
+        "min_slack_m": 0.022574263096701325,
+        "post_margin_m": 0.0009226512869747747,
+        "meeting_advance_m": 0.0,
+        "jamb_end_off_line_m": 4.440892098500626e-16,
+        "open_degrees": 80.0,
+        "shaft_degrees": -80.0,
+        "crank_m": 0.13,
+        "open_meeting_outside_m": 0.13579163387948667,
+        "open_jamb_inside_m": 0.395481203975406,
+        "jamb_end_travel_m": 0.2560500157831741,
+        "rail_travel_m": 0.21485147380659786
+      }
+    },
+    {
+      "name": "Door2A",
+      "part": 6,
+      "drive_part": 36,
+      "design": {
+        "jamb_end_along_m": 0.05,
+        "jamb_end_depth_m": 0.02,
+        "guide_span_m": 0.64,
+        "open_degrees": 82.0
+      },
+      "blender": {
+        "shaft": [
+          1.108,
+          1.8099999999999998
+        ],
+        "joint": [
+          1.108,
+          1.4899999999999998
+        ],
+        "guide": [
+          1.108,
+          1.17
+        ],
+        "open_joint": [
+          0.7911142180026975,
+          1.765464607692779
+        ],
+        "open_guide": [
+          1.108,
+          1.7209292153855582
+        ]
+      },
+      "profile_linkage": {
+        "shaft": [
+          1.108,
+          -1.81
+        ],
+        "joint": [
+          1.108,
+          -1.49
+        ],
+        "guide": [
+          1.108,
+          -1.17
+        ],
+        "shaftDegrees": -82.0,
+        "drivePart": 36
+      },
+      "checks": {
+        "min_slack_m": 0.044535392307220624,
+        "post_margin_m": 0.004895169299700687,
+        "meeting_advance_m": 0.0,
+        "jamb_end_off_line_m": 8.881784197001252e-16,
+        "open_degrees": 82.0,
+        "shaft_degrees": -82.0,
+        "crank_m": 0.32,
+        "open_meeting_outside_m": 0.12020083284237493,
+        "open_jamb_inside_m": 0.7304073254825916,
+        "jamb_end_travel_m": 0.633771563994605,
+        "rail_travel_m": 0.5509292153855583
+      }
+    }
+  ],
+  "clearance": {
+    "frames": 105,
+    "static_objects": 126,
+    "moving_sets": {
+      "Door1A leaf": 14,
+      "Door1A drive": 4,
+      "Door1B leaf": 14,
+      "Door1B drive": 4,
+      "Door2A leaf": 14,
+      "Door2A drive": 4
+    },
+    "allowed_joint_contacts": 63927,
+    "overlaps": [],
+    "status": "PASS"
+  }
+}

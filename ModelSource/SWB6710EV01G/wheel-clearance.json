@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tyre_radius_m": 0.385,
+  "outer_envelope_radius_m": 0.389,
+  "tested_half_width_m": 0.103,
+  "radial_tolerance_m": 0.0,
+  "tested_wheels": 4,
+  "front_steering_angles_degrees": [
+    -35,
+    -25,
+    -15,
+    0,
+    15,
+    25,
+    35
+  ],
+  "tested_wheel_poses": 16,
+  "penetrations": []
+}

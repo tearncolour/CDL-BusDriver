@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "tyre_radius_m": 0.47825,
+  "outer_envelope_radius_m": 0.48225,
+  "tested_half_width_m": 0.1375,
+  "radial_tolerance_m": 0.0,
+  "tested_wheels": 4,
+  "physical_tyre_count": 6,
+  "front_steering_angles_degrees": [
+    -35,
+    -25,
+    -15,
+    0,
+    15,
+    25,
+    35
+  ],
+  "tested_wheel_poses": 18,
+  "penetrations": [],
+  "source": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\ModelSource\\SWB6109EV12G\\SWB6109EV12G.blend",
+  "source_sha256": "3cef6d03dda6fbeb7c6ea0cbcd0426b2ca808411f107f18ab9ad4e02387bf4b4",
+  "scope": "Saved-source, closed-door six-tyre full-tread clearance at all 18 poses.",
+  "coordinate_space": "Private canonical construction frame: +X door side, -X driver side, -Y forward, +Z up; wheel labels and steering signs follow this frame.",
+  "source_coordinate_version": 1
+}

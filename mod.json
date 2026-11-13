@@ -1,0 +1,12 @@
+{
+  "id": "CDLC.BusDriver",
+  "displayName": "CSL Driving Life : Bus Driver",
+  "author": "MeroT",
+  "version": "0.17.7",
+  "description": "Drive your city's bus lines yourself: pick a line, take a bus out of the depot or over from service, follow the route guidance and the boarding zones painted at your line's stops, open and close the doors so passengers board and alight, and earn fares for the city budget. Drive it from the driver's seat with the full bus interior, or watch the whole modern bus from outside with its LED destination signs and the passengers on board. Requires CSL Driving Life Core 0.9.0 (0.10.0 for the bus outside, kneeling and the realistic driveline; 0.13.0 for the indicators on the game's own buses) and CDL Assets 0.6.0 (API 7 with the LED core: it draws the signs' lit dots and holds their fonts, and also completes and draws the articulated buses of the vehicle packs). Ride a bus of your lines as a passenger (the game keeps driving it) from the panel, with the route sign at the foot of the screen; that needs CSL Driving Life Core 0.13.54. It follows the world time of CSL Driving Life Core 0.13.55 as well.",
+  "isCodeMod": true,
+  "dependencies": [
+    "CDLC",
+    "CDLC.Asset"
+  ]
+}

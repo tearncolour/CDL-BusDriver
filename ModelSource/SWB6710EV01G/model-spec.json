@@ -1,0 +1,25 @@
+{
+  "model": "Sunwin SWB6710EV01G / iEV7",
+  "length_m": 7.145,
+  "width_m": 2.35,
+  "height_m": 3.0,
+  "wheelbase_m": 5.1,
+  "front_overhang_m": 1.2,
+  "rear_overhang_m": 0.845,
+  "front_track_m": 1.939,
+  "rear_track_m": 1.808,
+  "wheel_radius_m": 0.385,
+  "body_roof_m": 2.94,
+  "passenger_seats": 17,
+  "capacity_reference": 51,
+  "door_layout": "Right side, both between axles; front two leaves, rear one leaf",
+  "default_livery": "Shanghai light aqua body, black glazing mask and white accent stripe; reference-inspired fleet finish",
+  "verified_dimensions": ["length_m", "width_m", "height_m", "wheelbase_m", "front_overhang_m", "rear_overhang_m", "front_track_m", "rear_track_m"],
+  "estimated_dimensions": ["wheel_radius_m", "body_roof_m", "door widths and centres", "interior seat positions"],
+  "sources": [
+    "https://www.sunwinbus.com/mobilecn/product/details/282",
+    "https://www.cntplus.com/bus/203861.html",
+    "https://fotobus.msk.ru/photo/3473806?gid=1104",
+    "https://www.bilibili.com/video/BV1QJ4m1w7s2/"
+  ]
+}

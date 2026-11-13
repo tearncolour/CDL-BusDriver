@@ -1,0 +1,10 @@
+{
+  "led_centre_unity": [
+    1.122,
+    2.46,
+    -0.29
+  ],
+  "tilt_rad": 0.17692,
+  "tilt_deg": 10.14,
+  "note": "Tools/SWB6710EV01G/vehicle.json signs.side (make_pack.py --sync); the face leans in at the top with the tumblehome"
+}

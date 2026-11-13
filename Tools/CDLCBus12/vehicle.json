@@ -1,0 +1,730 @@
+{
+  "format": "cdlb-vehicle",
+  "version": 1,
+  "model": "CDLCBus12",
+  "note": "Original built-in generic 12 m bus. Design dimensions; not an exact production-model reproduction. Tool metadata only: built-in runtime remains the generic SWB2 \u002B SWU1 path.",
+  "spec": {
+    "frontZ": 6,
+    "rearZ": -6,
+    "halfWidth": 1.28,
+    "roofY": 3.05,
+    "floorY": 0.35999998,
+    "frontAxleZ": 3.4,
+    "rearAxleZ": -2.5,
+    "doors": 3,
+    "driverSide": -1
+  },
+  "wheelRadius": 0.46,
+  "wrap": {
+    "bottom": 0.5,
+    "thresholds": [
+      0.9,
+      2.4,
+      5.5
+    ],
+    "windows": false,
+    "doors": false
+  },
+  "bodyColor": [
+    230,
+    230,
+    226
+  ],
+  "doors": [
+    {
+      "centreZ": 4.98,
+      "width": 1.1999998,
+      "leaves": 2,
+      "linkage": [
+        {
+          "shaft": [
+            1.1182609,
+            5.412
+          ],
+          "joint": [
+            1.1182609,
+            5.28
+          ],
+          "guide": [
+            1.1182609,
+            5.1480002
+          ],
+          "shaftDegrees": 80,
+          "drivePart": 34
+        },
+        {
+          "shaft": [
+            1.1182609,
+            4.548
+          ],
+          "joint": [
+            1.1182609,
+            4.68
+          ],
+          "guide": [
+            1.1182609,
+            4.812
+          ],
+          "shaftDegrees": -80,
+          "drivePart": 35
+        }
+      ]
+    },
+    {
+      "centreZ": -0.2579999,
+      "width": 1.2,
+      "leaves": 2,
+      "linkage": [
+        {
+          "shaft": [
+            1.1182609,
+            0.17400011
+          ],
+          "joint": [
+            1.1182609,
+            0.042000115
+          ],
+          "guide": [
+            1.1182609,
+            -0.089999884
+          ],
+          "shaftDegrees": 80,
+          "drivePart": 36
+        },
+        {
+          "shaft": [
+            1.1182609,
+            -0.68999994
+          ],
+          "joint": [
+            1.1182609,
+            -0.55799997
+          ],
+          "guide": [
+            1.1182609,
+            -0.42599994
+          ],
+          "shaftDegrees": -80,
+          "drivePart": 37
+        }
+      ]
+    },
+    {
+      "centreZ": -4.4,
+      "width": 1,
+      "leaves": 2,
+      "linkage": [
+        {
+          "shaft": [
+            1.1182609,
+            -4.04
+          ],
+          "joint": [
+            1.1182609,
+            -4.15
+          ],
+          "guide": [
+            1.1182609,
+            -4.2599998
+          ],
+          "shaftDegrees": 80,
+          "drivePart": 38
+        },
+        {
+          "shaft": [
+            1.1182609,
+            -4.76
+          ],
+          "joint": [
+            1.1182609,
+            -4.65
+          ],
+          "guide": [
+            1.1182609,
+            -4.5400004
+          ],
+          "shaftDegrees": -80,
+          "drivePart": 39
+        }
+      ]
+    }
+  ],
+  "signs": {
+    "front": {
+      "centre": [
+        0,
+        2.79,
+        6.0185
+      ],
+      "width": 1.62,
+      "height": 0.16,
+      "columns": 160,
+      "tilt": 0
+    },
+    "side": {
+      "centre": [
+        1.2033876,
+        2.2799997,
+        3.7649999
+      ],
+      "width": 0.86,
+      "height": 0.13,
+      "columns": 112,
+      "tilt": 0.102170415
+    },
+    "rear": {
+      "centre": [
+        0,
+        2.655,
+        -6.0215
+      ],
+      "width": 0.42,
+      "height": 0.16,
+      "columns": 48,
+      "tilt": 0
+    }
+  },
+  "nextStop": {
+    "centre": [
+      0,
+      2.715,
+      5.5670004
+    ],
+    "width": 0.70000005,
+    "height": 0.08400001,
+    "columns": 128,
+    "rows": 16
+  },
+  "cardReaders": [
+    {
+      "origin": [
+        4.8428774E-08,
+        1.4300001,
+        4.88
+      ],
+      "rotation": [
+        0.113039,
+        0.49572244,
+        -0.0652631,
+        0.8586165
+      ],
+      "xSign": 1
+    },
+    {
+      "origin": [
+        0.75499994,
+        1.64,
+        0.4320001
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -4.371139E-08
+      ],
+      "xSign": 1
+    },
+    {
+      "origin": [
+        0.75499994,
+        1.64,
+        -3.81
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        -4.371139E-08
+      ],
+      "xSign": 1
+    }
+  ],
+  "mirrors": [
+    {
+      "centre": [
+        -1.54,
+        2.1399999,
+        5.94
+      ],
+      "normal": [
+        0.2800597,
+        -0.10213824,
+        -0.95453364
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "size": [
+        0.205,
+        0.32
+      ],
+      "convexDepth": 0,
+      "cornerRadius": 0.027
+    },
+    {
+      "centre": [
+        1.5799999,
+        2.25,
+        6.58
+      ],
+      "normal": [
+        -0.3924458,
+        -0.096013755,
+        -0.91475016
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "size": [
+        0.235,
+        0.38
+      ],
+      "convexDepth": 0,
+      "cornerRadius": 0.027
+    },
+    {
+      "centre": [
+        1.5799999,
+        1.89,
+        6.58
+      ],
+      "normal": [
+        -0.35650578,
+        -0.33895728,
+        -0.87063867
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "size": [
+        0.22,
+        0.15
+      ],
+      "convexDepth": 0.012,
+      "cornerRadius": null
+    }
+  ],
+  "riders": [
+    {
+      "position": [
+        -0.9599999,
+        1.1329999,
+        3.6499996
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        1.1329999,
+        3.6499996
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        0.83299994,
+        2.22
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        0.83299994,
+        2.22
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        0.83299994,
+        1.46
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        0.83299994,
+        1.46
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        1.1329999,
+        -2.1399999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        1.1329999,
+        -2.1399999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        1.1329999,
+        -2.8999999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        1.1329999,
+        -2.8999999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        1.1329999,
+        -3.6599998
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        1.1329999,
+        -3.6599998
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.9599999,
+        1.1329999,
+        -4.42
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.52,
+        1.1329999,
+        -4.42
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        1.1329999,
+        3.7900002
+      ],
+      "yaw": 3.1415927,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        1.1329999,
+        3.7900002
+      ],
+      "yaw": 3.1415927,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        0.83299994,
+        2.22
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        0.83299994,
+        2.22
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        0.83299994,
+        1.46
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        0.83299994,
+        1.46
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        0.83299994,
+        -1.3779999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        1.1329999,
+        -2.1399999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        1.1329999,
+        -2.1399999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        1.1329999,
+        -2.8999999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        1.1329999,
+        -2.8999999
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.9599999,
+        1.253,
+        -5.52
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.52,
+        1.253,
+        -5.52
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.07999992,
+        1.253,
+        -5.52
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        -0.36,
+        1.253,
+        -5.52
+      ],
+      "yaw": 0,
+      "kind": "Seated"
+    },
+    {
+      "position": [
+        0.3,
+        0.35999998,
+        -0.67799985
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.3,
+        0.35999998,
+        0.16200009
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.3,
+        0.35999998,
+        -4.82
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.3,
+        0.35999998,
+        -3.98
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.55,
+        0.35999998,
+        -0.6079999
+      ],
+      "yaw": 0,
+      "kind": "Standing"
+    },
+    {
+      "position": [
+        -0.55,
+        0.35999998,
+        -0.007999897
+      ],
+      "yaw": 3.1415927,
+      "kind": "Standing"
+    },
+    {
+      "position": [
+        0.05,
+        0.35999998,
+        3.6499999
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.05,
+        0.35999998,
+        2.9299998
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.05,
+        0.35999998,
+        2.2099998
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.05,
+        0.35999998,
+        1.4899998
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.05,
+        0.35999998,
+        0.76999974
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.05,
+        0.35999998,
+        -1.3900003
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.05,
+        0.35999998,
+        -2.1100004
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.05,
+        0.35999998,
+        -2.8300004
+      ],
+      "yaw": 3.1415927,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        0.05,
+        0.35999998,
+        -3.5500004
+      ],
+      "yaw": 0,
+      "kind": "Holding"
+    },
+    {
+      "position": [
+        -0.61999995,
+        1.26,
+        4.74
+      ],
+      "yaw": 0,
+      "kind": "Driver"
+    }
+  ],
+  "cab": {
+    "eyeOffset": [
+      0,
+      -0.06,
+      0
+    ],
+    "seat": "air",
+    "insulation": 1
+  },
+  "cabRender": "runtime"
+}

@@ -1,0 +1,1038 @@
+{
+  "schemaVersion": 1,
+  "colorsSpace": "palette.rgb is sRGB; source BSDF is linear",
+  "palette": [
+    {
+      "index": 0,
+      "name": "Yellow",
+      "finish": "Satin",
+      "rgb": [
+        0.97,
+        0.68,
+        0.02
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 1,
+      "name": "Orange",
+      "finish": "Satin",
+      "rgb": [
+        0.95,
+        0.42,
+        0.05
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 2,
+      "name": "Red",
+      "finish": "Satin",
+      "rgb": [
+        0.8,
+        0.04,
+        0.06
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 3,
+      "name": "Blue",
+      "finish": "Satin",
+      "rgb": [
+        0.1,
+        0.28,
+        0.62
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 4,
+      "name": "White",
+      "finish": "Satin",
+      "rgb": [
+        0.86,
+        0.87,
+        0.85
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 5,
+      "name": "Green",
+      "finish": "Satin",
+      "rgb": [
+        0.18,
+        0.46,
+        0.2
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 6,
+      "name": "Grey",
+      "finish": "Satin",
+      "rgb": [
+        0.55,
+        0.56,
+        0.56
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 7,
+      "name": "Black",
+      "finish": "Satin",
+      "rgb": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 8,
+      "name": "DarkGrey",
+      "finish": "Matte",
+      "rgb": [
+        0.16,
+        0.16,
+        0.16
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 9,
+      "name": "Rubber",
+      "finish": "Matte",
+      "rgb": [
+        0.045,
+        0.045,
+        0.045
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 10,
+      "name": "Galvanised",
+      "finish": "Metal",
+      "rgb": [
+        0.58,
+        0.58,
+        0.58
+      ],
+      "metallic": 0.8,
+      "roughness": 0.6
+    },
+    {
+      "index": 11,
+      "name": "Steel",
+      "finish": "Metal",
+      "rgb": [
+        0.42,
+        0.42,
+        0.42
+      ],
+      "metallic": 0.8,
+      "roughness": 0.6
+    },
+    {
+      "index": 12,
+      "name": "Rope",
+      "finish": "Metal",
+      "rgb": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "metallic": 0.8,
+      "roughness": 0.6
+    },
+    {
+      "index": 13,
+      "name": "Rail",
+      "finish": "Metal",
+      "rgb": [
+        0.34,
+        0.32,
+        0.3
+      ],
+      "metallic": 0.8,
+      "roughness": 0.6
+    },
+    {
+      "index": 14,
+      "name": "Rust",
+      "finish": "Metal",
+      "rgb": [
+        0.38,
+        0.2,
+        0.11
+      ],
+      "metallic": 0.8,
+      "roughness": 0.6
+    },
+    {
+      "index": 15,
+      "name": "Precast",
+      "finish": "Concrete",
+      "rgb": [
+        0.66,
+        0.65,
+        0.62
+      ],
+      "metallic": 0,
+      "roughness": 0.82
+    },
+    {
+      "index": 16,
+      "name": "FreshConcrete",
+      "finish": "Concrete",
+      "rgb": [
+        0.5,
+        0.5,
+        0.48
+      ],
+      "metallic": 0,
+      "roughness": 0.82
+    },
+    {
+      "index": 17,
+      "name": "Plywood",
+      "finish": "Matte",
+      "rgb": [
+        0.42,
+        0.24,
+        0.12
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 18,
+      "name": "Timber",
+      "finish": "Matte",
+      "rgb": [
+        0.7,
+        0.52,
+        0.31
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 19,
+      "name": "Net",
+      "finish": "Matte",
+      "rgb": [
+        0.14,
+        0.38,
+        0.18
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 20,
+      "name": "Chrome",
+      "finish": "Chrome",
+      "rgb": [
+        0.75,
+        0.76,
+        0.78
+      ],
+      "metallic": 1,
+      "roughness": 0.14999998
+    },
+    {
+      "index": 21,
+      "name": "Glass",
+      "finish": "Glass",
+      "rgb": [
+        0.09,
+        0.11,
+        0.105
+      ],
+      "metallic": 0,
+      "roughness": 0.024999976
+    },
+    {
+      "index": 22,
+      "name": "Hazard",
+      "finish": "Hazard",
+      "rgb": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.55
+    },
+    {
+      "index": 23,
+      "name": "LampWhite",
+      "finish": "Lamp",
+      "rgb": [
+        0.95,
+        0.95,
+        0.92
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 24,
+      "name": "LampRed",
+      "finish": "Tail",
+      "rgb": [
+        0.7,
+        0.05,
+        0.03
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 25,
+      "name": "Amber",
+      "finish": "Beacon",
+      "rgb": [
+        1,
+        0.6,
+        0.15
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 26,
+      "name": "AviationRed",
+      "finish": "Aviation",
+      "rgb": [
+        0.85,
+        0.05,
+        0.04
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 27,
+      "name": "Asphalt",
+      "finish": "Matte",
+      "rgb": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 28,
+      "name": "FreshAsphalt",
+      "finish": "Matte",
+      "rgb": [
+        0.07,
+        0.065,
+        0.06
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 29,
+      "name": "Membrane",
+      "finish": "Matte",
+      "rgb": [
+        0.035,
+        0.035,
+        0.04
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 30,
+      "name": "Soil",
+      "finish": "Matte",
+      "rgb": [
+        0.36,
+        0.27,
+        0.18
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 31,
+      "name": "Gravel",
+      "finish": "Matte",
+      "rgb": [
+        0.48,
+        0.45,
+        0.4
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 32,
+      "name": "Sand",
+      "finish": "Matte",
+      "rgb": [
+        0.76,
+        0.66,
+        0.48
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 33,
+      "name": "Mud",
+      "finish": "Matte",
+      "rgb": [
+        0.3,
+        0.27,
+        0.23
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 34,
+      "name": "SteelPrimer",
+      "finish": "Satin",
+      "rgb": [
+        0.45,
+        0.14,
+        0.1
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 35,
+      "name": "SteelGrey",
+      "finish": "Satin",
+      "rgb": [
+        0.52,
+        0.55,
+        0.57
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 36,
+      "name": "SafetyWhite",
+      "finish": "Satin",
+      "rgb": [
+        0.93,
+        0.93,
+        0.9
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 37,
+      "name": "GlassTinted",
+      "finish": "Glass",
+      "rgb": [
+        0.06,
+        0.075,
+        0.072
+      ],
+      "metallic": 0,
+      "roughness": 0.024999976
+    },
+    {
+      "index": 38,
+      "name": "LampGreen",
+      "finish": "NavGreen",
+      "rgb": [
+        0.04,
+        0.62,
+        0.25
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 39,
+      "name": "Fabric",
+      "finish": "Matte",
+      "rgb": [
+        0.13,
+        0.2,
+        0.4
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 40,
+      "name": "FabricAccent",
+      "finish": "Matte",
+      "rgb": [
+        0.62,
+        0.12,
+        0.1
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 41,
+      "name": "FloorVinyl",
+      "finish": "Matte",
+      "rgb": [
+        0.3,
+        0.31,
+        0.32
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 42,
+      "name": "Panel",
+      "finish": "Matte",
+      "rgb": [
+        0.8,
+        0.79,
+        0.75
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 43,
+      "name": "DashBlack",
+      "finish": "Matte",
+      "rgb": [
+        0.07,
+        0.07,
+        0.075
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 44,
+      "name": "Screen",
+      "finish": "Matte",
+      "rgb": [
+        0.03,
+        0.035,
+        0.04
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 45,
+      "name": "LedAmber",
+      "finish": "Glow",
+      "rgb": [
+        1,
+        0.58,
+        0.1
+      ],
+      "metallic": 0,
+      "roughness": 0.19999999
+    },
+    {
+      "index": 46,
+      "name": "SkinLight",
+      "finish": "Matte",
+      "rgb": [
+        0.89,
+        0.72,
+        0.6
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 47,
+      "name": "SkinMid",
+      "finish": "Matte",
+      "rgb": [
+        0.74,
+        0.54,
+        0.39
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 48,
+      "name": "SkinDark",
+      "finish": "Matte",
+      "rgb": [
+        0.43,
+        0.29,
+        0.19
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 49,
+      "name": "Denim",
+      "finish": "Matte",
+      "rgb": [
+        0.17,
+        0.25,
+        0.4
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 50,
+      "name": "Khaki",
+      "finish": "Matte",
+      "rgb": [
+        0.62,
+        0.56,
+        0.41
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 51,
+      "name": "HairBrown",
+      "finish": "Matte",
+      "rgb": [
+        0.21,
+        0.13,
+        0.08
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 52,
+      "name": "HairBlack",
+      "finish": "Matte",
+      "rgb": [
+        0.045,
+        0.04,
+        0.04
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 53,
+      "name": "HairBlonde",
+      "finish": "Matte",
+      "rgb": [
+        0.6,
+        0.46,
+        0.27
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 54,
+      "name": "Navy",
+      "finish": "Matte",
+      "rgb": [
+        0.09,
+        0.12,
+        0.22
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 55,
+      "name": "Pink",
+      "finish": "Matte",
+      "rgb": [
+        0.86,
+        0.55,
+        0.62
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 56,
+      "name": "Burgundy",
+      "finish": "Matte",
+      "rgb": [
+        0.4,
+        0.09,
+        0.13
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 57,
+      "name": "Beige",
+      "finish": "Matte",
+      "rgb": [
+        0.77,
+        0.69,
+        0.55
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 58,
+      "name": "ShirtBlue",
+      "finish": "Matte",
+      "rgb": [
+        0.58,
+        0.71,
+        0.86
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 59,
+      "name": "Lip",
+      "finish": "Matte",
+      "rgb": [
+        0.66,
+        0.36,
+        0.33
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 60,
+      "name": "BrushedStainless",
+      "finish": "BrushedMetal",
+      "rgb": [
+        0.77357304,
+        0.7857769,
+        0.79178685
+      ],
+      "metallic": 1,
+      "roughness": 0.25
+    },
+    {
+      "index": 61,
+      "name": "SeatFabricGrey",
+      "finish": "Textile",
+      "rgb": [
+        0.19641909,
+        0.21508196,
+        0.22376981
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    {
+      "index": 62,
+      "name": "SeatPrintYellow",
+      "finish": "Textile",
+      "rgb": [
+        0.7673756,
+        0.865042,
+        0.08610421
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    {
+      "index": 63,
+      "name": "SeatPrintGrey",
+      "finish": "Textile",
+      "rgb": [
+        0.6012434,
+        0.64216644,
+        0.6342527
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    {
+      "index": 64,
+      "name": "SeatShellGrey",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.20598415,
+        0.22658291,
+        0.23479506
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 65,
+      "name": "HandGripGrey",
+      "finish": "Satin",
+      "rgb": [
+        0.5063864,
+        0.5271128,
+        0.5370987
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 66,
+      "name": "CurtainBlueGrey",
+      "finish": "Matte",
+      "rgb": [
+        0.64216644,
+        0.74837905,
+        0.7857769
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 67,
+      "name": "CabinSilver",
+      "finish": "BrushedMetal",
+      "rgb": [
+        0.7083696,
+        0.7287318,
+        0.7353569
+      ],
+      "metallic": 1,
+      "roughness": 0.25
+    },
+    {
+      "index": 68,
+      "name": "CabinPanelGrey",
+      "finish": "Satin",
+      "rgb": [
+        0.80363095,
+        0.81525064,
+        0.81525064
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 69,
+      "name": "CurtainClipGrey",
+      "finish": "Textile",
+      "rgb": [
+        0.82097983,
+        0.83786047,
+        0.8322835
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    {
+      "index": 70,
+      "name": "CabinRecessGrey",
+      "finish": "Textile",
+      "rgb": [
+        0.20598415,
+        0.22935724,
+        0.23746118
+      ],
+      "metallic": 0,
+      "roughness": 0.68
+    },
+    {
+      "index": 71,
+      "name": "DoorFeetGrey",
+      "finish": "Satin",
+      "rgb": [
+        0.16007763,
+        0.1718441,
+        0.1755816
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 72,
+      "name": "RequestAmber",
+      "finish": "Satin",
+      "rgb": [
+        0.83786047,
+        0.56572837,
+        0.1718441
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 73,
+      "name": "RequestDark",
+      "finish": "Satin",
+      "rgb": [
+        0.23479506,
+        0.20598415,
+        0.1718441
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 74,
+      "name": "RequestRed",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.81525064,
+        0.1718441,
+        0.1428257
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 75,
+      "name": "RequestYellow",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.9639762,
+        0.79178685,
+        0.1428257
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 76,
+      "name": "AccessibilityGreen",
+      "finish": "Satin",
+      "rgb": [
+        0.1718441,
+        0.5271128,
+        0.39588124
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 77,
+      "name": "AccessibilityWhite",
+      "finish": "Satin",
+      "rgb": [
+        0.94052494,
+        0.94999737,
+        0.93574095
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 78,
+      "name": "GasketGrey",
+      "finish": "Matte",
+      "rgb": [
+        0.112074934,
+        0.12835404,
+        0.12835404
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 79,
+      "name": "RearPrintYellow",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.7673756,
+        0.865042,
+        0.08610421
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 80,
+      "name": "RearPrintGrey",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.6012434,
+        0.64216644,
+        0.6342527
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 81,
+      "name": "CabinGraphite",
+      "finish": "Satin",
+      "rgb": [
+        0.21508196,
+        0.2478005,
+        0.2576678
+      ],
+      "metallic": 0,
+      "roughness": 0.5
+    },
+    {
+      "index": 82,
+      "name": "CharcoalVinyl",
+      "finish": "Matte",
+      "rgb": [
+        0.38109183,
+        0.42358285,
+        0.43662703
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 83,
+      "name": "ShanghaiAqua",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.38109183,
+        0.71524084,
+        0.7419052
+      ],
+      "metallic": 0,
+      "roughness": 0.27999997
+    },
+    {
+      "index": 84,
+      "name": "FloorDarkBlue",
+      "finish": "Matte",
+      "rgb": [
+        0.22091636254849623,
+        0.29748529177623373,
+        0.37804859046117256
+      ],
+      "metallic": 0,
+      "roughness": 0.8
+    },
+    {
+      "index": 85,
+      "name": "SeatMouldedYellow",
+      "finish": "MouldedPlastic",
+      "rgb": [
+        0.9357410269336821,
+        0.7857769370994929,
+        0.15170371931624205
+      ],
+      "metallic": 0,
+      "roughness": 0.28
+    }
+  ]
+}

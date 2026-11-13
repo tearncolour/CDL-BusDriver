@@ -1,0 +1,156 @@
+{
+  "model": "SWB6109EV12G",
+  "family": "Sunwin iEV10 Series 9",
+  "asset_spec": "BUS_ASSET_SPEC.md",
+  "passenger_capacity": 80,
+  "passenger_capacity_evidence": "Announcement: 80 total / 20–38 seats; this usability-corrected design has 27 passenger seats, not an asserted factory count.",
+  "length_m": 10.5,
+  "width_m": 2.55,
+  "height_m": 3.2,
+  "body_roof_m": 3.2,
+  "wheelbase_m": 5.6,
+  "front_overhang_m": 2.4,
+  "rear_overhang_m": 2.5,
+  "front_track_m": 2.117,
+  "rear_track_m": 1.876,
+  "track_configuration": "Announced Fangsheng low-floor axle with aluminium rims; one of the approved options, not universal to every vehicle.",
+  "wheel_radius_m": 0.47825,
+  "tyre_half_width_m": 0.1375,
+  "tyre_tread_depth_m": 0.004,
+  "rear_dual_offset_m": 0.145,
+  "tyre_specification": "275/70R22.5; nominal unloaded radius calculated from tyre designation.",
+  "floor_m": 0.34,
+  "driver_eye_unity": [
+    -0.69,
+    1.95,
+    4.18
+  ],
+  "kit_offset_blender": [
+    -0.07000004999999998,
+    -0.08999999999999986,
+    0.0
+  ],
+  "door_count": 2,
+  "doors": [
+    {
+      "centre_blender_y": -4.3,
+      "width_m": 1.3,
+      "bottom_m": 0.36,
+      "top_m": 2.48
+    },
+    {
+      "centre_blender_y": 0.3,
+      "width_m": 1.3,
+      "bottom_m": 0.36,
+      "top_m": 2.48
+    }
+  ],
+  "door_leaves": [
+    {
+      "part": 4,
+      "pivot": "Door1A hinge",
+      "open_degrees": 86
+    },
+    {
+      "part": 5,
+      "pivot": "Door1B hinge",
+      "open_degrees": -86
+    },
+    {
+      "part": 6,
+      "pivot": "Door2A hinge",
+      "open_degrees": 86
+    },
+    {
+      "part": 7,
+      "pivot": "Door2B hinge",
+      "open_degrees": -86
+    }
+  ],
+  "runtime_lod_ratios": [
+    1,
+    0.38,
+    0.12
+  ],
+  "runtime_dynamic_signs": true,
+  "default_livery": "Shanghai white body, black window field, two aqua accent stripes; line colour and five-face image wraps supported.",
+  "dimensions_evidence": "Exact model government recommended directory and announcement; see reference-notes.json.",
+  "estimated_details": [
+    "door widths and centres",
+    "body contour stations",
+    "mirror geometry",
+    "driver eye and interior layout",
+    "lamp geometry",
+    "roof equipment"
+  ],
+  "game_packaged": false,
+  "floor_height_m": 0.34,
+  "steering_hub_unity": [
+    -0.69,
+    1.48,
+    4.45
+  ],
+  "card_reader_unity": [
+    0.89,
+    1.2,
+    3.55
+  ],
+  "coordinate_schema_version": 2,
+  "coordinate_contract": {
+    "document": "coordinate-frames.json",
+    "generator_space": "canonical_preparation",
+    "final_source_space": "blender_source",
+    "runtime_space": "unity_runtime",
+    "legacy_blender_named_inputs": "kit_offset_blender and doors[].centre_blender_y are canonical preparation values, not final Blender world coordinates; existing Unity fields remain unchanged.",
+    "preparation_to_source": "(-x, y, z)",
+    "source_to_unity": "(-x, z, -y)",
+    "final_blender_driver_side": "+X",
+    "final_blender_door_side": "-X"
+  },
+  "passenger_seat_count": 27,
+  "seat_access": {
+    "revision": 1,
+    "removed_original_seat_numbers": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "retained_original_seat_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "cushion_height_above_floor_m": 0.481,
+    "low_row_canonical_y_m": [
+      -1.6,
+      -0.85,
+      -0.1
+    ],
+    "status": "Design usability correction; coordinates and count are not measured from the obstructed video view."
+  }
+}

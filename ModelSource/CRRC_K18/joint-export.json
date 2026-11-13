@@ -1,0 +1,533 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\out\\k18-completion\\reviewed-candidate\\CRRC_K18.blend",
+  "source_sha256": "c685d7cd8965b8ada8ceb9f6f3c8e3365da7dd9e183c5e7dd090257866e55a88",
+  "exporter_sha256": "e2682bab5e1f901f148f490bb1a196976cf0e686bd6a721a30398afb3b6c077e",
+  "mesh": "CRRC_K18.joint.gz",
+  "mesh_sha256": "a2698268538e76ce7136abffce367c83bc77d054d3760bab27e937665ce49264",
+  "format": "cdlb-joint-v1",
+  "binary": "CJA1",
+  "lod_triangles": [
+    4748,
+    1772,
+    980
+  ],
+  "section_rest": {
+    "front": {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "rear": {
+      "position": [
+        0.0,
+        0.0,
+        -1.3200000524520874
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "front_anchor": [
+    0.0,
+    0.0,
+    -1.3200000524520874
+  ],
+  "rear_anchor": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "span_z": [
+    -0.5299999713897705,
+    -2.109999895095825
+  ],
+  "objects": [
+    {
+      "name": "Articulation anti-slip turntable",
+      "binding": "bisector",
+      "triangles": 252,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        252,
+        124,
+        60
+      ],
+      "weight_min": 0.5,
+      "weight_max": 0.5
+    },
+    {
+      "name": "Articulation floor threshold",
+      "binding": "front",
+      "triangles": 12,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        12,
+        12,
+        12
+      ],
+      "weight_min": 0.0,
+      "weight_max": 0.0
+    },
+    {
+      "name": "Articulation floor threshold.001",
+      "binding": "rear",
+      "triangles": 12,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        12,
+        12,
+        12
+      ],
+      "weight_min": 1.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Articulation folding handrail",
+      "binding": "span",
+      "triangles": 44,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        44,
+        20,
+        20
+      ],
+      "weight_min": 0.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Articulation folding handrail.001",
+      "binding": "span",
+      "triangles": 44,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        44,
+        20,
+        20
+      ],
+      "weight_min": 0.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Articulation rail upright",
+      "binding": "front",
+      "triangles": 36,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        36,
+        36,
+        36
+      ],
+      "weight_min": 0.0,
+      "weight_max": 0.0
+    },
+    {
+      "name": "Articulation rail upright.001",
+      "binding": "rear",
+      "triangles": 36,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        36,
+        36,
+        36
+      ],
+      "weight_min": 1.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Articulation rail upright.002",
+      "binding": "front",
+      "triangles": 36,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        36,
+        36,
+        36
+      ],
+      "weight_min": 0.0,
+      "weight_max": 0.0
+    },
+    {
+      "name": "Articulation rail upright.003",
+      "binding": "rear",
+      "triangles": 36,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        36,
+        36,
+        36
+      ],
+      "weight_min": 1.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Bellows attachment frame",
+      "binding": "front",
+      "triangles": 108,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        108,
+        108,
+        108
+      ],
+      "weight_min": 0.0,
+      "weight_max": 0.0
+    },
+    {
+      "name": "Bellows attachment frame.001",
+      "binding": "rear",
+      "triangles": 108,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        108,
+        108,
+        108
+      ],
+      "weight_min": 1.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Bellows attachment frame.002",
+      "binding": "front",
+      "triangles": 108,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        108,
+        108,
+        108
+      ],
+      "weight_min": 0.0,
+      "weight_max": 0.0
+    },
+    {
+      "name": "Bellows attachment frame.003",
+      "binding": "rear",
+      "triangles": 108,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        108,
+        108,
+        108
+      ],
+      "weight_min": 1.0,
+      "weight_max": 1.0
+    },
+    {
+      "name": "Flexible double-wall articulation bellows",
+      "binding": "span",
+      "triangles": 3808,
+      "first_lod": 0,
+      "last_lod": 2,
+      "lod_triangles": [
+        3808,
+        1008,
+        280
+      ],
+      "weight_min": 0.0,
+      "weight_max": 1.0
+    }
+  ],
+  "source_motion": [
+    {
+      "source_frame": 160,
+      "bend_degrees": 25,
+      "max_position_residual_m": 3.816559456248789e-07,
+      "pass": true
+    },
+    {
+      "source_frame": 190,
+      "bend_degrees": -25,
+      "max_position_residual_m": 3.816559456248789e-07,
+      "pass": true
+    },
+    {
+      "source_frame": 250,
+      "bend_degrees": 50,
+      "max_position_residual_m": 4.1295309247228556e-07,
+      "pass": true
+    },
+    {
+      "source_frame": 280,
+      "bend_degrees": -50,
+      "max_position_residual_m": 4.1295309247228556e-07,
+      "pass": true
+    }
+  ],
+  "bend_audit": [
+    {
+      "lod": 0,
+      "degrees": 0,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.011136116119587e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": -15,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010640957763659e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": 15,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010640957763659e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": -25,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010577673938201e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": 25,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010577673938201e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": -45,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.0106935823197264e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": 45,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010693582350431e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": -50,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010732662311701e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 0,
+      "degrees": 50,
+      "triangles": 4748,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 7.010731996177886e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": 0,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147407748460012e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": -15,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146696595101588e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": 15,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146696595101588e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": -25,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147186925100414e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": 25,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147186925100414e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": -45,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.14700684692582e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": 45,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.14700684692582e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": -50,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146881391724037e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 1,
+      "degrees": 50,
+      "triangles": 1772,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146881391724037e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": 0,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147407748460012e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": -15,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146696595101588e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": 15,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146696595101588e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": -25,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147186925100414e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": 25,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.147186925100414e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": -45,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.14700684692582e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": 45,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.14700684692582e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": -50,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146881391724037e-09,
+      "endpoint_residual_m": 0.0
+    },
+    {
+      "lod": 2,
+      "degrees": 50,
+      "triangles": 980,
+      "tiny": 0,
+      "normal_inversions": 0,
+      "minimum_cross_squared": 8.146881391724037e-09,
+      "endpoint_residual_m": 0.0
+    }
+  ],
+  "scope": [
+    "Actual source geometry; no imported premade model.",
+    "Explicit closed LOD topology: bellows 17x56,9x28,5x14 rows x ring samples; fold valleys preserved.",
+    "Source +/-25 and +/-50deg shapes compared; all LOD triangles and attached endpoints numerically checked through +/-50deg. These checks do not prove absence of nonlocal self-intersection or game acceptance.",
+    "Turntable is rigidly aligned with the angle bisector; the source turntable is rotationally symmetric.",
+    "Runtime/game visibility, interpenetration, and material rendering not certified by this export."
+  ]
+}

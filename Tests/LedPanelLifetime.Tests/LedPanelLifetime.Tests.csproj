@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Offline contract of the LED panel of CDL Assets with the Bus palette it is used with: the lease on the palette goes to the panel and
+       comes back last, a panel whose construction and cleanup both failed is retried with Bus Driver's own cleanup, HdSign loses nothing.
+       Bus Driver's CabMaterials and HdSign against the fake engine of the Assets tests; rendering is not checked. dotnet run -c Release -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>CS1701;CS1702;MSB3277</NoWarn>
+    <DefaultItemExcludes>$(DefaultItemExcludes);out\**</DefaultItemExcludes>
+    <ManagedPath Condition="'$(ManagedPath)' == ''">$(CSII_MANAGEDPATH)</ManagedPath>
+    <AssetModRoot Condition="'$(AssetModRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\CDLAssetMod</AssetModRoot>
+    <CDLCAssetBusIncludeLedHd>true</CDLCAssetBusIncludeLedHd>
+  </PropertyGroup>
+  <Import Project="$(AssetModRoot)\Compatibility\CDLC.Asset.BusSources.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\Interior\Kit\*.cs" Link="Bus\Kit\%(Filename).cs" />
+    <Compile Include="..\..\Interior\CabRuntime.cs;..\..\Interior\HdSign.cs;..\..\Systems\AiSignRules.cs" Link="Bus\%(Filename).cs" />
+    <Compile Include="$(AssetModRoot)\Led\LedPanel.cs;$(AssetModRoot)\Led\LedMesh.cs;$(AssetModRoot)\Led\LedGeometry.cs;$(AssetModRoot)\Led\SignCamera.cs;$(AssetModRoot)\Cab\MeshUpload.cs;$(AssetModRoot)\Cab\CabCleanup.cs" Link="Asset\%(Filename).cs" />
+    <Compile Include="$(AssetModRoot)\Tests\CabRuntime.Tests\FakeEngine.cs" Link="FakeEngine.cs" />
+    <Reference Include="Unity.Mathematics"><HintPath>$(ManagedPath)\Unity.Mathematics.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

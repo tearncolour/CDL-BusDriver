@@ -1,0 +1,718 @@
+{
+  "format": "cdlb-vehicle",
+  "version": 2,
+  "model": "CRRC_K18",
+  "note": "2024 new Bakelong K18 study. Dimensions, axle/joint placement and complete seating remain photograph-based estimates. Capacity 151 and its 85/66 split are mod configuration.",
+  "sections": [
+    {
+      "id": "front",
+      "prefab": "CRRCK18",
+      "restPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "restRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "profile": {
+        "model": "CRRCK18",
+        "cab": { "eyeOffset": [0, -0.06, 0], "seat": "air", "insulation": 1 },
+        "mesh": "CRRCK18.swb1.gz",
+        "meshSha256": "01f2a1bc8de32a429be2468f45253cf85dfb7fec821e41ce4164d25dab4649dc",
+        "paletteRows": 86,
+        "spec": {
+          "frontZ": 9.01,
+          "rearZ": -0.52999997,
+          "halfWidth": 1.27,
+          "roofY": 3.32,
+          "floorY": 0.3375,
+          "frontAxleZ": 6.36999989,
+          "rearAxleZ": 0.52999997,
+          "doors": 2,
+          "driverSide": -1,
+          "section": "Front"
+        },
+        "axles": [
+          {
+            "z": 6.36999989,
+            "steer": true,
+            "parts": [
+              19,
+              20
+            ]
+          },
+          {
+            "z": 0.52999997,
+            "steer": false,
+            "parts": [
+              21,
+              22
+            ]
+          }
+        ],
+        "wheelRadius": 0.49,
+        "wrap": {
+          "bottom": 0.2,
+          "thresholds": [
+            0.8,
+            2.65,
+            4.2
+          ]
+        },
+        "bodyColor": [
+          255,
+          255,
+          255
+        ],
+        "doors": [
+          {
+            "centreZ": 7.82999969,
+            "width": 1.2,
+            "leaves": 2,
+            "openDegrees": 85,
+            "boardingPosition": [
+              1.245,
+              0.35350001,
+              7.82999992
+            ],
+            "boardingRotation": [
+              0,
+              -0.7071067811865476,
+              0,
+              0.7071067811865476
+            ],
+            "boarding": true,
+            "alighting": false
+          },
+          {
+            "centreZ": 2.14999998,
+            "width": 1.2,
+            "leaves": 2,
+            "openDegrees": 85,
+            "boardingPosition": [
+              1.245,
+              0.35350001,
+              2.1500001
+            ],
+            "boardingRotation": [
+              0,
+              -0.7071067811865476,
+              0,
+              0.7071067811865476
+            ],
+            "boarding": false,
+            "alighting": true
+          }
+        ],
+        "signs": {
+          "front": {
+            "centre": [
+              0,
+              2.57,
+              8.903
+            ],
+            "width": 1.72,
+            "columns": 96
+          }
+        },
+        "nextStop": {
+          "enabled": false,
+          "centre": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cardReaders": [
+          {
+            "origin": [
+              0.77999997,
+              1.20000005,
+              6.96999979
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "xSign": 1
+          }
+        ],
+        "mirrors": [
+          {
+            "centre": [
+              -1.47999954,
+              2.17999983,
+              8.72199917
+            ],
+            "normal": [
+              0.29210696,
+              -0.12830462,
+              -0.94774014
+            ],
+            "up": [
+              0.03779102,
+              0.99173486,
+              -0.12261287
+            ],
+            "size": [
+              0.14359963,
+              0.3785997
+            ]
+          },
+          {
+            "centre": [
+              1.48000073,
+              2.14999986,
+              9.56549931
+            ],
+            "normal": [
+              -0.38696682,
+              -0.07930078,
+              -0.91867739
+            ],
+            "up": [
+              -0.03078372,
+              0.99685073,
+              -0.07308199
+            ],
+            "size": [
+              0.1947999,
+              0.38780005
+            ]
+          },
+          {
+            "centre": [
+              1.2692697,
+              2.39853954,
+              9.63634872
+            ],
+            "normal": [
+              -0.18257418,
+              -0.36514837,
+              -0.91287088
+            ],
+            "up": [
+              -0.07161149,
+              0.93094927,
+              -0.35805747
+            ],
+            "size": [
+              0.152,
+              0.152
+            ],
+            "convexDepth": 0.01
+          }
+        ],
+        "riders": [
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              5.09000015
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              5.09000015
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              4.25
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              4.25
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              3.41000009
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              3.41000009
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              0.75749999,
+              5.09000015
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.94999999,
+              0.75749999,
+              5.09000015
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              0.75749999,
+              4.25
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.94999999,
+              0.75749999,
+              4.25
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              2.56999993
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              2.56999993
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              1.73000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              1.73000002
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              6.1500001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              5.4000001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              4.6500001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              3.9000001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              3.1500001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              2.4000001
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              1.64999998
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              0.89999998
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              0.15000001
+            ]
+          },
+          {
+            "kind": "Driver",
+            "position": [
+              -0.66000003,
+              1.06500006,
+              7.44000006
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "rear",
+      "prefab": "CRRCK18Rear",
+      "restPosition": [
+        0.0,
+        0.0,
+        -1.3200000524520874
+      ],
+      "restRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "profile": {
+        "model": "CRRCK18Rear",
+        "mesh": "CRRCK18Rear.swb1.gz",
+        "meshSha256": "8c3d37b321387c5dcee81e1906835ec5e38c7302be2519566639aa0d7978ccc9",
+        "paletteRows": 86,
+        "spec": {
+          "frontZ": -0.78999984,
+          "rearZ": -7.56499995,
+          "halfWidth": 1.27,
+          "roofY": 3.32,
+          "floorY": 0.3375,
+          "frontAxleZ": -4.35999966,
+          "rearAxleZ": -4.35999966,
+          "doors": 1,
+          "driverSide": -1,
+          "section": "Rear"
+        },
+        "axles": [
+          {
+            "z": -4.35999966,
+            "steer": false,
+            "parts": [
+              21,
+              22
+            ]
+          }
+        ],
+        "wheelRadius": 0.49,
+        "wrap": {
+          "bottom": 0.2,
+          "thresholds": [
+            0.8,
+            2.65,
+            4.2
+          ]
+        },
+        "bodyColor": [
+          255,
+          255,
+          255
+        ],
+        "doors": [
+          {
+            "centreZ": -2.45999986,
+            "width": 1.2,
+            "leaves": 2,
+            "openDegrees": 85,
+            "boardingPosition": [
+              1.245,
+              0.35350001,
+              -2.46000004
+            ],
+            "boardingRotation": [
+              0,
+              -0.7071067811865476,
+              0,
+              0.7071067811865476
+            ],
+            "boarding": false,
+            "alighting": true
+          }
+        ],
+        "signs": {
+          "rear": {
+            "centre": [
+              0.0,
+              2.74000001,
+              -7.6074996
+            ],
+            "width": 1.28,
+            "columns": 96
+          }
+        },
+        "nextStop": {
+          "enabled": false,
+          "centre": [
+            0,
+            0,
+            0
+          ]
+        },
+        "cardReaders": [],
+        "mirrors": [],
+        "riders": [
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              0.75749999,
+              -2.38000011
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              -2.38000011
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.50999999,
+              0.75749999,
+              -3.23000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.94999999,
+              0.75749999,
+              -3.23000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              0.75749999,
+              -1.37
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.94999999,
+              0.75749999,
+              -1.37
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              1.57000005,
+              -4.98000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.92500001,
+              1.57000005,
+              -4.98000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              1.57000005,
+              -4.98000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.92500001,
+              1.57000005,
+              -4.98000002
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              1.57000005,
+              -5.82999992
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.92500001,
+              1.57000005,
+              -5.82999992
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              1.57000005,
+              -5.82999992
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.92500001,
+              1.57000005,
+              -5.82999992
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.49000001,
+              1.57000005,
+              -6.67999983
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              -0.92500001,
+              1.57000005,
+              -6.67999983
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.49000001,
+              1.57000005,
+              -6.67999983
+            ]
+          },
+          {
+            "kind": "Seated",
+            "position": [
+              0.92500001,
+              1.57000005,
+              -6.67999983
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              -2.13000011
+            ]
+          },
+          {
+            "kind": "Standing",
+            "position": [
+              0.0,
+              0.33750001,
+              -2.82999992
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "articulation": {
+    "frontSection": "front",
+    "rearSection": "rear",
+    "frontAnchor": [
+      0.0,
+      0.0,
+      -1.3200000524520874
+    ],
+    "rearAnchor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxSeparation": 0.2,
+    "joint": {
+      "format": "cdlb-joint-v1",
+      "mesh": "CRRC_K18.joint.gz",
+      "meshSha256": "d5d5b2b1bbbb66d73091e6049ac9a0acfa1746727f831dca247d90da6395fb04",
+      "maxBendDegrees": 50
+    }
+  },
+  "pack": {
+    "version": "1.0.1",
+    "requiresBusDriver": "0.11.0",
+    "template": "Bus02",
+    "capacity": 151,
+    "livery": [
+      1,
+      1,
+      1
+    ],
+    "strict": true,
+    "sections": {
+      "front": {
+        "capacity": 85,
+        "guid": "98e3a7784bf85fd0a4653aff133123fa",
+        "meshSource": "runtime-sections/CRRCK18.swb1.gz"
+      },
+      "rear": {
+        "capacity": 66,
+        "guid": "8fc6abfeec52575785cc23241de0720e",
+        "meshSource": "runtime-sections/CRRCK18Rear.swb1.gz"
+      }
+    },
+    "jointSource": "runtime-sections/CRRC_K18.joint.gz",
+    "paletteSource": "kit-cabin.json",
+    "title": "CRRC K18 (2024 Bakelong study)"
+  }
+}

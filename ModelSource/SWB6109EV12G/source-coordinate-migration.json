@@ -1,0 +1,6753 @@
+{
+  "status": "PASS",
+  "base_master_sha256": "ab3e06c0be68c306d3be959677bd28d84713e439d907c175c212d61c6c6a988a",
+  "backup": "out\\swb6109-handedness\\backup-20261015-031158",
+  "conversion": {
+    "version": 1,
+    "root": "SWB6109EV12G | physical left-hand-drive source",
+    "source_forward": "-Y",
+    "source_up": "+Z",
+    "source_driver_side": "+X",
+    "source_door_side": "-X",
+    "private_construction_driver_side": "-X",
+    "private_construction_door_side": "+X",
+    "authored_object_count": 982,
+    "font_readability_corrections": [
+      "Front licence plate",
+      "Rear model badge",
+      "Rear electric badge",
+      "Rear manufacturer badge",
+      "Rear licence plate",
+      "Front destination sample",
+      "Rear destination sample",
+      "Next stop destination sample",
+      "Side manufacturer wordmark -1",
+      "Side ELECTRIC wordmark -1",
+      "Side operator name -1",
+      "Side manufacturer wordmark 1",
+      "Side ELECTRIC wordmark 1",
+      "Side operator name 1",
+      "Side route destination sample"
+    ],
+    "vector_readability_corrections": [
+      "Front badge | elder circular blue field",
+      "Front badge | elder white pictogram",
+      "Front badge | wheelchair circular blue field",
+      "Front badge | wheelchair white pictogram",
+      "Front badge | Jiushi triangular emblem",
+      "Front badge | Jiushi proprietary wordmark",
+      "Front badge | Sunwin dark enamel plinth",
+      "Front badge | Sunwin clean chrome rounded frame",
+      "Front badge | Sunwin genuine S double arrow",
+      "Rear badge | Sunwin proprietary wordmark"
+    ],
+    "legacy_rest_metadata_preserved": true,
+    "source_rest_metadata_suffix": "_source_blender"
+  },
+  "card_reader_change": {
+    "status": "PASS",
+    "shared_export": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\ModelSource\\SWB6109EV12G\\common-card-reader.json",
+    "shared_export_sha256": "62938128e52cac3af5acc332ce555b522176e409750893b5d9f9a24394dd4c26",
+    "generator": "BusInterior.CardReader(MeshKit,int)",
+    "coordinate_space": "canonical_preparation",
+    "object": "Common CardReader | shared mod model",
+    "removed_objects": [
+      "Fare validator",
+      "Fare validator screen"
+    ],
+    "cdlc_part": 12,
+    "runtime_generated": "CardReader",
+    "runtime_lod_triangles": [
+      98,
+      24,
+      0
+    ],
+    "original_lod0_triangles_retained": 98,
+    "source_only_closure_triangles": 150,
+    "source_total_triangles": 248,
+    "closed_components_original": 3,
+    "closed_ui_sheets": [
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      },
+      {
+        "original_triangles": 2,
+        "boundary_edges": 4,
+        "rearward_thickness_m": 0.0005,
+        "flatness_m": 0.0
+      }
+    ],
+    "maximum_original_vertex_weld_error_m": 0.0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "support": {
+      "object": "Fare validator support",
+      "top_in_reader_local": [
+        5.960464477539063e-08,
+        -0.040000081062316895,
+        0.0
+      ],
+      "top_inside_housing": true
+    },
+    "source_only_closure_policy": "Rear caps and sidewalls of 0.5 mm UI sheets are editable-source/native-only. Original shared front faces and all runtime generator geometry remain unchanged.",
+    "native_lod_policy": "Preserve the complete shared LOD0 source assembly in all three native FBXs."
+  },
+  "checked_objects": 938,
+  "exact_objects": 938,
+  "position_tolerance_m": 2e-06,
+  "normal_component_tolerance": 0.005,
+  "max_position_error_m": 0.0,
+  "max_normal_component_error": 0.0,
+  "failures": [],
+  "objects": [
+    {
+      "object": "Front continuous coachwork",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front continuous glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front glazing perimeter EPDM",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear continuous coachwork",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear continuous glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing perimeter EPDM",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp recessed black four cell bowl -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp satin bezel -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper swept DRL recess -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper slender DRL unlit lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper slender DRL -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front amber indicator unlit lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front amber indicator -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp recessed black four cell bowl 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp satin bezel 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector unlit lens 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector lens 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Headlamp projector cell trim 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper swept DRL recess 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper slender DRL unlit lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Upper slender DRL 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front amber indicator unlit lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front amber indicator 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front licence plate recess",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front licence plate",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded tail lamp black base -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded red unlit lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded red light guide -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear reverse unlit lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear reverse vertical lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear direction unlit lens -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear direction segment -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear low reflector -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded tail lamp black base 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded red unlit lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear folded red light guide 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake unlit lens 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear wing brake facet 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear reverse unlit lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear reverse vertical lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear direction unlit lens 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear direction segment 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear low reflector 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear full width upper stop unlit lens",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear full width upper stop light",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear engine hatch shutline",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear model badge",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear electric badge",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear manufacturer badge",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear licence plate recess",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear licence plate",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear parking sensor",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear parking sensor.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear parking sensor.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear parking sensor.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination recessed carrier",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination sample",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear destination recessed carrier",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear destination sample",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear glazing ceramic backing.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination ceramic backing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination ceramic backing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination ceramic backing.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front destination ceramic backing.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Next stop display carrier",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Next stop destination sample",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel -1 0 -4.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel -1 0 -3.435",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel -1 0 -2.265",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel -1 0 2.165",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel -1 0 3.335",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Black lower window field -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe -1 0 0.024",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe -1 0 0.081",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front quarter closure -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear quarter closure -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof rounded side shoulder -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof aqua twin pinstripe -1 0.0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof aqua twin pinstripe -1 0.053",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 0.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 1.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 2.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 3.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 4.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 5.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal -1 6.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheel arch EPDM trim -1 -2.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheel arch EPDM trim -1 2.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline -1 -3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch -1 -3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline -1 -1.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch -1 -1.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline -1 1.1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch -1 1.1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline -1 3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch -1 3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline -1 4.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch -1 4.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens -1 -3.45",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker -1 -3.45",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens -1 -1.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker -1 -1.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens -1 1.18",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker -1 1.18",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens -1 3.62",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker -1 3.62",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens -1 4.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker -1 4.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Charge socket surround -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Charge socket lock -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side manufacturer wordmark -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side ELECTRIC wordmark -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side operator name -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 0 -5.015",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Black lower window field 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 0 0.024",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 0 0.081",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 1 -3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 1 -3.435",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 1 -2.265",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Black lower window field 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 1 0.024",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 1 0.081",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 2 0.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 2 2.165",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side lower structural panel 1 2 3.335",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Black lower window field 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 2 0.024",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Aqua lower twin stripe 1 2 0.081",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front quarter closure 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear quarter closure 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof rounded side shoulder 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof aqua twin pinstripe 1 0.0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof aqua twin pinstripe 1 0.053",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 0.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 1.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 2.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 3.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side black window frame 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side glazing 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window aperture EPDM 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window centre bar 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Sliding window horizontal bar 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window latch 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Window vertical seal 1 4.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door upper black header 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door upper black header 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheel arch EPDM trim 1 -2.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheel arch EPDM trim 1 2.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline 1 -3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch 1 -3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline 1 -1.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch 1 -1.75",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline 1 1.1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch 1 1.1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline 1 3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch 1 3.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch shutline 1 4.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Service hatch latch 1 4.95",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens 1 -3.45",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker 1 -3.45",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens 1 -1.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker 1 -1.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens 1 1.18",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker 1 1.18",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens 1 3.62",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker 1 3.62",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker unlit lens 1 4.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side amber marker 1 4.85",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Charge socket surround 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Charge socket lock 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side manufacturer wordmark 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side ELECTRIC wordmark 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side operator name 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear drive compartment ventilation slot 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side route screen carrier",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Side route destination sample",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Continuous upper roof skin",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof low equipment cover -0.7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket -0.7 -0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket -0.7 0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 11",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 12",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 13",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille -0.7 14",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof low equipment cover 1.65",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket 1.65 -0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket 1.65 0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 11",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 12",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 13",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 1.65 14",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof low equipment cover 3.52",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket 3.52 -0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cover gasket 3.52 0.8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 11",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 12",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 13",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof cooler grille 3.52 14",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof rain gutter -1.07",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Roof rain gutter 1.07",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper articulated arm -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper articulated arm -1.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper rubber blade -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper spindle -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper articulated arm 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper articulated arm 1.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper rubber blade 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front wiper spindle 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front CCTV housing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front CCTV lens",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear CCTV housing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear CCTV lens",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | elder circular blue field",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | elder white pictogram",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | wheelchair circular blue field",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | wheelchair white pictogram",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | Jiushi triangular emblem",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | Jiushi proprietary wordmark",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | Sunwin dark enamel plinth",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | Sunwin clean chrome rounded frame",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Front badge | Sunwin genuine S double arrow",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear badge | Sunwin proprietary wordmark",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single hub",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single wheel nut 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFL single recessed ventilation 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single hub",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single wheel nut 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelFR single recessed ventilation 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL inner dual closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL inner dual fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL inner dual fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL inner dual fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL inner dual aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual hub",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual wheel nut 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRL outer dual recessed ventilation 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR inner dual closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR inner dual fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR inner dual fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR inner dual fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR inner dual aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual closed tyre",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual fine tread ring",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual fine tread ring.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual fine tread ring.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual aluminium dish",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual hub",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 8",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 9",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual wheel nut 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "WheelRR outer dual recessed ventilation 10",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 -1 closed arch",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 -1 inner wall",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 -1 lower leg -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 -1 lower leg 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 1 closed arch",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 1 inner wall",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 1 lower leg -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 0 1 lower leg 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 -1 closed arch",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 -1 inner wall",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 -1 lower leg -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 -1 lower leg 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 1 closed arch",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 1 inner wall",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 1 lower leg -1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Interior wheelhouse 1 1 lower leg 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor continuous central low aisle",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing -1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing -1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing -1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing 1 0",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing 1 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor outboard wing 1 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor front entrance leading infill",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear saloon access step",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear saloon access step.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear saloon access step.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear saloon access step.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear central platform",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear outboard platform",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Floor rear outboard platform.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Rear bench equipment pedestal",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver platform",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver rear partition lower",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver aisle partition",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver rear partition glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver partition frame",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver partition frame.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "MeshKit Dash",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "MeshKit SteeringWheel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "MeshKit SpeedNeedle",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "MeshKit RpmNeedle",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat pedestal",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat suspension bellows",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat suspension bellows.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat suspension bellows.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat suspension bellows.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat suspension bellows.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat headrest post",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat headrest post.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver seat headrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver floor pedal",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Driver floor pedal.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 01 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 02 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 03 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 04 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 05 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 06 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 07 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 08 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 09 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 10 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 11 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 12 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 13 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 14 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 15 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 16 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 17 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 18 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 19 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 20 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 21 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 22 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 23 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 24 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 25 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 26 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 27 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 28 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 29 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 30 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 base",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 cushion",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 backrest",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 rear shell",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 floor fixing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 floor fixing.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 under-seat cross member",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger seat 31 upper grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheelchair bay floor inset",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Wheelchair back support",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Ceiling longitudinal grab rail",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Ceiling longitudinal grab rail.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.006",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.006",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.007",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.007",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.008",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.008",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.009",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.009",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon upper cross rail.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.010",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.010",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Saloon vertical grab pole.011",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Stop request push button.011",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.003",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.004",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.005",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.006",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.006",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.007",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.007",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.008",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.008",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.009",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.009",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.010",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.010",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.011",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.011",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.012",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.012",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Hand strap stem.013",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Passenger hand strap.013",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Ceiling interior lining",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Ceiling passenger light",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Ceiling passenger light.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 stile",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 stile.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 crossbar",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 crossbar.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 crossbar.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 lower closed panel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.1 interior grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 stile",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 stile.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 crossbar",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 crossbar.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 crossbar.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 lower closed panel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1.2 interior grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1 threshold",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 1 actuator cover",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 stile",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 stile.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 crossbar",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 crossbar.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 crossbar.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 lower closed panel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.1 interior grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 stile",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 stile.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 crossbar",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 crossbar.001",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 crossbar.002",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 glazing",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 lower closed panel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2.2 interior grab",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2 threshold",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Door 2 actuator cover",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Fare validator support",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large A-pillar mounting shoe",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large pivot barrel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large accordion boot rib 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side long black swept arm",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror shell door side large rounded teardrop",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side large glazing gasket",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror reflective insert door side large",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small A-pillar mounting shoe",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small pivot barrel",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 1",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 2",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 3",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 4",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 5",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 6",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small accordion boot rib 7",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side short black curved arm",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror shell driver side small rounded teardrop",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror driver side small glazing gasket",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror reflective insert driver side small",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror shell door side independent oval auxiliary",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror reflective insert door side convex auxiliary",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side auxiliary independent black stay",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Mirror door side auxiliary ball joint",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Bumper mould line upper",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Bumper mould line lower left",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Bumper mould line lower right",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    },
+    {
+      "object": "Common CardReader | shared mod model",
+      "same_topology": true,
+      "exact": true,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0
+    }
+  ],
+  "source_sha256": "8f9534098a54e25b8caf9fffcb0b6d4c8b28f950a69281987a72ecfa853058d6"
+}

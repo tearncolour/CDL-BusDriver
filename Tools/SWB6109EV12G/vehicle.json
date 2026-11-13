@@ -1,0 +1,79 @@
+{
+  "format": "cdlb-vehicle",
+  "version": 1,
+  "model": "SWB6109EV12G",
+  "cab": { "eyeOffset": [0, -0.06, 0], "seat": "air", "insulation": 1 },
+  "note": "Sunwin SWB6109EV12G (iEV10), 10.5 m electric bus; interior after video BV1y7bv6UE2A (SWB6109EV21G, the user's choice 2026-10-15).",
+  "spec": { "frontZ": 5.25, "rearZ": -5.25, "halfWidth": 1.275, "roofY": 3.2, "floorY": 0.34, "frontAxleZ": 2.85, "rearAxleZ": -2.75, "doors": 2, "driverSide": -1 },
+  "wheelRadius": 0.47825,
+  "wrap": { "bottom": 0.2, "thresholds": [0.8, 2.65, 4.2] },
+  "bodyColor": [235, 241, 240],
+  "doors": [
+    { "centreZ": 4.3, "width": 1.3, "leaves": 2 },
+    { "centreZ": -0.3, "width": 1.3, "leaves": 2 }
+  ],
+  "signs": {
+    "front": { "centre": [0, 2.6, 5.09], "width": 1.68, "columns": 112 },
+    "side": { "centre": [1.292, 1.47, 2.6], "width": 0.96, "columns": 80 },
+    "rear": { "centre": [0, 2.61, -5.12], "width": 1.54, "columns": 112 }
+  },
+  "nextStop": { "centre": [0, 2.49, 3.37], "width": 1.28, "height": 0.2, "columns": 128, "rows": 20 },
+  "cardReaders": [
+    { "origin": [0.89, 1.2, 3.55], "rotation": [0, 0, 0, 1], "xSign": 1 }
+  ],
+  "mirrors": [
+    { "centre": [-1.44, 2.17, 4.94], "normal": [0.3734126, -0.10953438, -0.921176], "up": [0.04114911, 0.99398303, -0.10151124], "size": [0.192, 0.412] },
+    { "centre": [1.46, 2.3, 5.74], "normal": [-0.45109388, -0.07343386, -0.8894503], "up": [-0.03321524, 0.99730015, -0.06549259], "size": [0.205, 0.425] },
+    { "centre": [1.31, 2.23, 5.32], "normal": [-0.48709628, -0.4398108, -0.7545222], "up": [-0.23853965, 0.8980904, -0.36950284], "size": [0.17385, 0.1188], "convexDepth": 0.007 }
+  ],
+  "riders": [
+    { "kind": "Seated", "position": [-1, 0.821, 1.6] },
+    { "kind": "Seated", "position": [-0.55, 0.821, 1.6] },
+    { "kind": "Seated", "position": [-1, 0.821, 0.85] },
+    { "kind": "Seated", "position": [-0.55, 0.821, 0.85] },
+    { "kind": "Seated", "position": [-1, 0.821, 0.1] },
+    { "kind": "Seated", "position": [-0.55, 0.821, 0.1] },
+    { "kind": "Seated", "position": [-1, 1.5604999, -2.1] },
+    { "kind": "Seated", "position": [-0.55, 1.5604999, -2.1] },
+    { "kind": "Seated", "position": [0.55, 1.5604999, -2.1] },
+    { "kind": "Seated", "position": [1, 1.5604999, -2.1] },
+    { "kind": "Seated", "position": [-1, 1.5604999, -2.8] },
+    { "kind": "Seated", "position": [-0.55, 1.5604999, -2.8] },
+    { "kind": "Seated", "position": [0.55, 1.5604999, -2.8] },
+    { "kind": "Seated", "position": [1, 1.5604999, -2.8] },
+    { "kind": "Seated", "position": [-1, 1.5604999, -3.5] },
+    { "kind": "Seated", "position": [-0.55, 1.5604999, -3.5] },
+    { "kind": "Seated", "position": [0.55, 1.5604999, -3.5] },
+    { "kind": "Seated", "position": [1, 1.5604999, -3.5] },
+    { "kind": "Seated", "position": [-1, 1.5604999, -4.2] },
+    { "kind": "Seated", "position": [-0.55, 1.5604999, -4.2] },
+    { "kind": "Seated", "position": [0.55, 1.5604999, -4.2] },
+    { "kind": "Seated", "position": [1, 1.5604999, -4.2] },
+    { "kind": "Seated", "position": [-0.9, 1.5604999, -4.88] },
+    { "kind": "Seated", "position": [-0.45, 1.5604999, -4.88] },
+    { "kind": "Seated", "position": [0, 1.5604999, -4.88] },
+    { "kind": "Seated", "position": [0.45, 1.5604999, -4.88] },
+    { "kind": "Seated", "position": [0.9, 1.5604999, -4.88] },
+    { "kind": "Standing", "position": [0, 0.34, 2.1] },
+    { "kind": "Standing", "position": [0, 0.34, 1.4] },
+    { "kind": "Standing", "position": [0, 0.34, 0.7] },
+    { "kind": "Standing", "position": [0, 0.34, 0] },
+    { "kind": "Standing", "position": [0, 0.34, -0.7] },
+    { "kind": "Standing", "position": [0, 1.0795, -1.8] },
+    { "kind": "Standing", "position": [0, 1.0795, -2.4] },
+    { "kind": "Standing", "position": [0, 1.0795, -3] },
+    { "kind": "Standing", "position": [0, 1.0795, -3.6] },
+    { "kind": "Standing", "position": [0, 1.0795, -4.2] },
+    { "kind": "Driver", "position": [-0.69, 1.0875, 3.95] }
+  ],
+  "pack": {
+    "version": "1.0.1", "requiresBusDriver": "0.11.0",
+    "template": "Bus02", "capacity": 80, "livery": [1, 1, 1], "strict": true,
+    "guid": "2257edf81bccb9c4161ce691c1915b62",
+    "obsoleteGuids": [
+      "e9804e63a99b0a5149d822cc18030a28", "4fdf58acd98ed089b903fbd33269cea7", "a38234c55d61f6a7a2006b42ebf1571c",
+      "edfa0184017c81e96fab2fca5b7b6ea6", "5c3b5352a5b3be0cb5167c1588b1f88f", "13c4cb240720fa6094b333bdebeb6f30",
+      "bc3c3193dac59db167cf9617175b0190", "8cae05eedb33787bb0865e63ea22e310"
+    ]
+  }
+}

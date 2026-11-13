@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "base_source_sha256": "15f5fb16db1ccb5c78142bc44f8b38d77345600c1545883574af786880e6273d",
+  "source_sha256": "e68d6668b8433fdcbfc9dfac03e3f55bb3bd7d8081cb9035e44983e4d8174178",
+  "changed": [
+    {
+      "name": "Service hatch shutline -1 -3.65",
+      "points": 25
+    },
+    {
+      "name": "Service hatch shutline -1 -1.75",
+      "points": 23
+    },
+    {
+      "name": "Service hatch shutline -1 1.1",
+      "points": 23
+    },
+    {
+      "name": "Service hatch shutline -1 3.65",
+      "points": 43
+    },
+    {
+      "name": "Service hatch shutline -1 4.95",
+      "points": 43
+    },
+    {
+      "name": "Service hatch shutline 1 -3.65",
+      "points": 25
+    },
+    {
+      "name": "Service hatch shutline 1 -1.75",
+      "points": 23
+    },
+    {
+      "name": "Service hatch shutline 1 1.1",
+      "points": 23
+    },
+    {
+      "name": "Service hatch shutline 1 3.65",
+      "points": 43
+    },
+    {
+      "name": "Service hatch shutline 1 4.95",
+      "points": 43
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 0",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 1",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 2",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 3",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 4",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 5",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 6",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 7",
+      "points": 20
+    },
+    {
+      "name": "Rear drive compartment ventilation slot 8",
+      "points": 20
+    }
+  ]
+}

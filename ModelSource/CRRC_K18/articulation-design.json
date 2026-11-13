@@ -1,0 +1,42 @@
+{
+  "format": "cdlc-articulation-design-draft",
+  "version": 1,
+  "model": "CRRC_K18",
+  "status": "SOURCE_MODEL_ONLY_NOT_LOADABLE_PROFILE",
+  "selected_reference": "Current official K18 / 2024 new Bakelong promotional body",
+  "reference_manifest": "reference/references.json",
+  "coordinates": "Unity: +X right, +Y up, +Z forward; Blender = (-Ux,-Uz,Uy)",
+  "dimension_evidence": {
+    "working_length_m": 17.9,
+    "width_m": 2.54,
+    "official_page_conflict": "Official parameter block lists TEG6180BEV01, 17.98 m and 3.30 m height; 2024 promotional text lists 17.90 m. Exact configuration not established.",
+    "axles_unity_z_estimate_m": [6.37, 0.53, -5.68]
+  },
+  "sections": [
+    {"id": "front", "source_collection": "K18 Front", "native_working_id": "CRRC_K18", "origin_unity": [0,0,0], "axles": ["front", "middle"], "doors": [0,1]},
+    {"id": "rear", "source_collection": "K18 Rear", "native_working_id": "CRRC_K18_Rear", "origin_unity": [0,0,-1.32], "axles": ["rear"], "doors": [2]}
+  ],
+  "joint": {
+    "source_collection": "K18 Joint",
+    "pivot_unity_estimate": [0,0,-1.32],
+    "front_interface_z": -0.53,
+    "rear_interface_z": -2.11,
+    "pivot_evidence": "Envelope centre estimated from promotional side photo; not an engineering drawing of the mechanical pivot.",
+    "preview_angles_deg": [-25,0,25],
+    "preview_limit_is_vehicle_limit": false,
+    "moving_parts": ["rear body", "rear attachment frame", "rear threshold", "bellows shape keys", "folding handrail shape keys"],
+    "not_encoded_as_straps": true
+  },
+  "required_runtime_interface": [
+    "Select authored section profile independently for Front and Rear",
+    "Support rear section with one axle and explicit axle position",
+    "Bind native tractor and trailer prefabs and expose actual articulation transform",
+    "Add articulation component semantics separate from 34+ passenger straps",
+    "Bind moving glass, signs, passengers and wrap coordinates to their owning section",
+    "Validate low-speed/reverse turns and joint limits in the actual game"
+  ],
+  "not_yet_validated": ["real mechanical pivot", "true door linkage trajectories", "full swept collision clearance", "rear tracking in CSL2", "day/night native glass", "all-LOD articulated rendering"],
+  "formal_vehicle_profile_written": false,
+  "game_package_built": false,
+  "production_code_modified_for_model": false
+}

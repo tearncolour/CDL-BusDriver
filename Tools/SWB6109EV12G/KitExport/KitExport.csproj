@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <NoWarn>CS1701;CS1702;MSB3277</NoWarn>
+    <ManagedPath Condition="'$(ManagedPath)' == ''">$(CSII_MANAGEDPATH)</ManagedPath>
+    <UnityMathematicsPath Condition="'$(UnityMathematicsPath)' == '' And Exists('$(ManagedPath)\Unity.Mathematics.dll')">$(ManagedPath)\Unity.Mathematics.dll</UnityMathematicsPath>
+    <UnityMathematicsPath Condition="'$(UnityMathematicsPath)' == ''">$(MSBuildThisFileDirectory)..\..\..\Tests\CDLC.BusDriver.Tests\bin\Release\net10.0\Unity.Mathematics.dll</UnityMathematicsPath>
+    <CDLDevKitRoot Condition="'$(CDLDevKitRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\..\CDLDevKit</CDLDevKitRoot>
+    <AssetModRoot Condition="'$(AssetModRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\..\CDLAssetMod</AssetModRoot>
+  </PropertyGroup>
+  <!-- the vendored MeshKit comes from CDL Assets' sources, as in the Tests project -->
+  <Import Project="$(CDLDevKitRoot)\Packaging\CDLC.DevKit.Packaging.targets" />
+  <Import Project="$(AssetModRoot)\Compatibility\CDLC.Asset.BusSources.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\..\Interior\Kit\*.cs" Link="Kit\%(Filename).cs" />
+    <Compile Include="..\..\..\Interior\Models\*.cs" Link="Models\%(Filename).cs" />
+    <Compile Include="..\..\..\Interior\TwoBoneIk.cs" Link="Interior\TwoBoneIk.cs" />
+    <Reference Include="Unity.Mathematics"><HintPath>$(UnityMathematicsPath)</HintPath></Reference>
+  </ItemGroup>
+</Project>

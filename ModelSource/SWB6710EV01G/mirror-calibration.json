@@ -1,0 +1,393 @@
+{
+  "vehicle": "SWB6710EV01G",
+  "status": "Conservative photograph-derived calibration accepted; dimensions remain estimates.",
+  "authoring_frame": "Blender X vehicle right (door side), -Y forward, Z up; metres.",
+  "display_handedness": "The supplied Blender front image appears horizontally reversed relative to the physical front reference. Geometry is assigned by door/driver semantics. Do not swap the assemblies to match image left/right.",
+  "references": {
+    "near_side_profile": {
+      "path": "ModelSource/SWB6710EV01G/references/right-profile-official.jpg",
+      "role": "Door-side, long mirror near camera; preferred for forward projection.",
+      "wheel_centres_px": {
+        "front": [
+          1405.08,
+          964.79
+        ],
+        "rear": [
+          288.56,
+          973.72
+        ]
+      },
+      "verified_wheelbase_m": 5.1,
+      "derived_px_per_m": 218.93249231196123,
+      "foremost_mirror_x_px": 1743,
+      "foremost_bumper_body_x_px_range": [
+        1635,
+        1637
+      ],
+      "excluded_bumper_accessory_x_px": 1652,
+      "uncompensated_forward_lead_m_range": [
+        0.48416751154944376,
+        0.4933027476164144
+      ],
+      "perspective_and_boundary_tolerance_m_range": [
+        0.47,
+        0.52
+      ]
+    },
+    "front": {
+      "path": "ModelSource/SWB6710EV01G/references/20260804092603_4898.jpg",
+      "body_x_px_range": [
+        484,
+        1423
+      ],
+      "body_centre_x_px": 953.5,
+      "verified_body_width_m": 2.35,
+      "door_head_bbox_px": [
+        355,
+        294,
+        451,
+        478
+      ],
+      "driver_head_bbox_px": [
+        1414,
+        376,
+        1495,
+        540
+      ],
+      "door_head_normalized_projected_centre_abs_x_m": 1.3777156549520768,
+      "driver_head_normalized_projected_centre_abs_x_m": 1.2538338658146966,
+      "limitation": "These are perspective image ratios, not physical dimensions: mirror heads and body width occupy different camera depths. Used for conservative lateral correction, not exact least-squares fitting."
+    },
+    "far_side_profile": {
+      "path": "ModelSource/SWB6710EV01G/references/20260804092714_5921.jpg",
+      "role": "Driver-side view with long mirror on far side; unsuitable for directly estimating longitudinal mirror lead because of cross-body parallax."
+    },
+    "near_side_driver_profile": {
+      "path": "ModelSource/SWB6710EV01G/references/20260804092714_5921.jpg",
+      "role": "Driver-side, short mirror near camera; valid for short-mirror fore-aft estimate. Long mirror in this view is far-side and remains unsuitable for its lead estimate.",
+      "wheel_centres_px": {
+        "front": [
+          378.17,
+          1001
+        ],
+        "rear": [
+          1499.29,
+          998.79
+        ]
+      },
+      "verified_wheelbase_m": 5.1,
+      "derived_px_per_m": 219.82787808263652,
+      "short_head_foremost_x_px_approx": 246,
+      "short_head_centre_x_px_approx": 267,
+      "bumper_body_foremost_x_px_range_approx": [
+        137,
+        145
+      ],
+      "arm_root_x_px_range_approx": [
+        282,
+        288
+      ],
+      "head_centre_behind_bumper_m_range": [
+        0.5549796552834778,
+        0.5913717638266567
+      ],
+      "head_centre_ahead_of_arm_root_m_range": [
+        0.06823520351846038,
+        0.09552928492584455
+      ],
+      "axle_based_centre_unity_z_m": 2.8782138383431497,
+      "limitation": "Axis-based centre is approximately 2.88m while the local bumper-based estimate is approximately 2.98–3.02m; perspective and rounded-body edge choices prevent one exact orthographic fit. Selected 3.00m follows the local bumper relation and independently verified driver visibility, rather than claiming measured factory mirror coordinates."
+    }
+  },
+  "before": {
+    "door_head_foremost_lead_from_bumper_m": 0.5356728935241701,
+    "door_head_front_projected_bbox_center_abs_x_m": 1.4825903177261353,
+    "driver_head_front_projected_bbox_center_abs_x_m": 1.4208290576934814,
+    "door_head_height_m": 0.48000001907348633,
+    "driver_head_height_m": 0.4140000343322754
+  },
+  "after": {
+    "door_head_foremost_lead_from_bumper_m": 0.4956729316711428,
+    "door_head_front_projected_bbox_center_abs_x_m": 1.4175902605056763,
+    "driver_head_front_projected_bbox_center_abs_x_m": 1.3068289756774902,
+    "door_head_height_m": 0.48000001907348633,
+    "driver_head_height_m": 0.4140000343322754,
+    "driver_head_centre_unity_z_m": 3.0,
+    "driver_head_centre_behind_bumper_m": 0.5725
+  },
+  "applied_centre_changes_blender_m": {
+    "door": {
+      "before": [
+        1.465,
+        -3.96,
+        2.285
+      ],
+      "after": [
+        1.4,
+        -3.92,
+        2.285
+      ]
+    },
+    "driver": {
+      "before": [
+        -1.414,
+        -3.26,
+        2.12
+      ],
+      "after": [
+        -1.3,
+        -3.0,
+        2.12
+      ]
+    }
+  },
+  "preserved": [
+    "head dimensions",
+    "head heights",
+    "mirror plane normals",
+    "reflective outline",
+    "auxiliary mirror geometry and position"
+  ],
+  "assessment": "New lead 0.495673m is within near-side photographic tolerance. Lateral head centres move inboard by 65mm and 114mm, toward frontal image ratios without claiming an exact perspective solve. Head height and size are retained because the photographs do not justify a reliable additional correction. Short mirror subsequently moved rearward 0.260m and its root moved rearward 0.160m to match the local near-side bumper and root ratios. Its fixed height, head dimensions and normal remain unchanged; conservative body-X clearance is 19.52mm.",
+  "solid_validation": {
+    "arm_normal_checks": [
+      {
+        "name": "Mirror door side long swept aqua arm",
+        "against": 0,
+        "triangles": 1964
+      },
+      {
+        "name": "Mirror driver side short upturned aqua gooseneck",
+        "against": 0,
+        "triangles": 1964
+      }
+    ],
+    "status": "PASS",
+    "shells": [
+      {
+        "name": "Mirror shell door side large rounded teardrop",
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_m3": 0.0009566701611447952
+      },
+      {
+        "name": "Mirror shell door side independent oval auxiliary",
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_m3": 0.00012810385108724058
+      },
+      {
+        "name": "Mirror shell driver side small rounded teardrop",
+        "nonmanifold_edges": 0,
+        "degenerate_triangles": 0,
+        "signed_volume_m3": 0.0006973386848585174
+      }
+    ],
+    "driver_view_shell_hits": 536,
+    "driver_view_backface_hits": 0,
+    "gasket_inner_depth_m": 0.0
+  },
+  "source_sha256": "5522754512ab47478f55fee092d7305eedcb2c527f83bde5e430b91cb16200d2",
+  "previews": {
+    "before": [
+      "out/sunwin-mirror-audit/front-ortho.png",
+      "out/sunwin-mirror-audit/side-ortho.png"
+    ],
+    "after": [
+      "out/sunwin-mirror-calibration/driver-bend-correction/front-ortho.png",
+      "out/sunwin-mirror-calibration/driver-bend-correction/side-ortho.png",
+      "out/sunwin-mirror-calibration/driver-bend-correction/driver-side-ortho.png"
+    ]
+  },
+  "scope": "Mirror source correction and photographic estimate record. Final generated-artifact validation and hashes are recorded in ModelSource/SWB6710EV01G/native-validation.json and validation-manifest.json.",
+  "calibration_history": [
+    {
+      "stage": "lateral and long-arm correction",
+      "centres_blender_m": {
+        "door": [
+          1.4,
+          -3.92,
+          2.285
+        ],
+        "driver": [
+          -1.3,
+          -3.26,
+          2.12
+        ]
+      },
+      "metrics": {
+        "door_head_foremost_lead_from_bumper_m": 0.4956729316711428,
+        "door_head_front_projected_bbox_center_abs_x_m": 1.4175902605056763,
+        "driver_head_front_projected_bbox_center_abs_x_m": 1.3068289756774902,
+        "door_head_height_m": 0.48000001907348633,
+        "driver_head_height_m": 0.4140000343322754,
+        "driver_head_centre_unity_z_m": 3.26,
+        "driver_head_centre_behind_bumper_m": 0.3125
+      },
+      "solid_validation": {
+        "status": "PASS",
+        "shells": [
+          {
+            "name": "Mirror shell door side large rounded teardrop",
+            "nonmanifold_edges": 0,
+            "degenerate_triangles": 0,
+            "signed_volume_m3": 0.0009566701611447952
+          },
+          {
+            "name": "Mirror shell door side independent oval auxiliary",
+            "nonmanifold_edges": 0,
+            "degenerate_triangles": 0,
+            "signed_volume_m3": 0.00012810385108724058
+          },
+          {
+            "name": "Mirror shell driver side small rounded teardrop",
+            "nonmanifold_edges": 0,
+            "degenerate_triangles": 0,
+            "signed_volume_m3": 0.0006971534581524975
+          }
+        ],
+        "driver_view_shell_hits": 501,
+        "driver_view_backface_hits": 0,
+        "gasket_inner_depth_m": 0.0
+      },
+      "preview_directory": "out/sunwin-mirror-calibration"
+    },
+    {
+      "stage": "short mirror fore-aft correction",
+      "centre_blender_before_m": [
+        -1.3,
+        -3.26,
+        2.12
+      ],
+      "centre_blender_after_m": [
+        -1.3,
+        -3.0,
+        2.12
+      ],
+      "hinge_root_blender_y_m": -2.932,
+      "head_centre_ahead_of_hinge_root_m": 0.068,
+      "head_centre_behind_bumper_m": 0.5725,
+      "preview_directory": "out/sunwin-mirror-calibration/driver-setback",
+      "visibility_evidence": "Independent asset_pipeline model ray comparison reported 93.46% visible reflective surface at final position vs 36.46% at former position; driver eye unchanged. This source report does not independently reproduce that percentage."
+    },
+    {
+      "stage": "short-arm curvature correction",
+      "fixed_mounts_and_head": true,
+      "section_radii_m": [
+        0.05,
+        0.057
+      ],
+      "controls_blender_m": [
+        [
+          -1.205,
+          -2.945,
+          2.48
+        ],
+        [
+          -1.25746705125,
+          -2.9880782105,
+          2.485
+        ],
+        [
+          -1.29536278753,
+          -3.0191926045,
+          2.415
+        ],
+        [
+          -1.3,
+          -3.023,
+          2.315
+        ]
+      ],
+      "former_minimum_curvature_radius_m": 0.03020455,
+      "new_minimum_curvature_radius_m": 0.08517544,
+      "full_section_circumradius_m": 0.05970272,
+      "minimum_radius_margin_m": 0.02547272,
+      "arm_face_normal_disagreements_before": 10,
+      "arm_face_normal_disagreements_after": 0,
+      "rationale": "Remove an inward-folding compressed bend while preserving endpoints, full moulded cross-section, mirror location and optical geometry.",
+      "preview_directory": "out/sunwin-mirror-calibration/driver-bend-correction"
+    }
+  ],
+  "source_sha256_file": "Tools/SWB6710EV01G/mirror_shell.py",
+  "arm_curvature_validation": {
+    "status": "PASS",
+    "method": "Analytic cubic derivatives; conservative full-section radial bound",
+    "arms": [
+      {
+        "object": "Mirror door side long swept aqua arm",
+        "controls_blender_m": [
+          [
+            1.207,
+            -3.105,
+            2.48
+          ],
+          [
+            1.29,
+            -3.32,
+            2.585
+          ],
+          [
+            1.42,
+            -3.86,
+            2.605
+          ],
+          [
+            1.4,
+            -3.968,
+            2.492
+          ]
+        ],
+        "section_radii_m": [
+          0.067,
+          0.071
+        ],
+        "analytic_derivative_samples": 4097,
+        "section_perimeter_samples": 2048,
+        "minimum_speed_m": 0.4727545935904162,
+        "minimum_curvature_radius_m": 0.08461157076736339,
+        "minimum_radius_parameter": 1.0,
+        "maximum_section_circumradius_m": 0.07622636778120803,
+        "curvature_radius_margin_m": 0.00838520298615536,
+        "required_margin_m": 0.005
+      },
+      {
+        "object": "Mirror driver side short upturned aqua gooseneck",
+        "controls_blender_m": [
+          [
+            -1.205,
+            -2.945,
+            2.48
+          ],
+          [
+            -1.25746705125,
+            -2.9880782105,
+            2.485
+          ],
+          [
+            -1.29536278753,
+            -3.0191926045,
+            2.415
+          ],
+          [
+            -1.3,
+            -3.023,
+            2.315
+          ]
+        ],
+        "section_radii_m": [
+          0.05,
+          0.057
+        ],
+        "analytic_derivative_samples": 4097,
+        "section_perimeter_samples": 2048,
+        "minimum_speed_m": 0.19114869534721482,
+        "minimum_curvature_radius_m": 0.08517543583140832,
+        "minimum_radius_parameter": 0.1376953125,
+        "maximum_section_circumradius_m": 0.05970272020983003,
+        "curvature_radius_margin_m": 0.025472715621578296,
+        "required_margin_m": 0.005
+      }
+    ]
+  }
+}

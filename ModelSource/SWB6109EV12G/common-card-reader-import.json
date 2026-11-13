@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "shared_export": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\ModelSource\\SWB6109EV12G\\common-card-reader.json",
+  "shared_export_sha256": "33a6578960af46448d234837b0ffc3b18ca2b87fa6433c4d990547c223eac8f0",
+  "generator": "BusInterior.CardReader(MeshKit,int)",
+  "coordinate_space": "blender_source",
+  "object": "Common CardReader | shared mod model",
+  "removed_objects": [
+    "Common CardReader | shared mod model"
+  ],
+  "cdlc_part": 12,
+  "runtime_generated": "CardReader",
+  "runtime_lod_triangles": [
+    248,
+    24,
+    0
+  ],
+  "original_lod0_triangles_retained": 248,
+  "source_only_closure_triangles": 0,
+  "source_total_triangles": 248,
+  "closed_components_original": 18,
+  "closed_ui_sheets": [],
+  "maximum_original_vertex_weld_error_m": 0.0,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "degenerate_triangles": 0,
+  "support": {
+    "object": "Fare validator support",
+    "top_in_reader_local": [
+      5.960464477539063e-08,
+      -0.040000081062316895,
+      0.0
+    ],
+    "top_inside_housing": true
+  },
+  "source_only_closure_policy": "Rear caps and sidewalls of 0.5 mm UI sheets are editable-source/native-only. Original shared front faces and all runtime generator geometry remain unchanged.",
+  "native_lod_policy": "Preserve the complete shared LOD0 source assembly in all three native FBXs."
+}

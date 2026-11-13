@@ -1,0 +1,878 @@
+{
+ "offset_mm": 2.0,
+ "far_offset_mm": 5.0,
+ "step_mm": 5.0,
+ "tolerance_mm": 0.5,
+ "lines": [
+  {
+   "name": "Factory white U stripe -1.0",
+   "lods": [
+    0
+   ],
+   "width_mm": 40.0,
+   "samples": 1564,
+   "samples_without_paint": 32,
+   "pieces": 3,
+   "seams_painted_over": 1,
+   "panels": [
+    "Aqua side quarter panels -1",
+    "Charging service hatch -1",
+    "Curved front corner shoulder -1"
+   ],
+   "vertices": 560,
+   "triangles": 872,
+   "min_bend_mm": 46.7,
+   "offset_mm": [
+    1.684,
+    2.279
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.8",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.4",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.0",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-0.5999999999999999",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-0.19999999999999996",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.0.19999999999999996",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.0.6000000000000003",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.0000000000000002",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.4000000000000001",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.8",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.0",
+   "lods": [
+    0
+   ],
+   "width_mm": 40.0,
+   "samples": 408,
+   "samples_without_paint": 2,
+   "pieces": 1,
+   "seams_painted_over": 1,
+   "panels": [
+    "Aqua side quarter panels 1",
+    "Curved front corner shoulder 1"
+   ],
+   "vertices": 330,
+   "triangles": 520,
+   "min_bend_mm": 46.7,
+   "offset_mm": [
+    1.959,
+    2.091
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.1",
+   "lods": [
+    0
+   ],
+   "width_mm": 40.0,
+   "samples": 321,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.2",
+   "lods": [
+    0
+   ],
+   "width_mm": 40.0,
+   "samples": 412,
+   "samples_without_paint": 39,
+   "pieces": 3,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1",
+    "Charging service hatch 1"
+   ],
+   "vertices": 240,
+   "triangles": 360,
+   "min_bend_mm": 48.8,
+   "offset_mm": [
+    1.95,
+    2.33
+   ]
+  },
+  {
+   "name": "White sill dash 1.-1.8",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 22,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.-0.5999999999999999",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 38,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.-0.19999999999999996",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.0.19999999999999996",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.0.6000000000000003",
+   "lods": [
+    0
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "name": "Rear | white inverted-U hatch stripe",
+   "lods": [
+    0
+   ],
+   "width_mm": 34.0,
+   "samples": 520,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Rear | rounded aqua roof and pillars",
+    "Rear | sculpted lower quarter shell"
+   ],
+   "vertices": 355,
+   "triangles": 560,
+   "min_bend_mm": null,
+   "offset_mm": [
+    1.542,
+    2.113
+   ]
+  },
+  {
+   "name": "Factory white U stripe -1.0 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 40.0,
+   "samples": 1564,
+   "samples_without_paint": 32,
+   "pieces": 3,
+   "seams_painted_over": 1,
+   "panels": [
+    "Aqua side quarter panels -1",
+    "Charging service hatch -1",
+    "Curved front corner shoulder -1"
+   ],
+   "vertices": 565,
+   "triangles": 880,
+   "min_bend_mm": 46.7,
+   "offset_mm": [
+    3.358,
+    5.279
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.8 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.4 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-1.0 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-0.5999999999999999 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.-0.19999999999999996 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.0.19999999999999996 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.0.6000000000000003 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.0000000000000002 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.4000000000000001 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash -1.1.8 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels -1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.0 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 40.0,
+   "samples": 408,
+   "samples_without_paint": 2,
+   "pieces": 1,
+   "seams_painted_over": 1,
+   "panels": [
+    "Aqua side quarter panels 1",
+    "Curved front corner shoulder 1"
+   ],
+   "vertices": 355,
+   "triangles": 560,
+   "min_bend_mm": 46.7,
+   "offset_mm": [
+    3.358,
+    5.164
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.1 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 40.0,
+   "samples": 321,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "Factory white U stripe 1.2 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 40.0,
+   "samples": 412,
+   "samples_without_paint": 39,
+   "pieces": 3,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1",
+    "Charging service hatch 1"
+   ],
+   "vertices": 245,
+   "triangles": 368,
+   "min_bend_mm": 48.8,
+   "offset_mm": [
+    4.767,
+    5.102
+   ]
+  },
+  {
+   "name": "White sill dash 1.-1.8 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 22,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.-0.5999999999999999 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 38,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.-0.19999999999999996 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.0.19999999999999996 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "White sill dash 1.0.6000000000000003 | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 35.0,
+   "samples": 47,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Aqua side quarter panels 1"
+   ],
+   "vertices": 10,
+   "triangles": 8,
+   "min_bend_mm": null,
+   "offset_mm": [
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "name": "Rear | white inverted-U hatch stripe | far LODs",
+   "lods": [
+    1,
+    2
+   ],
+   "width_mm": 34.0,
+   "samples": 520,
+   "samples_without_paint": 0,
+   "pieces": 1,
+   "seams_painted_over": 0,
+   "panels": [
+    "Rear | rounded aqua roof and pillars",
+    "Rear | sculpted lower quarter shell"
+   ],
+   "vertices": 410,
+   "triangles": 648,
+   "min_bend_mm": null,
+   "offset_mm": [
+    4.541,
+    5.133
+   ]
+  }
+ ]
+}

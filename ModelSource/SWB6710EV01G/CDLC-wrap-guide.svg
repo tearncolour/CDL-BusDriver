@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="2048" viewBox="0 0 2048 2048">
+ <rect width="2048" height="2048" fill="#8dd5cf"/>
+ <g fill="none" stroke="#176c67" stroke-width="4" stroke-dasharray="18 12">
+  <path d="M0 1024H2048M1024 0V2048M512 1024V2048"/>
+ </g>
+ <g fill="#174744" font-family="sans-serif" font-size="48" text-anchor="middle">
+  <text x="512" y="490">LEFT SIDE</text><text x="1536" y="490">RIGHT SIDE</text>
+  <text x="256" y="1480">FRONT</text><text x="768" y="1480">REAR</text>
+  <text x="1536" y="1480">ROOF</text>
+ </g>
+ <g fill="#174744" font-family="sans-serif" font-size="25" text-anchor="middle">
+  <text x="512" y="545">Front at right / height increases upward</text>
+  <text x="1536" y="545">Front at left / height increases upward</text>
+  <text x="1024" y="1950">CDLCWrapUV authoring guide — remove labels and dashed guides before use</text>
+ </g>
+</svg>

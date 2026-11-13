@@ -1,0 +1,658 @@
+{
+  "model": "SWB6109EV12G",
+  "units": "metres",
+  "axes": "+X door side, +Y up, +Z front",
+  "layout_status": "27-seat usability-corrected design within announced range; not a measured factory seat plan.",
+  "passenger_seats": [
+    {
+      "index": 0,
+      "cushion_unity": [
+        -1.0,
+        0.821,
+        1.6
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        1.0,
+        -1.6,
+        0.821
+      ],
+      "source_seat_number": 1
+    },
+    {
+      "index": 1,
+      "cushion_unity": [
+        -0.55,
+        0.821,
+        1.6
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        0.55,
+        -1.6,
+        0.821
+      ],
+      "source_seat_number": 2
+    },
+    {
+      "index": 2,
+      "cushion_unity": [
+        -1.0,
+        0.821,
+        0.85
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        1.0,
+        -0.85,
+        0.821
+      ],
+      "source_seat_number": 3
+    },
+    {
+      "index": 3,
+      "cushion_unity": [
+        -0.55,
+        0.821,
+        0.85
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        0.55,
+        -0.85,
+        0.821
+      ],
+      "source_seat_number": 4
+    },
+    {
+      "index": 4,
+      "cushion_unity": [
+        -1.0,
+        0.821,
+        0.1
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        1.0,
+        -0.1,
+        0.821
+      ],
+      "source_seat_number": 5
+    },
+    {
+      "index": 5,
+      "cushion_unity": [
+        -0.55,
+        0.821,
+        0.1
+      ],
+      "floor_height_m": 0.34,
+      "priority": true,
+      "cushion_source_blender": [
+        0.55,
+        -0.1,
+        0.821
+      ],
+      "source_seat_number": 6
+    },
+    {
+      "index": 6,
+      "cushion_unity": [
+        -1.0,
+        1.5604999999999998,
+        -2.1
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        1.0,
+        2.1,
+        1.5604999999999998
+      ],
+      "source_seat_number": 11
+    },
+    {
+      "index": 7,
+      "cushion_unity": [
+        -0.55,
+        1.5604999999999998,
+        -2.1
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.55,
+        2.1,
+        1.5604999999999998
+      ],
+      "source_seat_number": 12
+    },
+    {
+      "index": 8,
+      "cushion_unity": [
+        0.55,
+        1.5604999999999998,
+        -2.1
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.55,
+        2.1,
+        1.5604999999999998
+      ],
+      "source_seat_number": 13
+    },
+    {
+      "index": 9,
+      "cushion_unity": [
+        1.0,
+        1.5604999999999998,
+        -2.1
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -1.0,
+        2.1,
+        1.5604999999999998
+      ],
+      "source_seat_number": 14
+    },
+    {
+      "index": 10,
+      "cushion_unity": [
+        -1.0,
+        1.5604999999999998,
+        -2.8
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        1.0,
+        2.8,
+        1.5604999999999998
+      ],
+      "source_seat_number": 15
+    },
+    {
+      "index": 11,
+      "cushion_unity": [
+        -0.55,
+        1.5604999999999998,
+        -2.8
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.55,
+        2.8,
+        1.5604999999999998
+      ],
+      "source_seat_number": 16
+    },
+    {
+      "index": 12,
+      "cushion_unity": [
+        0.55,
+        1.5604999999999998,
+        -2.8
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.55,
+        2.8,
+        1.5604999999999998
+      ],
+      "source_seat_number": 17
+    },
+    {
+      "index": 13,
+      "cushion_unity": [
+        1.0,
+        1.5604999999999998,
+        -2.8
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -1.0,
+        2.8,
+        1.5604999999999998
+      ],
+      "source_seat_number": 18
+    },
+    {
+      "index": 14,
+      "cushion_unity": [
+        -1.0,
+        1.5604999999999998,
+        -3.5
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        1.0,
+        3.5,
+        1.5604999999999998
+      ],
+      "source_seat_number": 19
+    },
+    {
+      "index": 15,
+      "cushion_unity": [
+        -0.55,
+        1.5604999999999998,
+        -3.5
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.55,
+        3.5,
+        1.5604999999999998
+      ],
+      "source_seat_number": 20
+    },
+    {
+      "index": 16,
+      "cushion_unity": [
+        0.55,
+        1.5604999999999998,
+        -3.5
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.55,
+        3.5,
+        1.5604999999999998
+      ],
+      "source_seat_number": 21
+    },
+    {
+      "index": 17,
+      "cushion_unity": [
+        1.0,
+        1.5604999999999998,
+        -3.5
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -1.0,
+        3.5,
+        1.5604999999999998
+      ],
+      "source_seat_number": 22
+    },
+    {
+      "index": 18,
+      "cushion_unity": [
+        -1.0,
+        1.5604999999999998,
+        -4.2
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        1.0,
+        4.2,
+        1.5604999999999998
+      ],
+      "source_seat_number": 23
+    },
+    {
+      "index": 19,
+      "cushion_unity": [
+        -0.55,
+        1.5604999999999998,
+        -4.2
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.55,
+        4.2,
+        1.5604999999999998
+      ],
+      "source_seat_number": 24
+    },
+    {
+      "index": 20,
+      "cushion_unity": [
+        0.55,
+        1.5604999999999998,
+        -4.2
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.55,
+        4.2,
+        1.5604999999999998
+      ],
+      "source_seat_number": 25
+    },
+    {
+      "index": 21,
+      "cushion_unity": [
+        1.0,
+        1.5604999999999998,
+        -4.2
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -1.0,
+        4.2,
+        1.5604999999999998
+      ],
+      "source_seat_number": 26
+    },
+    {
+      "index": 22,
+      "cushion_unity": [
+        -0.9,
+        1.5604999999999998,
+        -4.88
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.9,
+        4.88,
+        1.5604999999999998
+      ],
+      "source_seat_number": 27
+    },
+    {
+      "index": 23,
+      "cushion_unity": [
+        -0.45,
+        1.5604999999999998,
+        -4.88
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        0.45,
+        4.88,
+        1.5604999999999998
+      ],
+      "source_seat_number": 28
+    },
+    {
+      "index": 24,
+      "cushion_unity": [
+        0.0,
+        1.5604999999999998,
+        -4.88
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.0,
+        4.88,
+        1.5604999999999998
+      ],
+      "source_seat_number": 29
+    },
+    {
+      "index": 25,
+      "cushion_unity": [
+        0.45,
+        1.5604999999999998,
+        -4.88
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.45,
+        4.88,
+        1.5604999999999998
+      ],
+      "source_seat_number": 30
+    },
+    {
+      "index": 26,
+      "cushion_unity": [
+        0.9,
+        1.5604999999999998,
+        -4.88
+      ],
+      "floor_height_m": 1.0795,
+      "priority": false,
+      "cushion_source_blender": [
+        -0.9,
+        4.88,
+        1.5604999999999998
+      ],
+      "source_seat_number": 31
+    }
+  ],
+  "passenger_seat_count": 27,
+  "driver_seat_unity": [
+    -0.69,
+    1.0875,
+    3.95
+  ],
+  "driver_eye_unity": [
+    -0.69,
+    1.95,
+    4.18
+  ],
+  "steering_hub_unity": [
+    -0.69,
+    1.48,
+    4.45
+  ],
+  "card_reader_unity": [
+    0.89,
+    1.2,
+    3.55
+  ],
+  "wheelchair_bay": {
+    "centre_unity": [
+      0.89,
+      0.34,
+      1.3
+    ],
+    "width_m": 0.64,
+    "length_m": 1.28,
+    "centre_source_blender": [
+      -0.89,
+      -1.3,
+      0.34
+    ]
+  },
+  "doors": [
+    {
+      "part": 4,
+      "pivot": "Door1A hinge",
+      "open_degrees": 86,
+      "centre_unity": [
+        1.275,
+        1.42,
+        4.625
+      ],
+      "hinge_unity": [
+        1.215000033378601,
+        0.36,
+        4.949999809265137
+      ],
+      "centre_source_blender": [
+        -1.275,
+        -4.625,
+        1.42
+      ],
+      "hinge_source_blender": [
+        -1.215000033378601,
+        -4.949999809265137,
+        0.36
+      ]
+    },
+    {
+      "part": 5,
+      "pivot": "Door1B hinge",
+      "open_degrees": -86,
+      "centre_unity": [
+        1.275,
+        1.42,
+        3.9749999999999996
+      ],
+      "hinge_unity": [
+        1.215000033378601,
+        0.36,
+        3.6500000953674316
+      ],
+      "centre_source_blender": [
+        -1.275,
+        -3.9749999999999996,
+        1.42
+      ],
+      "hinge_source_blender": [
+        -1.215000033378601,
+        -3.6500000953674316,
+        0.36
+      ]
+    },
+    {
+      "part": 6,
+      "pivot": "Door2A hinge",
+      "open_degrees": 86,
+      "centre_unity": [
+        1.275,
+        1.42,
+        0.025000000000000022
+      ],
+      "hinge_unity": [
+        1.215000033378601,
+        0.36,
+        0.3499999940395355
+      ],
+      "centre_source_blender": [
+        -1.275,
+        -0.025000000000000022,
+        1.42
+      ],
+      "hinge_source_blender": [
+        -1.215000033378601,
+        -0.3499999940395355,
+        0.36
+      ]
+    },
+    {
+      "part": 7,
+      "pivot": "Door2B hinge",
+      "open_degrees": -86,
+      "centre_unity": [
+        1.275,
+        1.42,
+        -0.625
+      ],
+      "hinge_unity": [
+        1.215000033378601,
+        0.36,
+        -0.949999988079071
+      ],
+      "centre_source_blender": [
+        -1.275,
+        0.625,
+        1.42
+      ],
+      "hinge_source_blender": [
+        -1.215000033378601,
+        0.949999988079071,
+        0.36
+      ]
+    }
+  ],
+  "door_centres_unity": [
+    [
+      1.275,
+      0.36,
+      4.3
+    ],
+    [
+      1.275,
+      0.36,
+      -0.3
+    ]
+  ],
+  "door_opening_width_m": 1.3,
+  "kit_offset_blender": [
+    -0.07000004999999998,
+    -0.08999999999999986,
+    0.0
+  ],
+  "rear_floor_height_m": 1.0795,
+  "rear_seat_pitch_m": 0.7,
+  "wheelhouse_inner_x_m": {
+    "front": 0.6,
+    "rear": 0.615
+  },
+  "wheelhouse_inner_radius_m": 0.55825,
+  "driver_seat_source_blender": [
+    0.69,
+    -3.95,
+    1.0875
+  ],
+  "driver_eye_source_blender": [
+    0.69,
+    -4.18,
+    1.95
+  ],
+  "steering_hub_source_blender": [
+    0.69,
+    -4.45,
+    1.48
+  ],
+  "card_reader_source_blender": [
+    -0.89,
+    -3.55,
+    1.2
+  ],
+  "door_centres_source_blender": [
+    [
+      -1.275,
+      -4.3,
+      0.36
+    ],
+    [
+      -1.275,
+      0.3,
+      0.36
+    ]
+  ],
+  "kit_offset_source_blender": [
+    0.07000004999999998,
+    -0.08999999999999986,
+    0.0
+  ],
+  "coordinate_frames": {
+    "version": 1,
+    "legacy_blender_fields": "Private construction frame, retained verbatim: +X door/right in Unity, -X driver/left in Unity, -Y forward, +Z up. These are not current Blender world coordinates.",
+    "source_blender_fields": "Physical right-handed Blender world in metres: +X driver/left, -X door/right, -Y forward, +Z up.",
+    "unity_fields": "Existing left-handed game frame in metres: +X door/right, -X driver/left, +Y up, +Z forward. Retained verbatim.",
+    "construction_to_source_blender": "(-x, y, z)",
+    "unity_to_source_blender": "(-x, -z, y)",
+    "matrix_layout": "Column-major 4x4. Source-world matrix = diag(-1,1,1,1) @ construction-world matrix.",
+    "historical_coordinate_text": "Existing coordinate_system/coordinate_definition text and chosen_blender_metres name describe the legacy construction frame; use this explicit frame contract for current source world.",
+    "reflection_invariants": "Lengths, angles between vectors, curvature radii, clearance and visibility fractions do not change under the rigid reflection."
+  },
+  "removed_original_seat_numbers": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "seat_cushion_height_above_floor_m": 0.481,
+  "standing_pose": "Standing (hands down); no unverified reach to an overhead grip is asserted."
+}

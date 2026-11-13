@@ -1,0 +1,439 @@
+{
+  "format": "cdlb-vehicle",
+  "version": 1,
+  "model": "SWB6710EV01G",
+  "cab": { "eyeOffset": [0, -0.06, 0], "seat": "air", "insulation": 1 },
+  "note": "Sunwin SWB6710EV01G (iEV7), 7 m electric bus. Values: the build (mirror-surfaces.json, side-sign.json), the official photographs, the operator's interior photographs.",
+  "spec": {
+    "frontZ": 3.5725,
+    "rearZ": -3.5725,
+    "halfWidth": 1.175,
+    "roofY": 2.94,
+    "floorY": 0.34,
+    "frontAxleZ": 2.3725,
+    "rearAxleZ": -2.7275,
+    "doors": 2,
+    "driverSide": -1
+  },
+  "wheelRadius": 0.385,
+  "wrap": {
+    "bottom": 0.2,
+    "thresholds": [
+      0.7,
+      2.4,
+      2.7
+    ],
+    "windows": true,
+    "doors": true,
+    "layout": 1,
+    "outlineMm": 10
+  },
+  "bodyColor": [
+    155,
+    217,
+    211
+  ],
+  "doors": [
+    {
+      "centreZ": 1.24,
+      "width": 1.12,
+      "leaves": 2,
+      "openSeconds": 1.0,
+      "closeSeconds": 1.0,
+      "closeDelay": 1.2,
+      "linkage": [
+        {
+          "shaft": [
+            1.113,
+            1.7
+          ],
+          "joint": [
+            1.113,
+            1.57
+          ],
+          "guide": [
+            1.113,
+            1.44
+          ],
+          "shaftDegrees": 80.0,
+          "drivePart": 34
+        },
+        {
+          "shaft": [
+            1.113,
+            0.78
+          ],
+          "joint": [
+            1.113,
+            0.91
+          ],
+          "guide": [
+            1.113,
+            1.04
+          ],
+          "shaftDegrees": -80.0,
+          "drivePart": 35
+        }
+      ]
+    },
+    {
+      "centreZ": -1.42,
+      "width": 0.88,
+      "leaves": 1,
+      "openSeconds": 1.0,
+      "closeSeconds": 1.0,
+      "closeDelay": 0.0,
+      "linkage": [
+        {
+          "shaft": [
+            1.108,
+            -1.81
+          ],
+          "joint": [
+            1.108,
+            -1.49
+          ],
+          "guide": [
+            1.108,
+            -1.17
+          ],
+          "shaftDegrees": -82.0,
+          "drivePart": 36
+        }
+      ]
+    }
+  ],
+  "signs": {
+    "front": {
+      "centre": [
+        0,
+        2.513,
+        3.2108011
+      ],
+      "width": 1.5,
+      "columns": 120
+    },
+    "side": {
+      "centre": [
+        1.122,
+        2.46,
+        -0.29
+      ],
+      "width": 0.83,
+      "columns": 84,
+      "tilt": 0.17692
+    },
+    "rear": {
+      "centre": [
+        0,
+        2.345,
+        -3.5975
+      ],
+      "width": 1.16,
+      "columns": 104
+    }
+  },
+  "nextStop": {
+    "centre": [
+      0,
+      2.605,
+      3.1565
+    ],
+    "width": 0,
+    "height": 0,
+    "columns": 128,
+    "rows": 16
+  },
+  "cardReaders": [
+    {
+      "origin": [
+        0.66,
+        1.275,
+        1.756
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "xSign": 1
+    }
+  ],
+  "mirrors": [
+    {
+      "centre": [
+        -1.2261,
+        2.12,
+        3
+      ],
+      "normal": [
+        0.2928559,
+        -0.03923152,
+        -0.9553514
+      ],
+      "up": [
+        0.01149803,
+        0.99923015,
+        -0.03750876
+      ],
+      "size": [
+        0.179,
+        0.364
+      ]
+    },
+    {
+      "centre": [
+        1.3261,
+        2.285,
+        3.71
+      ],
+      "normal": [
+        -0.4079933,
+        0,
+        -0.91298497
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "size": [
+        0.208,
+        0.428
+      ]
+    },
+    {
+      "centre": [
+        1.1761,
+        2.135,
+        3.29
+      ],
+      "normal": [
+        -0.47002235,
+        -0.42602026,
+        -0.7730368
+      ],
+      "up": [
+        -0.22132863,
+        0.90471363,
+        -0.36401495
+      ],
+      "size": [
+        0.17385,
+        0.1188
+      ],
+      "convexDepth": 0.007
+    }
+  ],
+  "riders": [
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        1.64
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        0.98
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        0.32
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        -0.34
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        -1
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        0.77750003,
+        -1.66
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        1.1875,
+        -2.32
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.83,
+        1.1875,
+        -2.82
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.82,
+        0.77750003,
+        0.27
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.82,
+        0.77750003,
+        -0.4
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.82,
+        1.1875,
+        -2.19
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.82,
+        1.1875,
+        -2.83
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.37,
+        1.1875,
+        -2.81
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.65,
+        1.1875,
+        -3.26
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        -0.12,
+        1.1875,
+        -3.26
+      ]
+    },
+    {
+      "kind": "Seated",
+      "position": [
+        0.41,
+        1.1875,
+        -3.26
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        1.75
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        1.03
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        0.31
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        -0.41
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        -1.13
+      ]
+    },
+    {
+      "kind": "Holding",
+      "position": [
+        -0.08,
+        0.36,
+        -1.85
+      ]
+    },
+    {
+      "kind": "Standing",
+      "position": [
+        0.38,
+        0.36,
+        -0.82
+      ],
+      "yaw": -1.5707964
+    },
+    {
+      "kind": "Driver",
+      "position": [
+        -0.56,
+        1.235,
+        2.05
+      ]
+    }
+  ],
+  "pack": {
+    "version": "1.3.0",
+    "requiresBusDriver": "0.11.0",
+    "icon": "icon.png",
+    "template": "Bus02",
+    "capacity": 51,
+    "livery": [
+      0.34,
+      0.69,
+      0.65
+    ],
+    "strict": false,
+    "guid": "e855a3c971f351d204ebdc10da58e9df",
+    "obsoleteGuids": []
+  }
+}

@@ -1,0 +1,137 @@
+<Publish>
+	<!--First published 18 October 2026; use NewVersion / Update from now on.-->
+	<ModId Value="163864" />
+	<DisplayName Value="CSL Driving Life : Bus Driver" />
+	<ShortDescription Value="Drive your city's bus lines yourself: stops, doors, passengers and fares, a full bus interior, LED signs and announcements. / 亲自开城市里的公交线路：进站、开关门、乘客上下和票款，完整车内、LED 路牌和报站。" />
+	<LongDescription>
+**Requires CSL Driving Life : Core**, which does the driving, **and CSL Driving Life : Assets**, the parts the series shares (it also adds the rear section and the joint of the vehicle packs' articulated buses). Both are installed automatically when you subscribe. Core: https://mods.paradoxplaza.com/mods/163860/Windows · Assets: https://mods.paradoxplaza.com/mods/164904/Windows
+
+**需要 CSL Driving Life : Core**（驾驶部分由它完成）**和 CSL Driving Life : Assets**（系列共用的基础部分，也负责车包里铰接公交的后节和连接部分）。订阅时两者都会自动安装。Core：https://mods.paradoxplaza.com/mods/163860/Windows · Assets：https://mods.paradoxplaza.com/mods/164904/Windows
+
+---
+
+**Drive your city's bus lines yourself.**
+
+**What you get**
+
+- **Your lines, your shift.** Open the bus panel (Alt+B), pick a line, and take a new bus out of the depot or take over one in service. Taking a line's bus with Alt+V starts its shift too.
+- **Guidance at every stop.** The boarding zone of each stop of your line is painted on the road (the next one bright), the way to the next stop is drawn, and a bar shows the next stop, the distance and your passengers. Immersive mode (I) hides most of it.
+- **Doors, passengers and fares.** Stop inside the zone and open the doors (F). The city's own residents get off and on, and every boarding passenger pays the line's fare into the city budget.
+- **A full bus interior** in the driver's view: steering wheel, instrument cluster with warning lamps, LED next-stop screen, and the game's own citizens sitting on board. The game's own buses get the interior too.
+- **Lamps and signs.** Indicators (Q/E) and hazard lamps (Z) on any bus you drive. On the mod's own buses: headlights that light the road (L), high-beam flash (K), and LED destination signs in the Shanghai style: 32 rows of square dots, the route number as tall as the sign, its prefix (K, BRT, 夜) in its own colour, and on the rear sign a warning while the bus brakes or turns. The classic 16-row style is an option, and older models can carry printed destination boards instead.
+- **Your line's name.** A line you named yourself keeps its name on the signs and in the announcements.
+- **More seats to watch from.** In the driver's view, V moves on to the other seats and the outside cameras a vehicle pack brings (with Core 0.13.43 or later).
+- **Kneeling** at stops.
+- **Stop announcements.** Piper (a free offline voice, optional download), an Azure neural voice with your own key, a Windows voice, or the chime only.
+- **LED signs on the city's buses too** (option, on by default): when the game drives the mod's own bus or a vehicle pack's bus, its LED signs show the line and the terminus, and "Not in service" off a line. Set how far away they light up, or switch them off to save performance.
+- **A realistic livery system (body wraps).** Wrap the mod's buses in your own livery, the way real buses are wrapped: one picture each for the left and right sides, the front, the rear and the roof, with see-through PNG parts that let the paint underneath show.
+  - On models whose wrap covers the windows and doors, the picture runs on over the glass like a window film: see-through edges get a white outline, and each door leaf carries its part of the picture as it opens and closes.
+  - Every bus model comes with its own template: empty pictures to paint on and guide pictures that mark the body, the windows, the doors and the parts in front. Save your zip and the bus changes a few seconds later.
+  - Manage the wraps in the Wraps tab of the bus panel (Alt+B): new from the template, load, unload. Wraps are made per bus model and show on the bus you drive, seen from outside.
+- **More buses.** Vehicle packs with full interiors come as separate downloads. Out now: **CDL : Sunwin SWB6710EV01G** (the yellow bus in the night screenshots), https://mods.paradoxplaza.com/mods/163971/Windows. More follow, the articulated CRRC K18 among them: its rear section and the joint are drawn by CSL Driving Life : Assets, for the city's buses and the one you drive.
+- **Gamepad.** Rumble, and DualSense trigger effects over USB.
+
+**Keys** (all can be changed in Options → CSL Driving Life : Bus Driver → Keys)
+
+- Alt+B (pad: R3 + X/□): bus panel
+- F (pad: X/□): doors. Tap to open or close, hold to close at once
+- Q / E (pad: LB / RB): left / right indicator. Press again to switch it off; it also cancels itself when the wheel comes back after a turn
+- Z, or Q + E together (pad: LB + RB): hazard lamps
+- L (pad: D-pad left): headlights auto, low, high, off
+- K, hold (pad: D-pad right): flash the high beam
+- I (pad: D-pad up): immersive mode
+
+**Good to know**
+
+- The Piper voices are downloaded only when you click "Install the open-source voice". They come with their own licences, and some are for research use only; NOTICE.md lists them.
+- Found a problem? Leave a comment with Logs/CDLC.BusDriver.Mod.log.
+
+**Your language**
+
+English and Simplified Chinese are built in. For other languages, or a more local, more polished translation, choose my **AI Translate!**, which supports the CSL Driving Life mods natively: https://mods.paradoxplaza.com/mods/162792/Windows
+
+**Credits**
+
+- MeshKit, the modelling toolkit, was written for the author's fork of Realistic Road Works by **Jasper Aelvoet** (MIT).
+- The sound rules follow OMSI's sound.cfg as documented and implemented by **openOMSI** (the last MIT-licensed snapshot, 3d03018). No OMSI content is included.
+- Sounds (CC0): "Bus doors open-close" by **Jedo**, "Bus stop button" by **Aleksanterisuuri**, "bus_door_alarm" and "bus_ticket machine" by **13FPanska_Sychra_Petr**.
+- LED font: **GNU Unifont** by Roman Czyborra, Paul Hardy, Qianqian Fang, Andrew Miller and others (SIL Open Font License 1.1).
+- Announcements: **Piper** by rhasspy (MIT), downloaded on request.
+- Thank you all. The full list with links and licence texts is in NOTICE.md in the mod folder. The mod is open source under the GNU Affero General Public License, version 3 (LICENSE); the third-party parts keep their own licences (NOTICE.md).
+
+— MeroT
+
+---
+
+**亲自开城市里的公交线路。**
+
+**你会得到**
+
+- **你的线路，你的班次。** 打开公交面板（Alt+B）选一条线路，可以从车场发一辆新车，也可以接手一辆正在营运的车。用 Alt+V 直接接手线路上的公交，也会自动开始营运。
+- **每站都有引导。** 你这条线路每个站的上客区都画在路面上（下一站高亮），画出去下一站的路线，顶部的条显示下一站、距离和车上乘客。沉浸模式（I）会隐藏大部分引导。
+- **开关门、乘客和票款。** 停进上客区后开门（F），城市里的居民自己上下车，每位上车乘客按线路票价付费，计入城市预算。
+- **完整的车内**：驾驶员视角下有方向盘、带警示灯的仪表、LED 下一站屏，车上坐的是游戏里真实的市民。游戏原版公交也会用上这套车内。
+- **灯光和路牌。** 开任何公交都能打转向灯（Q/E）和双闪（Z）。本 mod 自带的公交还有：能照亮路面的大灯（L）、远光闪烁（K），以及上海样式的 LED 路牌：32 行正方形点阵，线路号与路牌同高，线路前缀（K、BRT、夜）保持各自的颜色，后路牌在刹车和转弯时显示提示。也可以在选项里换回经典的 16 行样式；较老的车型可以改用印刷的纸质路牌。
+- **你起的线路名。** 你自己命名的线路，路牌和报站都会用这个名字。
+- **更多观看位置。** 驾驶员视角下按 V，可以切换到车包提供的其他座位和车外镜头（需要 Core 0.13.43 或更新）。
+- **进站跪姿。**
+- **报站。** Piper（免费离线语音，可选下载）、填入你自己密钥的 Azure 神经语音、Windows 语音，或者只放提示音。
+- **城市里的 AI 公交也亮 LED 路牌**（选项，默认开启）：本 mod 自带的公交和车包里的公交由游戏驾驶时，LED 路牌同样显示线路和终点站，不在线路上时显示「暂停营运」。可以设置多远以内点亮，或者关掉以节省性能。
+- **拟真的车辆涂装系统（车身外皮）。** 像真实公交贴车身一样，给本 mod 的公交换上你自己的涂装：左右两侧、车头、车尾和车顶各一张图，支持 PNG 透明，透明处露出原车漆面。
+  - 车窗和车门也能涂装的车型，图案会一直延续到玻璃上，就像真实的车窗贴膜：透明部分的边缘自动加白色描边，每扇车门上的那部分图案随开关门一起动。
+  - 每个车型都自带模板：可直接绘制的透明底图，以及标出车身、车窗、车门和前置部件的参考图。保存 zip 后几秒，车上就会更新。
+  - 在公交面板（Alt+B）的「外皮」页管理：按模板新建、加载、卸载。涂装按车型分开，显示在你驾驶的车上、从车外看。
+- **更多车型。** 带完整车内的车包单独发布。已发布：**CDL : Sunwin SWB6710EV01G**（夜景截图里的黄色公交），https://mods.paradoxplaza.com/mods/163971/Windows。之后还有更多，包括中车 K18 铰接公交：它的后节和连接部分由 CSL Driving Life : Assets 绘制，城市里的公交和你驾驶的那辆都一样。
+- **手柄。** 震动，以及 DualSense 扳机效果（USB）。
+
+**按键**（都可以在 选项 → CSL Driving Life : Bus Driver → 按键 里改）
+
+- Alt+B（手柄 R3 + X/□）：公交面板
+- F（手柄 X/□）：开关门。点按开或关，按住立即关门
+- Q / E（手柄 LB / RB）：左 / 右转向灯。再按一次关闭，转完弯回正方向盘时也会自动关闭
+- Z，或同时按 Q + E（手柄 LB + RB）：双闪
+- L（手柄十字键左）：大灯 自动、近光、远光、关
+- K 按住（手柄十字键右）：远光闪烁
+- I（手柄十字键上）：沉浸模式
+
+**须知**
+
+- Piper 语音只在你点「安装开源语音」时才下载。语音有各自的许可，其中一些仅限研究用途，NOTICE.md 里列出了它们。
+- 遇到问题：请在评论区留言，并附上 Logs/CDLC.BusDriver.Mod.log。
+
+**你的语言**
+
+内置英文和简体中文。想要其他语言，或者更本土、更完美的翻译，可以选择我的 **AI Translate!**，原生支持 CSL Driving Life 系列模组：https://mods.paradoxplaza.com/mods/162792/Windows
+
+**致谢**
+
+- 建模工具 MeshKit 是作者为 **Jasper Aelvoet** 的 Realistic Road Works（MIT）分支编写的。
+- 声音规则依照 **openOMSI** 记录并实现的 OMSI sound.cfg（采用最后一个 MIT 许可快照 3d03018）。不含任何 OMSI 内容。
+- 声音（CC0）：**Jedo** 的「Bus doors open-close」，**Aleksanterisuuri** 的「Bus stop button」，**13FPanska_Sychra_Petr** 的「bus_door_alarm」和「bus_ticket machine」。
+- LED 字体：**GNU Unifont**，作者 Roman Czyborra、Paul Hardy、Qianqian Fang、Andrew Miller 等（SIL Open Font License 1.1）。
+- 报站：**Piper**（rhasspy，MIT），按需下载。
+- 感谢各位。带链接和许可证全文的完整清单见 mod 文件夹里的 NOTICE.md。本 mod 以 GNU Affero 通用公共许可证第 3 版开源（LICENSE），第三方部分保留各自的许可（NOTICE.md）。
+
+—— MeroT
+	</LongDescription>
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--In-game captures by the author with the logo and a caption (cdl_release_20261018/tools/make_feature_shots.ps1); the night
+	    set is line Y4 on the SWB6710EV01G pack. The packs' Blender renders stay on the packs' own listings.-->
+	<Screenshot Value="Properties/Screenshots/01-bus-line.jpg" />
+	<Screenshot Value="Properties/Screenshots/02-driver-view.jpg" />
+	<Screenshot Value="Properties/Screenshots/03-saloon.jpg" />
+	<Screenshot Value="Properties/Screenshots/04-led-signs.jpg" />
+	<Screenshot Value="Properties/Screenshots/05-guidance.jpg" />
+	<Screenshot Value="Properties/Screenshots/06-headlights.jpg" />
+	<Screenshot Value="Properties/Screenshots/07-wraps.jpg" />
+	<Tag Value="Code Mod" />
+	<ModVersion Value="0.14.1" />
+	<GameVersion Value="1.6.*" />
+	<!--CSL Driving Life : Core (163860), public since 0.13.32; added on 19 October 2026 at the user's choice-->
+	<Dependency Id="163860" />
+	<!--CSL Driving Life : Assets (164904, public since 26 October 2026): Bus Driver 0.13 needs its API 7 (the shared parts and the articulated buses)-->
+	<Dependency Id="164904" />
+	<ChangeLog Value="0.14.1: printed destination boards no longer shine plain white at night; the scene lights them, so their text stays readable. 0.14.0: vehicle pack models take less than half the memory, and packs can come in a smaller format; packs made before keep working unchanged. / 0.14.1：印刷纸质路牌夜间不再整块发白，改由场景光照亮，文字在夜里也看得清。0.14.0：车包模型占用的内存减到一半以下，车包也可以用更小的文件格式；以前的车包照常可用。" />
+	<!--Public / Private / Unlisted: made public on 19 October 2026 at the user's request-->
+	<AccessLevel Value="Public" />
+</Publish>

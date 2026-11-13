@@ -1,0 +1,904 @@
+{
+  "status": "PASS",
+  "baseline": "out\\swb6109-handedness\\backup-20261015-031158\\sunwin-mesh.bin.gz",
+  "runtime_sha256": "948c1e4493330ea9f0636ae540866e35f8c2ed598910515476e55e42146ff5e2",
+  "baseline_sha256": "1ab6a3bb2d9bce16d6917acc0e02e531014d6d57d9b62b2238e2adc14986a166",
+  "eye_and_all_34_rest_frames_identical": true,
+  "parts": [
+    {
+      "lod": 0,
+      "part": 0,
+      "old_triangles": 170480,
+      "new_triangles": 170480,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 1,
+      "old_triangles": 1424,
+      "new_triangles": 1424,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 2,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 3,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 4,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 5,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 6,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 7,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 8,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 9,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 10,
+      "old_triangles": 29640,
+      "new_triangles": 29640,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 11,
+      "old_triangles": 4738,
+      "new_triangles": 4738,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 12,
+      "old_triangles": 3548,
+      "new_triangles": 3172,
+      "intentional_change": "Old placeholder reader removed; shared CardReader is runtime generated.",
+      "unmodified_triangles_preserved": true,
+      "removed_triangles": 376,
+      "removed_bounds_unity": [
+        [
+          0.7999999523162842,
+          1.0600000619888306,
+          3.490000009536743
+        ],
+        [
+          0.9800000190734863,
+          1.340000033378601,
+          3.621000051498413
+        ]
+      ],
+      "removed_only_old_reader": true
+    },
+    {
+      "lod": 0,
+      "part": 13,
+      "old_triangles": 4648,
+      "new_triangles": 4648,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 14,
+      "old_triangles": 940,
+      "new_triangles": 940,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 15,
+      "old_triangles": 19028,
+      "new_triangles": 19028,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 16,
+      "old_triangles": 106796,
+      "new_triangles": 106796,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 17,
+      "old_triangles": 21824,
+      "new_triangles": 21824,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 18,
+      "old_triangles": 80198,
+      "new_triangles": 80198,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 19,
+      "old_triangles": 8828,
+      "new_triangles": 8828,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 20,
+      "old_triangles": 8828,
+      "new_triangles": 8828,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 21,
+      "old_triangles": 16508,
+      "new_triangles": 16508,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 22,
+      "old_triangles": 16508,
+      "new_triangles": 16508,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 23,
+      "old_triangles": 888,
+      "new_triangles": 888,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 24,
+      "old_triangles": 5440,
+      "new_triangles": 5440,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 25,
+      "old_triangles": 1092,
+      "new_triangles": 1092,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 26,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 27,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 28,
+      "old_triangles": 624,
+      "new_triangles": 624,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 0,
+      "part": 29,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 30,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 31,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 32,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 0,
+      "part": 33,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 0,
+      "old_triangles": 170480,
+      "new_triangles": 170480,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 1,
+      "old_triangles": 1424,
+      "new_triangles": 1424,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 2,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 3,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 4,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 5,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 6,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 7,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 8,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 9,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 10,
+      "old_triangles": 29640,
+      "new_triangles": 29640,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 11,
+      "old_triangles": 4738,
+      "new_triangles": 4738,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 12,
+      "old_triangles": 3548,
+      "new_triangles": 3172,
+      "intentional_change": "Old placeholder reader removed; shared CardReader is runtime generated.",
+      "unmodified_triangles_preserved": true,
+      "removed_triangles": 376,
+      "removed_bounds_unity": [
+        [
+          0.7999999523162842,
+          1.0600000619888306,
+          3.490000009536743
+        ],
+        [
+          0.9800000190734863,
+          1.340000033378601,
+          3.621000051498413
+        ]
+      ],
+      "removed_only_old_reader": true
+    },
+    {
+      "lod": 1,
+      "part": 13,
+      "old_triangles": 4648,
+      "new_triangles": 4648,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 14,
+      "old_triangles": 940,
+      "new_triangles": 940,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 15,
+      "old_triangles": 8336,
+      "new_triangles": 8336,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 16,
+      "old_triangles": 106796,
+      "new_triangles": 106796,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 17,
+      "old_triangles": 21824,
+      "new_triangles": 21824,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 18,
+      "old_triangles": 80198,
+      "new_triangles": 80198,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 19,
+      "old_triangles": 4220,
+      "new_triangles": 4220,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 20,
+      "old_triangles": 4220,
+      "new_triangles": 4220,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 21,
+      "old_triangles": 7292,
+      "new_triangles": 7292,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 22,
+      "old_triangles": 7292,
+      "new_triangles": 7292,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 23,
+      "old_triangles": 888,
+      "new_triangles": 888,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 24,
+      "old_triangles": 5440,
+      "new_triangles": 5440,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 25,
+      "old_triangles": 1092,
+      "new_triangles": 1092,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 26,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 27,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 28,
+      "old_triangles": 624,
+      "new_triangles": 624,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 1,
+      "part": 29,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 30,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 31,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 32,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 1,
+      "part": 33,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 0,
+      "old_triangles": 170480,
+      "new_triangles": 170480,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 1,
+      "old_triangles": 1424,
+      "new_triangles": 1424,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 2,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 3,
+      "old_triangles": 60,
+      "new_triangles": 60,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 4,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 5,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 6,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 7,
+      "old_triangles": 1172,
+      "new_triangles": 1172,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 8,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 9,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 10,
+      "old_triangles": 29640,
+      "new_triangles": 29640,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 11,
+      "old_triangles": 4738,
+      "new_triangles": 4738,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 12,
+      "old_triangles": 3548,
+      "new_triangles": 3172,
+      "intentional_change": "Old placeholder reader removed; shared CardReader is runtime generated.",
+      "unmodified_triangles_preserved": true,
+      "removed_triangles": 376,
+      "removed_bounds_unity": [
+        [
+          0.7999999523162842,
+          1.0600000619888306,
+          3.490000009536743
+        ],
+        [
+          0.9800000190734863,
+          1.340000033378601,
+          3.621000051498413
+        ]
+      ],
+      "removed_only_old_reader": true
+    },
+    {
+      "lod": 2,
+      "part": 13,
+      "old_triangles": 4648,
+      "new_triangles": 4648,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 14,
+      "old_triangles": 940,
+      "new_triangles": 940,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 15,
+      "old_triangles": 3876,
+      "new_triangles": 3876,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 16,
+      "old_triangles": 106796,
+      "new_triangles": 106796,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 17,
+      "old_triangles": 21824,
+      "new_triangles": 21824,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 18,
+      "old_triangles": 80198,
+      "new_triangles": 80198,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 19,
+      "old_triangles": 4020,
+      "new_triangles": 4020,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 20,
+      "old_triangles": 4020,
+      "new_triangles": 4020,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 21,
+      "old_triangles": 7092,
+      "new_triangles": 7092,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 22,
+      "old_triangles": 7092,
+      "new_triangles": 7092,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 23,
+      "old_triangles": 888,
+      "new_triangles": 888,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 24,
+      "old_triangles": 5440,
+      "new_triangles": 5440,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 25,
+      "old_triangles": 1092,
+      "new_triangles": 1092,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 26,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 27,
+      "old_triangles": 1104,
+      "new_triangles": 1104,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 28,
+      "old_triangles": 624,
+      "new_triangles": 624,
+      "max_position_error_m": 0.0,
+      "max_normal_component_error": 0.0,
+      "materials_equal": true
+    },
+    {
+      "lod": 2,
+      "part": 29,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 30,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 31,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 32,
+      "old_triangles": 0,
+      "new_triangles": 0
+    },
+    {
+      "lod": 2,
+      "part": 33,
+      "old_triangles": 0,
+      "new_triangles": 0
+    }
+  ],
+  "failures": []
+}

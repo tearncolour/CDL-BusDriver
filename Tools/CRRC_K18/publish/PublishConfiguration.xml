@@ -1,0 +1,58 @@
+<Publish>
+	<!--Vehicle pack, asset only. Publish the whole Packs/CDLC.Bus.CRRC_K18 folder as the content (the game's own uploader sends only the .cok).
+	    First publish: leave the ID empty; fill in the ID the platform gives, then use NewVersion / Update.-->
+	<ModId Value="" />
+	<DisplayName Value="CDL : CRRC K18 Articulated Bus" />
+	<ShortDescription Value="CRRC K18, an articulated electric city bus with a bending joint. Needs CSL Driving Life : Bus Driver. / 中车 K18 铰接纯电动公交，铰接处会弯折。需要 CSL Driving Life : Bus Driver。" />
+	<LongDescription>
+**Requires CSL Driving Life : Bus Driver** (https://mods.paradoxplaza.com/mods/163864/Windows) and CSL Driving Life : Core. Bus Driver bends the joint between the two sections, on your bus and on the AI buses.
+
+**需要 CSL Driving Life : Bus Driver**（https://mods.paradoxplaza.com/mods/163864/Windows）以及 CSL Driving Life : Core。两节车厢之间的铰接部分由 Bus Driver 弯折，你开的车和 AI 车都是。
+
+---
+
+**CRRC K18**, an articulated electric city bus.
+
+- Two sections with a bending joint and a gangway between them, on your bus and on the AI buses.
+- Drive it from the driver's seat: full interior, working doors, mirrors, LED destination signs and its own lamps.
+- Your own colours: put your own picture on the body (a wrap).
+- Capacity 151.
+
+**Credits and marks**
+
+The bus is modelled after the real vehicle, from published photos; its dimensions are estimates from those photos. It is an approximation, not the maker's model, and no reference photo is included. The CRRC name and logo belong to their owner. This pack is not made, approved or endorsed by CRRC or any operator. If an owner objects to a mark or livery, the pack will be changed or removed.
+
+— MeroT
+
+---
+
+**中车 K18**，铰接纯电动城市公交。
+
+- 两节车厢，中间的铰接和通道会随转弯弯折，你开的车和 AI 车都是。
+- 可以坐进驾驶室亲自开：完整车内、会动的车门、后视镜、LED 路牌和它自己的车灯。
+- 自定义颜色：可以把你自己的图片贴到车身上（外皮）。
+- 载客 151 人。
+
+**致谢与商标**
+
+本车参照实车建模，依据公开的照片，尺寸是根据照片估算的。它是近似还原，不是厂家的模型，也不包含任何参考照片。中车的名称和标志归其所有者所有。本车包并非中车或任何运营方制作、认可或授权。如有所有者对标志或涂装提出异议，车包将修改或下架。
+
+—— MeroT
+	</LongDescription>
+	<Thumbnail Value="Thumbnail.png" />
+	<Screenshot Value="Screenshots/01-outside.jpg" />
+	<Screenshot Value="Screenshots/02-driver.jpg" />
+	<Screenshot Value="Screenshots/03-gangway.jpg" />
+	<!--Tag names for an asset-only vehicle not checked against the platform yet-->
+	<Tag Value="Prefab" />
+	<Tag Value="Vehicle" />
+	<ModVersion Value="1.0.1" />
+	<GameVersion Value="1.6.*" />
+	<!--CSL Driving Life : Bus Driver (163864), which the joint needs. The platform refuses a private mod as a dependency, so it is added
+	    with Update once Bus Driver is public:
+	<Dependency Id="163864" />
+	-->
+	<ChangeLog Value="First release (pack 1.0.1). / 首次发布（车包 1.0.1）。" />
+	<!--Public / Private / Unlisted: private first, public after testing the subscribed copy-->
+	<AccessLevel Value="Private" />
+</Publish>

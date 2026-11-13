@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "model": "SWB6109EV12G",
+  "document_kind": "Coordinate contract; not a validation result",
+  "units": "metres",
+  "spaces": {
+    "canonical_preparation": {
+      "purpose": "Legacy generator input and intermediate construction coordinates, not the physical handedness of the delivered Blender vehicle",
+      "front": "-Y",
+      "up": "+Z",
+      "driver_side": "-X",
+      "door_side": "+X"
+    },
+    "blender_source": {
+      "purpose": "Final saved editable Blender world coordinates",
+      "handedness": "right-handed",
+      "front": "-Y",
+      "up": "+Z",
+      "driver_side": "+X",
+      "door_side": "-X"
+    },
+    "unity_runtime": {
+      "purpose": "Existing CDLC runtime model coordinates; unchanged by the Blender source correction",
+      "handedness": "left-handed",
+      "front": "+Z",
+      "up": "+Y",
+      "driver_side": "-X",
+      "door_side": "+X"
+    }
+  },
+  "point_and_direction_maps": {
+    "canonical_preparation_to_blender_source": "(-x, y, z)",
+    "blender_source_to_unity_runtime": "(-x, z, -y)",
+    "unity_runtime_to_blender_source": "(-x, -z, y)",
+    "canonical_preparation_to_unity_runtime": "(x, z, -y)"
+  },
+  "legacy_input_fields": {
+    "model-spec.json:kit_offset_blender": "canonical_preparation displacement",
+    "model-spec.json:doors[].centre_blender_y": "canonical_preparation Y; X reflection leaves this component unchanged",
+    "model-spec.json:door_leaves[].open_degrees": "Generator-local animation input; evaluate the final transformed hinge and inward opening in the saved source",
+    "cabin-layout.json:kit_offset_blender": "canonical_preparation displacement",
+    "*_unity": "unity_runtime unless a file explicitly states otherwise"
+  },
+  "expected_final_source_landmarks": {
+    "driver_eye_blender_source": [0.69, -4.18, 1.95],
+    "steering_hub_blender_source": [0.69, -4.45, 1.48],
+    "card_reader_blender_source": [-0.89, -3.55, 1.2],
+    "front_door_centre_blender_source": [-1.275, -4.3, 0.36],
+    "middle_door_centre_blender_source": [-1.275, 0.3, 0.36]
+  },
+  "historical_report_policy": "Untagged *_blender positions and matrices from before the handedness correction may contain canonical_preparation coordinates. Preserve research history, but regenerate or explicitly tag current mirror, rig and placement metadata from the corrected source. A field name alone is not evidence of its coordinate space.",
+  "validation": "Check the final saved source from front, both sides, open-door and actual driver-eye views. Do not dismiss a right-hand-drive source as a camera or viewer effect. verify_handedness.py writes the required hash-bound handedness-validation.json."
+}

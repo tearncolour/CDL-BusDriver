@@ -1,0 +1,113 @@
+{
+  "status": "INCOMPLETE",
+  "standard": "BUS_ASSET_SPEC.md",
+  "standard_sha256": "61235db94e4f4b1849702ae550ca15c8cb2f6e0ee2f2d9e51f5bfd20e5fdffe1",
+  "source_sha256": "3cef6d03dda6fbeb7c6ea0cbcd0426b2ca808411f107f18ab9ad4e02387bf4b4",
+  "runtime_sha256": "ae1743f654f1526647462a2b44bb4e8e0bd383f6c32c82261529273ba1733a5e",
+  "package_sha256": "2cbdcfd7dfc99fddd2c019a9b392eff998d01999a05fea850ab0a81f3d94944a",
+  "gates": [
+    {
+      "report": "source-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "handedness-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "interior-clearance-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "lod-source-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "handrail-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "seat-access-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "material-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "window-configuration-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "wheelhouse-seam-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "sign-enclosure-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "mirror-mount-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "mirror-joint-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "strap-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "wheel-clearance.json",
+      "status": "PASS"
+    },
+    {
+      "report": "runtime-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "asset-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "native-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "runtime-integration-review.json",
+      "status": "PASS"
+    },
+    {
+      "report": "interior-visual-review.json",
+      "status": "PASS"
+    },
+    {
+      "report": "game-package-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "game-glass-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "game-renderer-visual-review.json",
+      "status": "PASS"
+    },
+    {
+      "report": "game-mirror-validation.json",
+      "status": "PASS"
+    },
+    {
+      "report": "gameplay-visual-review.json",
+      "status": "NOT_RUN"
+    }
+  ],
+  "budget_warnings": [
+    "LOD0: 669480 triangles exceed suggested 80000",
+    "LOD1: 574584 triangles exceed suggested 25000",
+    "LOD2: 544680 triangles exceed suggested 8000",
+    "Package exceeds suggested 10 MiB budget"
+  ],
+  "scope": "Release readiness; build/geometry PASS alone does not complete the game asset checks."
+}

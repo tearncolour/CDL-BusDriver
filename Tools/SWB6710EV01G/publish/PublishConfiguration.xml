@@ -1,0 +1,63 @@
+<Publish>
+	<!--Vehicle pack, asset only. Publish the whole Packs/CDLC.Bus.SWB6710EV01G folder as the content (the game's own uploader sends only the .cok).
+	    First published 19 October 2026 as Paradox Mods 163971 (private); use NewVersion / Update from now on.-->
+	<ModId Value="163971" />
+	<DisplayName Value="CDL : Sunwin SWB6710EV01G" />
+	<ShortDescription Value="Sunwin SWB6710EV01G (iEV7), a 7 m electric city bus in Shanghai bus livery; drive it with CSL Driving Life : Bus Driver. / 申沃 SWB6710EV01G（iEV7）7 米纯电动公交，上海公交涂装，可配合 Bus Driver 驾驶。" />
+	<LongDescription>
+**Optional: CSL Driving Life : Bus Driver.** Without it the bus runs as an ordinary line bus. Subscribe to Bus Driver (https://mods.paradoxplaza.com/mods/163864/Windows, it brings CSL Driving Life : Core along) to drive it from the driver's seat.
+
+**可选：CSL Driving Life : Bus Driver。** 不装也能当普通线路公交使用；订阅 Bus Driver（https://mods.paradoxplaza.com/mods/163864/Windows，会一并安装 CSL Driving Life : Core）后可以坐进驾驶室亲自开。
+
+---
+
+**Sunwin SWB6710EV01G (iEV7)**, a 7 m electric city bus in the Shanghai bus livery.
+
+- **On its own** it is an ordinary line bus: put it on your bus lines like any other.
+- **With CSL Driving Life : Bus Driver** you can drive it from the driver's seat: full interior, working doors, mirrors, LED destination signs front, side and rear, and its own lamps. Bus Driver 0.11.0 or newer.
+- **Your own livery.** With Bus Driver's livery system you can wrap it in your own pictures (sides, front, rear and roof); on this bus the picture runs on over the side windows and the doors like a window film, and moves with the door leaves.
+- **An icon of its own** in the game's menus.
+- Capacity 51.
+
+**Credits and marks**
+
+The bus is modelled after the real vehicle, from the maker's published photos and the operator's interior photos; it is an approximation, not the maker's model, and no reference photo is included. The screenshots are from the game (the body takes the line's colour, here a yellow line); the logo is a render of the pack's own model. The Sunwin name and logo and the Shanghai bus livery belong to their owners. This pack is not made, approved or endorsed by Sunwin or any operator. If an owner objects to a mark or livery, the pack will be changed or removed.
+
+— MeroT
+
+---
+
+**申沃 SWB6710EV01G（iEV7）**，7 米纯电动城市公交，上海公交涂装。
+
+- **单独使用**时它是一辆普通的线路公交，可以像其他公交一样安排到线路上。
+- **配合 CSL Driving Life : Bus Driver** 可以坐进驾驶室亲自开：完整车内、会动的车门、后视镜、前侧后三块 LED 路牌和它自己的车灯。需要 Bus Driver 0.11.0 或更新版本。
+- **自定义涂装。** 装了 Bus Driver 后，可以用它的涂装系统给车贴上你自己的图片（两侧、车头、车尾和车顶）；这辆车的图案会延续到侧窗和车门上，像车窗贴膜一样，并随车门一起动。
+- **游戏菜单里有自己的图标。**
+- 载客 51 人。
+
+**致谢与商标**
+
+本车参照实车建模，依据厂家公开的照片和运营方的车内照片；它是近似还原，不是厂家的模型，也不包含任何参考照片。本页截图均为游戏实机画面（车身颜色随线路颜色，截图中为黄色线路）；LOGO 为车包模型本身的渲染图。申沃的名称和标志以及上海公交涂装归各自所有者所有。本车包并非申沃或任何运营方制作、认可或授权。如有所有者对标志或涂装提出异议，车包将修改或下架。
+
+—— MeroT
+	</LongDescription>
+	<Thumbnail Value="Thumbnail.png" />
+	<!--In-game captures by the author (night set, line Y4), with the pack's logo tile and a caption: cdl_release_20261018/tools/make_feature_shots.ps1.
+	    The user: in-game pictures for the screenshots, a render only for the logo.-->
+	<Screenshot Value="Screenshots/01-outside.jpg" />
+	<Screenshot Value="Screenshots/02-on-the-line.jpg" />
+	<Screenshot Value="Screenshots/03-driver.jpg" />
+	<Screenshot Value="Screenshots/04-saloon.jpg" />
+	<Screenshot Value="Screenshots/05-wraps.jpg" />
+	<!--Asset-only: publish new versions and updates with cdl_release_20261018/tools/AssetTagsUpdate (ModPublisher itself always adds "Code Mod")-->
+	<Tag Value="Prefab" />
+	<Tag Value="Vehicle" />
+	<ModVersion Value="1.3.0" />
+	<GameVersion Value="1.6.*" />
+	<!--Optional: CSL Driving Life : Bus Driver (the bus also runs as an ordinary line bus without it). Fill in its ModId if it should be required.
+	<Dependency Id="" />
+	-->
+	<ChangeLog Value="First release (pack 1.3.0). / 首次发布（车包 1.3.0）。" />
+	<!--Public / Private / Unlisted: made public on 19 October 2026 at the user's request ("设置为公开")-->
+	<AccessLevel Value="Public" />
+</Publish>

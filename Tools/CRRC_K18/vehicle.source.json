@@ -1,0 +1,226 @@
+{
+  "source_sha256": "38f8c34dfb59c11befa4544e3254783e41540fe148c030e05ab3d826447a1ff1",
+  "section_summary_sha256": "932698798b92626a9966a57f216ad4ae0de8799b5ffede6f6177f3ff45974479",
+  "joint_report_sha256": "e32ddcc26104b12790cb5dfe32513d29f51f34daef0f4db7565f22e620a70836",
+  "sections": {
+    "front": {
+      "prefab": "CRRCK18",
+      "runtime_file": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\ModelSource\\CRRC_K18\\runtime-sections\\CRRCK18.swb1.gz",
+      "runtime_sha256": "01f2a1bc8de32a429be2468f45253cf85dfb7fec821e41ce4164d25dab4649dc",
+      "seat_count": 14,
+      "standing_count": 9,
+      "door_count": 2,
+      "axles": [
+        {
+          "z": 6.36999989,
+          "steer": true,
+          "parts": [
+            19,
+            20
+          ]
+        },
+        {
+          "z": 0.52999997,
+          "steer": false,
+          "parts": [
+            21,
+            22
+          ]
+        }
+      ],
+      "boarding_surface_measurements": [
+        {
+          "object": "Yellow boarding threshold",
+          "bounds_unity": [
+            [
+              1.02999997,
+              0.3265,
+              7.20499992
+            ],
+            [
+              1.25999999,
+              0.35350001,
+              8.45499992
+            ]
+          ],
+          "point_unity": [
+            1.245,
+            0.35350001,
+            7.82999992
+          ],
+          "surface_normal_unity": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "outer_edge_inset_m": 0.015
+        },
+        {
+          "object": "Yellow boarding threshold.001",
+          "bounds_unity": [
+            [
+              1.02999997,
+              0.3265,
+              1.52499998
+            ],
+            [
+              1.25999999,
+              0.35350001,
+              2.7750001
+            ]
+          ],
+          "point_unity": [
+            1.245,
+            0.35350001,
+            2.1500001
+          ],
+          "surface_normal_unity": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "outer_edge_inset_m": 0.015
+        }
+      ]
+    },
+    "rear": {
+      "prefab": "CRRCK18Rear",
+      "runtime_file": "C:\\Users\\Administrator\\Desktop\\BusDriverMod\\ModelSource\\CRRC_K18\\runtime-sections\\CRRCK18Rear.swb1.gz",
+      "runtime_sha256": "8c3d37b321387c5dcee81e1906835ec5e38c7302be2519566639aa0d7978ccc9",
+      "seat_count": 18,
+      "standing_count": 2,
+      "door_count": 1,
+      "axles": [
+        {
+          "z": -4.35999966,
+          "steer": false,
+          "parts": [
+            21,
+            22
+          ]
+        }
+      ],
+      "boarding_surface_measurements": [
+        {
+          "object": "Yellow boarding threshold.002",
+          "bounds_unity": [
+            [
+              1.02999997,
+              0.3265,
+              -4.40500021
+            ],
+            [
+              1.25999999,
+              0.35350001,
+              -3.15499997
+            ]
+          ],
+          "point_unity": [
+            1.245,
+            0.35350001,
+            -3.77999997
+          ],
+          "surface_normal_unity": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "outer_edge_inset_m": 0.015
+        }
+      ]
+    }
+  },
+  "scope": "Source/metadata registration only. Does not certify native packaging or game behaviour.",
+  "shared_reader": {
+    "source_sha256": "33a6578960af46448d234837b0ffc3b18ca2b87fa6433c4d990547c223eac8f0",
+    "vertices": 432,
+    "max_position_residual_m": 2.384185791015625e-07,
+    "translation_unity": [
+      -0.11000001,
+      0.0,
+      3.41999984
+    ]
+  },
+  "mirrors": [
+    {
+      "object": "K18 driver-side reflective insert",
+      "measured_front_offset_m": -6.48200511932373e-07,
+      "source_basis_unity": {
+        "centre": [
+          -1.47999954,
+          2.17999983,
+          8.72199917
+        ],
+        "normal": [
+          0.29210696,
+          -0.12830462,
+          -0.94774014
+        ],
+        "up": [
+          0.03779102,
+          0.99173486,
+          -0.12261287
+        ],
+        "size": [
+          0.14359963,
+          0.3785997
+        ]
+      },
+      "method": "authored frame checked against evaluated final mesh"
+    },
+    {
+      "object": "K18 door-side reflective insert",
+      "measured_front_offset_m": 5.885958671569824e-07,
+      "source_basis_unity": {
+        "centre": [
+          1.48000073,
+          2.14999986,
+          9.56549931
+        ],
+        "normal": [
+          -0.38696682,
+          -0.07930078,
+          -0.91867739
+        ],
+        "up": [
+          -0.03078372,
+          0.99685073,
+          -0.07308199
+        ],
+        "size": [
+          0.1947999,
+          0.38780005
+        ]
+      },
+      "method": "authored frame checked against evaluated final mesh"
+    },
+    {
+      "object": "K18 round auxiliary reflective face",
+      "measured_front_offset_m": 0.00999982567736879,
+      "source_basis_unity": {
+        "centre": [
+          1.2692697,
+          2.39853954,
+          9.63634872
+        ],
+        "normal": [
+          -0.18257418,
+          -0.36514837,
+          -0.91287088
+        ],
+        "up": [
+          -0.07161149,
+          0.93094927,
+          -0.35805747
+        ],
+        "size": [
+          0.152,
+          0.152
+        ],
+        "convexDepth": 0.01
+      },
+      "method": "authored frame checked against evaluated final mesh"
+    }
+  ],
+  "profile_sha256": "28f63cc81f7c944f0a290906c54aa6906de90f448632a5ca6301d675a0455977"
+}

@@ -1,0 +1,27 @@
+bin/
+obj/
+Tests/**/bin/
+Tests/**/obj/
+out/
+Tests/*/bin/
+Tests/*/obj/
+Dist/
+Packs/
+
+# Photos, drawings and saved web pages of real vehicles and brands: modelling reference only, never published
+ModelSource/**/reference/
+ModelSource/**/references/
+# Review renders: side-by-side pages and crops that contain those photos. Publish a preview image on purpose (git add -f), not by folder.
+ModelSource/**/previews/
+
+# Livery test archives (artwork from other games) and scratch files at the repository root
+/*.zip
+/.tmp
+
+# Blender backups and Python caches
+*.blend1
+__pycache__/
+
+# Working files of the official toolchain's mod post-processor (Mod.props removes them from the project's items too)
+Library/
+Logs/

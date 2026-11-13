@@ -1,0 +1,78 @@
+{
+  "front": {
+    "centre_unity": [
+      0,
+      2.6,
+      5.09
+    ],
+    "normal_unity": [
+      0,
+      0,
+      1
+    ],
+    "size_m": [
+      1.68,
+      0.24
+    ],
+    "matrix": [
+      112,
+      16
+    ]
+  },
+  "side": {
+    "centre_unity": [
+      1.292,
+      1.47,
+      2.6
+    ],
+    "normal_unity": [
+      1,
+      0,
+      0
+    ],
+    "size_m": [
+      0.96,
+      0.192
+    ],
+    "matrix": [
+      80,
+      16
+    ]
+  },
+  "rear": {
+    "centre_unity": [
+      0,
+      2.61,
+      -5.12
+    ],
+    "normal_unity": [
+      0,
+      0,
+      -1
+    ],
+    "size_m": [
+      1.54,
+      0.22
+    ],
+    "matrix": [
+      112,
+      16
+    ]
+  },
+  "next_stop": {
+    "centre_unity": [
+      0,
+      2.49,
+      3.37
+    ],
+    "normal_unity": [
+      0,
+      0,
+      -1
+    ],
+    "size_m": [
+      1.28,
+      0.2
+    ]
+  }
+}

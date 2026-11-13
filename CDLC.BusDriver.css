@@ -1,0 +1,298 @@
+/* Bus Driver - in-game UI. Colours, fonts and blur come from the game's own CSS variables. */
+
+.cdlcbus-col { display: flex; flex-direction: column; }
+.cdlcbus-row { display: flex; flex-direction: row; align-items: center; }
+.cdlcbus-grow { flex: 1 1 0; }
+.cdlcbus-dim { font-size: 12rem; color: rgba(240, 251, 255, 0.62); margin-top: 2rem; }
+
+.cdlcbus-keys { display: flex; flex-direction: row; align-items: center; }
+.cdlcbus-key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24rem;
+    height: 24rem;
+    padding: 0 6rem;
+    border: 2rem solid rgba(240, 251, 255, 0.86);
+    border-bottom-width: 3rem;
+    border-radius: 5rem;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: #ffffff;
+    font-size: 12rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.cdlcbus-key-plus { margin: 0 3rem; font-size: 12rem; color: rgba(240, 251, 255, 0.6); }
+
+.cdlcbus-badge {
+    display: flex;
+    min-width: 30rem;
+    height: 30rem;
+    padding: 0 6rem;
+    border-radius: 15rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 14rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: 2rem solid rgba(255, 255, 255, 0.75);
+    flex-shrink: 0;
+}
+.cdlcbus-badge-large { min-width: 42rem; height: 42rem; border-radius: 21rem; font-size: 18rem; }
+.cdlcbus-badge { min-width: 46rem; white-space: nowrap; letter-spacing: 0.5rem; }      /* the line names line up for labels up to K12 */
+
+
+/* ------------------------------------------------------------------ panel */
+.cdlcbus-tabs { margin: 4rem 12rem 6rem 12rem; border-bottom: 1rem solid rgba(255, 255, 255, 0.12); }
+.cdlcbus-tab { padding: 5rem 12rem; margin-right: 4rem; font-size: 13rem; font-weight: bold; color: rgba(240, 251, 255, 0.6); border-bottom: 2rem solid transparent; }
+.cdlcbus-tab:hover { color: #ffffff; }
+.cdlcbus-tab-selected { color: #ffffff; border-bottom-color: #4bc3f1; }
+
+/* the wraps manager */
+.cdlcbus-wrap-current { margin: 2rem 12rem 6rem 12rem; font-size: 13rem; color: #ffffff; }
+.cdlcbus-wrap { padding: 6rem 8rem; margin: 0 0 6rem 0; border-radius: 6rem; background-color: rgba(255, 255, 255, 0.05); }
+.cdlcbus-wrap-loaded { background-color: rgba(75, 195, 241, 0.16); border: 1rem solid rgba(75, 195, 241, 0.5); }
+.cdlcbus-wrap-bad { background-color: rgba(255, 90, 70, 0.10); }
+.cdlcbus-wrap-error { font-size: 10rem; color: #ff9d8a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 360rem; }
+.cdlcbus-wrap-thumb { width: 120rem; height: 30rem; flex-shrink: 0; border-radius: 3rem; background-color: rgba(0, 0, 0, 0.35); }
+.cdlcbus-wrap-name { font-size: 14rem; font-weight: bold; color: #ffffff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cdlcbus-face { margin-right: 3rem; padding: 0 5rem; height: 16rem; line-height: 16rem; border-radius: 3rem; font-size: 10rem; font-weight: bold; color: rgba(240, 251, 255, 0.35); background-color: rgba(255, 255, 255, 0.06); }
+.cdlcbus-face-on { color: #10202c; background-color: #8bdb46; }
+.cdlcbus-face-shared { color: #10202c; background-color: rgba(139, 219, 70, 0.45); }
+
+.cdlcbus-panel { padding-bottom: 6rem; }
+.cdlcbus-section { padding: 10rem 12rem 6rem 12rem; }
+.cdlcbus-section-title {
+    padding: 10rem 12rem 6rem 12rem;
+    font-size: 11rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #9ee2fc;
+}
+.cdlcbus-lines { padding: 0 6rem; }
+.cdlcbus-line {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 10rem 8rem 10rem;
+    margin-bottom: 6rem;
+    border-radius: 6rem;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.cdlcbus-line-active { background-color: rgba(75, 195, 241, 0.14); }
+.cdlcbus-line-name { font-size: 15rem; font-weight: bold; color: #ffffff; }
+.cdlcbus-line-actions { margin-top: 8rem; margin-left: 40rem; }
+.cdlcbus-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    padding: 0 14rem;
+    margin-right: 8rem;
+    border-radius: 5rem;
+    font-size: 13rem;
+    font-weight: bold;
+    color: rgba(240, 251, 255, 0.92);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: auto;
+    transition: background-color 0.1s;
+}
+.cdlcbus-button:hover { background-color: rgba(255, 255, 255, 0.18); }
+.cdlcbus-button-normal { background-color: rgba(255, 255, 255, 0.1); }
+.cdlcbus-button-primary { color: #10202c; background-color: #4bc3f1; }
+.cdlcbus-button-primary:hover { background-color: #7ad3f5; }
+.cdlcbus-button-stop { margin: 12rem 0 0 0; height: 38rem; font-size: 15rem; color: #ffffff; background-color: rgba(233, 95, 74, 0.9); }
+.cdlcbus-button-stop:hover { background-color: rgba(241, 120, 100, 0.95); }
+.cdlcbus-note { font-size: 12rem; color: rgba(240, 251, 255, 0.55); margin-top: 8rem; }
+.cdlcbus-wait { margin: 12rem 0; font-size: 14rem; color: rgba(240, 251, 255, 0.85); }
+.cdlcbus-summary {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 6rem 2rem 6rem;
+    padding: 8rem 10rem;
+    border-radius: 6rem;
+    background-color: rgba(139, 219, 70, 0.1);
+    font-size: 12rem;
+    color: rgba(240, 251, 255, 0.85);
+}
+.cdlcbus-next {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    padding: 10rem 12rem;
+    border-radius: 6rem;
+    background-color: rgba(255, 211, 77, 0.12);
+    border-left: 4rem solid #ffd34d;
+}
+.cdlcbus-next-label { font-size: 11rem; text-transform: uppercase; letter-spacing: 1rem; color: #ffd34d; }
+.cdlcbus-next-name { font-size: 17rem; font-weight: bold; color: #ffffff; margin-top: 2rem; }
+.cdlcbus-next-distance { font-size: 14rem; color: rgba(240, 251, 255, 0.85); }
+.cdlcbus-progress { flex-wrap: wrap; margin-top: 10rem; }
+.cdlcbus-dot { width: 10rem; height: 10rem; border-radius: 5rem; margin: 0 4rem 4rem 0; background-color: rgba(255, 255, 255, 0.15); }
+.cdlcbus-dot-done { background-color: rgba(75, 195, 241, 0.7); }
+.cdlcbus-dot-current { background-color: #ffd34d; }
+.cdlcbus-stats { display: flex; flex-direction: row; flex-wrap: wrap; margin-top: 6rem; }
+.cdlcbus-stat { display: flex; flex-direction: column; width: 50%; padding: 6rem 0; }
+.cdlcbus-stat-label { font-size: 11rem; color: rgba(240, 251, 255, 0.55); }
+.cdlcbus-stat-value { font-size: 15rem; font-weight: bold; color: #ffffff; margin-top: 2rem; }
+.cdlcbus-message {
+    margin: 6rem 12rem 4rem 12rem;
+    padding: 6rem 10rem;
+    border-radius: 5rem;
+    font-size: 12rem;
+    color: #ffffff;
+    background-color: rgba(75, 195, 241, 0.16);
+}
+
+/* ------------------------------------------------------------------ HUD (top centre) */
+
+.cdlcbus-hud {
+    position: absolute;
+    top: 16rem;
+    left: 50%;
+    width: 820rem;
+    margin-left: -410rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(24, 33, 51, 0.84);
+    backdrop-filter: blur(5px);
+    border-radius: 10rem;
+    border: 1rem solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4rem 18rem rgba(0, 0, 0, 0.35);
+    color: #f0fbff;
+    pointer-events: none;
+    overflow: hidden;
+}
+/* a ride's route sign: at the foot of the screen, above the game's toolbar, where a shift's is at the top */
+.cdlcbus-hud-foot { top: auto; bottom: 118rem; }
+.cdlcbus-hud-top { padding: 10rem 14rem; }
+.cdlcbus-hud-linebox { margin-left: 10rem; max-width: 170rem; }
+.cdlcbus-hud-line { font-size: 14rem; font-weight: bold; color: #ffffff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cdlcbus-hud-ann { font-size: 11rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1rem; }
+.cdlcbus-hud-sep { width: 1rem; height: 30rem; margin: 0 14rem; background-color: rgba(255, 255, 255, 0.14); }
+.cdlcbus-hud-label { font-size: 10rem; text-transform: uppercase; letter-spacing: 1rem; color: rgba(240, 251, 255, 0.55); }
+.cdlcbus-hud-next { font-size: 16rem; font-weight: bold; color: #ffffff; margin-top: 1rem; white-space: nowrap; }
+.cdlcbus-hud-distance { margin-left: 8rem; font-size: 15rem; font-weight: bold; color: #ffd34d; white-space: nowrap; }
+.cdlcbus-hud-pax { align-items: flex-end; }
+.cdlcbus-arrow {
+    display: flex;
+    width: 22rem;
+    height: 22rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 15rem;
+    color: #ffd34d;
+}
+.cdlcbus-prompt { padding: 8rem 14rem; min-height: 40rem; }
+.cdlcbus-prompt-text { margin-left: 10rem; font-size: 14rem; font-weight: bold; }
+.cdlcbus-prompt-info { background-color: rgba(75, 195, 241, 0.16); color: #ffffff; }
+.cdlcbus-prompt-near { background-color: rgba(255, 164, 45, 0.24); color: #ffd9a8; }
+.cdlcbus-prompt-go { background-color: rgba(139, 219, 70, 0.3); color: #ffffff; }
+.cdlcbus-prompt-open { background-color: rgba(139, 219, 70, 0.5); color: #ffffff; }
+.cdlcbus-prompt-skip { background-color: rgba(199, 214, 224, 0.2); color: #eef5f9; }
+
+/* ------------------------------------------------------------------ line sign + strip (after a bus's passenger display) */
+
+.cdlcbus-hud-body { align-items: stretch; height: 118rem; }
+.cdlcbus-sign {
+    display: flex;
+    flex-direction: column;
+    width: 236rem;
+    flex-shrink: 0;
+    padding: 8rem 12rem 6rem 12rem;
+    border-radius: 10rem 0 0 0;
+    color: #ffffff;
+}
+.cdlcbus-sign-top { align-items: center; height: 32rem; }
+.cdlcbus-sign-towards { flex: 1 1 0; margin-left: 10rem; font-size: 12rem; font-weight: bold; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; opacity: 0.85; }
+.cdlcbus-sign-mid { margin-top: 2rem; padding-top: 3rem; border-top: 1rem solid rgba(255, 255, 255, 0.35); }
+.cdlcbus-on-light .cdlcbus-sign-mid { border-top-color: rgba(22, 32, 42, 0.3); }
+.cdlcbus-sign-label { font-size: 11rem; letter-spacing: 1rem; text-transform: uppercase; opacity: 0.8; }
+
+/* the route on the sign: the number big, the prefix a coloured tag before it, "路" after it */
+.cdlcbus-route { display: flex; flex-direction: row; align-items: center; height: 32rem; flex-shrink: 0; white-space: nowrap; }
+.cdlcbus-route-prefix { display: flex; align-items: center; justify-content: center; height: 22rem; padding: 0 5rem; margin-right: 5rem; border-radius: 4rem; border: 1rem solid rgba(255, 255, 255, 0.75); font-size: 15rem; font-weight: bold; line-height: 15rem; letter-spacing: 0.5rem; }   /* centred by flex (the UI engine sets text in a line box differently from a browser) */
+.cdlcbus-route-number { display: flex; align-items: center; height: 32rem; font-size: 30rem; font-weight: bold; line-height: 30rem; letter-spacing: 0.5rem; }
+.cdlcbus-route-suffix { display: flex; align-items: flex-end; height: 32rem; padding-bottom: 4rem; margin-left: 2rem; font-size: 15rem; font-weight: bold; line-height: 15rem; opacity: 0.9; }
+.cdlcbus-on-light .cdlcbus-sign-icon { filter: brightness(0.15); }
+.cdlcbus-on-light .cdlcbus-route-prefix { border-color: rgba(22, 32, 42, 0.55); }
+.cdlcbus-on-light.cdlcbus-badge { border-color: rgba(22, 32, 42, 0.45); }
+.cdlcbus-sign-next { font-size: 22rem; font-weight: bold; line-height: 26rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cdlcbus-sign-foot { margin-top: 3rem; }
+.cdlcbus-sign-distance { margin-left: 6rem; font-size: 14rem; font-weight: bold; white-space: nowrap; }
+.cdlcbus-sign-board { flex: 0 1 auto; font-size: 14rem; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cdlcbus-sign-icon { width: 16rem; height: 16rem; opacity: 0.9; }
+.cdlcbus-sign-pax { margin-left: 5rem; font-size: 13rem; font-weight: bold; }
+
+.cdlcbus-strip { display: flex; flex-direction: column; flex: 1 1 0; padding: 4rem 12rem 2rem 16rem; }
+.cdlcbus-strip-header { height: 16rem; font-size: 12rem; font-weight: bold; text-align: center; letter-spacing: 1rem; }
+.cdlcbus-strip-inner { position: relative; flex: 1 1 0; }
+.cdlcbus-track { position: absolute; left: 0; right: 0; top: 11rem; height: 6rem; border-radius: 3rem; background-color: rgba(255, 255, 255, 0.22); }
+.cdlcbus-track-done { position: absolute; left: 0; top: 11rem; height: 6rem; border-radius: 3rem; opacity: 0.55; }
+.cdlcbus-mark { position: absolute; top: 10rem; width: 0; height: 0; margin-left: -3rem; border-top: 4rem solid transparent; border-bottom: 4rem solid transparent; border-left: 6rem solid rgba(255, 255, 255, 0.9); }
+.cdlcbus-mark-passed { border-left-color: rgba(255, 255, 255, 0.3); }
+.cdlcbus-stop { position: absolute; top: 0; width: 132rem; margin-left: -66rem; display: flex; flex-direction: column; align-items: center; }
+.cdlcbus-stop-is-next { width: 240rem; margin-left: -120rem; }
+.cdlcbus-stop-dot { width: 16rem; height: 16rem; margin-top: 6rem; border-radius: 8rem; border: 3rem solid #4bc3f1; background-color: #ffffff; }
+.cdlcbus-stop-dot-next { width: 20rem; height: 20rem; margin-top: 4rem; border-radius: 10rem; border-width: 4rem; }
+.cdlcbus-stop-passed { background-color: rgba(160, 170, 180, 1); border-color: rgba(120, 130, 140, 1); }
+.cdlcbus-stop-skip { background-color: rgba(255, 255, 255, 0.35); border-color: rgba(199, 214, 224, 0.9); }
+.cdlcbus-stop-next-skip { border-color: #c7d6e0; background-color: rgba(255, 255, 255, 0.55); }
+.cdlcbus-stop-name { margin-top: 5rem; width: 132rem; font-size: 12rem; color: rgba(240, 251, 255, 0.9); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: center; }
+.cdlcbus-stop-name-passed { color: rgba(240, 251, 255, 0.45); }
+.cdlcbus-next-card-row { margin-top: 4rem; align-items: center; }
+.cdlcbus-next-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 14rem;
+    border-radius: 6rem;
+    color: #ffffff;
+    box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.4);
+    animation: cdlcbus-card-pulse 1.4s ease-in-out infinite alternate;
+}
+.cdlcbus-next-card-skip { background-color: rgba(199, 214, 224, 0.35); animation: none; }
+@keyframes cdlcbus-card-pulse {
+    0% { box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.4); }
+    100% { box-shadow: 0 2rem 14rem rgba(255, 255, 255, 0.35); }
+}
+.cdlcbus-next-card-name { font-size: 18rem; font-weight: bold; line-height: 22rem; white-space: nowrap; }
+.cdlcbus-next-card-sub { font-size: 10rem; opacity: 0.85; white-space: nowrap; }
+.cdlcbus-stop-demand { margin-top: 1rem; width: 132rem; font-size: 10rem; text-align: center; white-space: nowrap; color: rgba(158, 226, 252, 0.85); }
+.cdlcbus-stop-demand-skip { color: #c7d6e0; font-weight: bold; text-transform: uppercase; letter-spacing: 1rem; }
+.cdlcbus-transfers { display: flex; flex-direction: column; margin-left: 6rem; }
+.cdlcbus-transfers-compact { flex-direction: row; margin-left: 0; margin-top: 2rem; }
+.cdlcbus-transfer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 26rem;
+    height: 16rem;
+    margin: 1rem 2rem 1rem 0;
+    padding: 0 4rem;
+    border-radius: 3rem;
+    font-size: 11rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1rem solid rgba(255, 255, 255, 0.7);
+}
+.cdlcbus-transfer-more { background-color: rgba(255, 255, 255, 0.2); }
+.cdlcbus-transfer-icon { width: 11rem; height: 11rem; margin-right: 2rem; }
+.cdlcbus-transfer-number { white-space: nowrap; }
+.cdlcbus-bus {
+    position: absolute;
+    top: 0;
+    width: 28rem;
+    height: 28rem;
+    margin-left: -14rem;
+    border-radius: 14rem;
+    border: 3rem solid #4bc3f1;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.5);
+}
+.cdlcbus-bus img { width: 18rem; height: 18rem; }

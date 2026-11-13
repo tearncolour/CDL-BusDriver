@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Offline checks and previews of the pure parts of Bus Driver (the vendored MeshKit and the interior models). No game needed.
+       Usage (repo root):
+         dotnet run -c Release (project Tests/CDLC.BusDriver.Tests): run the checks
+         same with the arguments: preview bus-interior [lod=0] [pose=0 or 1] [view=all, cab, ...]
+       Previews go to out/preview (PNG). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefaultItemExcludes>$(DefaultItemExcludes);out\**</DefaultItemExcludes>
+    <RootNamespace>CDLC.BusDriver.Tests</RootNamespace>
+    <NoWarn>CS1701;CS1702;MSB3277</NoWarn>
+    <ManagedPath Condition="'$(ManagedPath)' == ''">$(CSII_MANAGEDPATH)</ManagedPath>
+    <CDLDevKitRoot Condition="'$(CDLDevKitRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\CDLDevKit</CDLDevKitRoot>
+    <AssetModRoot Condition="'$(AssetModRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\CDLAssetMod</AssetModRoot>
+    <CDLCAssetBusIncludeLedHd>true</CDLCAssetBusIncludeLedHd>
+  </PropertyGroup>
+  <Import Project="$(CDLDevKitRoot)\Packaging\CDLC.DevKit.Packaging.targets" />
+  <Import Project="$(AssetModRoot)\Compatibility\CDLC.Asset.BusSources.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\Interior\Kit\*.cs" Link="Kit\%(Filename).cs" />
+    <Compile Include="..\..\Interior\Models\*.cs" Link="Models\%(Filename).cs" />
+    <Compile Include="..\..\Interior\CardFont.cs" Link="Interior\CardFont.cs" />
+    <Compile Include="$(AssetModRoot)\Led\LedGeometry.cs" Link="Led\LedGeometry.cs" />
+    <Compile Include="..\..\Interior\StationBoard.cs" Link="Interior\StationBoard.cs" />
+    <Compile Include="..\..\Interior\TwoBoneIk.cs" Link="Interior\TwoBoneIk.cs" />
+    <Compile Include="..\..\Settings\PadChord.cs" Link="Settings\PadChord.cs" />
+    <Compile Include="..\..\Haptics\DualSenseReport.cs" Link="Haptics\DualSenseReport.cs" />
+    <Compile Include="..\..\Haptics\HapticsModel.cs" Link="Haptics\HapticsModel.cs" />
+    <Compile Include="..\..\Haptics\HidNative.cs" Link="Haptics\HidNative.cs" />
+    <Compile Include="..\..\Haptics\DualSenseDevice.cs" Link="Haptics\DualSenseDevice.cs" />
+    <Compile Include="..\..\Systems\BusTiming.cs" Link="Systems\BusTiming.cs" />
+    <Compile Include="..\..\Systems\MaterialAuditRules.cs" Link="Systems\MaterialAuditRules.cs" />
+    <Compile Include="..\..\Systems\BusStopZone.cs" Link="Systems\BusStopZone.cs" />
+    <Compile Include="..\..\Systems\BusShiftRules.cs" Link="Systems\BusShiftRules.cs" />
+    <Compile Include="..\..\Systems\BusSoundModel.cs" Link="Systems\BusSoundModel.cs" />
+    <Compile Include="..\..\Systems\TtsText.cs" Link="Systems\TtsText.cs" />
+    <Compile Include="..\..\Systems\WindowsVoiceGate.cs" Link="Systems\WindowsVoiceGate.cs" />
+    <Compile Include="..\..\Systems\TimetableTerminus.cs" Link="Systems\TimetableTerminus.cs" />
+    <Compile Include="..\..\Systems\AiSignRules.cs" Link="Systems\AiSignRules.cs" />
+    <Compile Include="..\..\Systems\LedScreenRules.cs" Link="Systems\LedScreenRules.cs" />
+    <Compile Include="..\..\Systems\CabViewRules.cs" Link="Systems\CabViewRules.cs" />
+    <Compile Include="..\..\Systems\NativeBodyRules.cs" Link="Systems\NativeBodyRules.cs" />
+    <Compile Include="..\..\Systems\AnnounceRules.cs" Link="Systems\AnnounceRules.cs" />
+    <Compile Include="..\..\Systems\NativeGeometryFile.cs" Link="Systems\NativeGeometryFile.cs" />
+    <Compile Include="..\..\Systems\NativeCabOwnership.cs" Link="Systems\NativeCabOwnership.cs" />
+    <Compile Include="..\..\Systems\FailureGate.cs" Link="Systems\FailureGate.cs" />
+    <Compile Include="..\..\Systems\CabPrebuild.cs" Link="Systems\CabPrebuild.cs" />
+    <Compile Include="..\..\Systems\OwnBus.cs" Link="Systems\OwnBus.cs" />
+    <Compile Include="..\..\Systems\GlassDetailRules.cs" Link="Systems\GlassDetailRules.cs" />
+    <Compile Include="..\..\Systems\StationBoardRules.cs" Link="Systems\StationBoardRules.cs" />
+    <Compile Include="..\..\Systems\BusPackageGlass.cs" Link="Systems\BusPackageGlass.cs" />
+    <Compile Include="..\..\Systems\BusReviewRequestState.cs" Link="Systems\BusReviewRequestState.cs" />
+    <Compile Include="..\..\Systems\InputTraceRules.cs" Link="Systems\InputTraceRules.cs" />
+    <Compile Include="..\..\Systems\WrapPackage.cs" Link="Systems\WrapPackage.cs" />
+    <Compile Include="..\..\Systems\PngDecoder.cs" Link="Systems\PngDecoder.cs" />
+    <Compile Include="..\..\Systems\WrapTemplate.cs" Link="Systems\WrapTemplate.cs" />
+  </ItemGroup>
+  <!-- the high-density faces and the readings are CDL Assets' files; the checks read them from the test's own Fonts folder (not led-font.bin.gz: the checks find it beside Bus Driver's own Fonts) -->
+  <ItemGroup>
+    <None Include="$(AssetModRoot)\Fonts\led-hd-font.bin.gz;$(AssetModRoot)\Fonts\pinyin.bin.gz" Link="Fonts\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <!-- the mod's language files of the tree the test is built from: the checks that need a text read it from here (LangPack) -->
+  <ItemGroup>
+    <None Include="..\..\lang\*.json" Link="lang\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Unity.Mathematics"><HintPath>$(ManagedPath)\Unity.Mathematics.dll</HintPath></Reference>
+    <Reference Include="Colossal.AssetPipeline.Native"><HintPath>$(ManagedPath)\Colossal.AssetPipeline.Native.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
